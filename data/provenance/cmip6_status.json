@@ -1,0 +1,19 @@
+{
+  "requested_subsets": 160,
+  "failed_subsets": [],
+  "complete": true,
+  "models": [
+    "ACCESS-CM2",
+    "MPI-ESM1-2-LR"
+  ],
+  "scenarios": [
+    "ssp126",
+    "ssp585"
+  ],
+  "start_year": 2041,
+  "end_year": 2060,
+  "sites": [
+    "WRI1023933",
+    "WRI1023817"
+  ]
+}

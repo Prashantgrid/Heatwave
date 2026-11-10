@@ -1,0 +1,12 @@
+{
+  "sites": 10,
+  "site_days": 127840,
+  "start": "1991-01-01",
+  "end": "2025-12-31",
+  "missing_temperatures": 0,
+  "spells": 1490,
+  "reference": "1991-2020, seasonal 31-day window, linear 90th percentile",
+  "minimum_spell_length": 3,
+  "timezone": "UTC",
+  "site_weights": "equal; illustrative nonrepresentative sample"
+}

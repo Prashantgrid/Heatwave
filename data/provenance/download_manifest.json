@@ -1,0 +1,1673 @@
+{
+  "requests": [
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2041_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2041-01-01T00%3A00%3A00Z&time_end=2041-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:05:25.238222+00:00",
+      "sha256": "7c56c9880923bb03d537373c59435bc4b61492911ec73911f071223fab896bff",
+      "bytes": 30265,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023817_2041.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2042_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2042-01-01T00%3A00%3A00Z&time_end=2042-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:05:37.274250+00:00",
+      "sha256": "2fcca251d830a8aeb0251aec75130307377f635e2f2474b5de5ae21442a8870b",
+      "bytes": 30258,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023817_2042.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2043_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2043-01-01T00%3A00%3A00Z&time_end=2043-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:05:44.622116+00:00",
+      "sha256": "8f7dc09d1659675c9cdeb63bd48c9577fdfdffebc181020898398457dbaef945",
+      "bytes": 30262,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023817_2043.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2044_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2044-01-01T00%3A00%3A00Z&time_end=2044-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:05:51.390351+00:00",
+      "sha256": "84f8c584816b33af71842e1e8241a914a391b69d186431ee00e0cd7618ca0ee0",
+      "bytes": 30356,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023817_2044.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2045_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2045-01-01T00%3A00%3A00Z&time_end=2045-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:06:06.914119+00:00",
+      "sha256": "fc61853afe2e6fb8a75c146231cf57813a60574546772205de373456c8eafbb8",
+      "bytes": 30267,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023817_2045.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2046_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2046-01-01T00%3A00%3A00Z&time_end=2046-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:06:11.322117+00:00",
+      "sha256": "58b0eb828fbb15cdccc7503e2e55134def3c49bf227dbc396107f29298555c1d",
+      "bytes": 30260,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023817_2046.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2047_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2047-01-01T00%3A00%3A00Z&time_end=2047-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:06:19.942175+00:00",
+      "sha256": "8bab3ea77bd024cbf8345975d969e749bc95cc6e556b156b5dbb51864daafe5a",
+      "bytes": 30245,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023817_2047.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2048_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2048-01-01T00%3A00%3A00Z&time_end=2048-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:06:33.898240+00:00",
+      "sha256": "656069a769028ea640a0a7884691938fedec4a1756b68e70125f3f8b41a4c04f",
+      "bytes": 30333,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023817_2048.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2049_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2049-01-01T00%3A00%3A00Z&time_end=2049-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:06:39.882239+00:00",
+      "sha256": "b30de2026bef80ed21b08667ce46881a57e062d34de3632fadc1b2223f7c14b2",
+      "bytes": 30259,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023817_2049.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2050_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2050-01-01T00%3A00%3A00Z&time_end=2050-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:06:46.470167+00:00",
+      "sha256": "596573878e44dbf1dded1e6d19f136bbc6179fb362e063e613ac0101f4d4298e",
+      "bytes": 30250,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023817_2050.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2051_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2051-01-01T00%3A00%3A00Z&time_end=2051-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:07:00.654150+00:00",
+      "sha256": "e8081354ba91520583727f2f15600afdb648618540e3ccdc8abf338c0e06fb16",
+      "bytes": 30271,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023817_2051.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2052_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2052-01-01T00%3A00%3A00Z&time_end=2052-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:07:06.438212+00:00",
+      "sha256": "74b5afe83da49b8c0d6d187fb5ea95f2c46e2a57e4e13449549902e212b5a912",
+      "bytes": 30351,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023817_2052.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2053_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2053-01-01T00%3A00%3A00Z&time_end=2053-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:07:13.978399+00:00",
+      "sha256": "fed51d29e87d0940212de7f96ad15bded07c330e33265e90fe384078449e544e",
+      "bytes": 30262,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023817_2053.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2054_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2054-01-01T00%3A00%3A00Z&time_end=2054-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:07:38.711798+00:00",
+      "sha256": "64e4687b996e8792bdab0a88e54431215683a8c457f67f069213224cf9c95771",
+      "bytes": 30254,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023817_2054.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2055_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2055-01-01T00%3A00%3A00Z&time_end=2055-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:07:38.442144+00:00",
+      "sha256": "e17fc43e30f95ace9078e05584ed04767f553d3ee736992486118df294c3d8fd",
+      "bytes": 30273,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023817_2055.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2056_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2056-01-01T00%3A00%3A00Z&time_end=2056-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:08:10.598041+00:00",
+      "sha256": "479e5966aad64ad65cd627a93aae8f74de4038c58597ba7d41685af995811a55",
+      "bytes": 30356,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023817_2056.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2057_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2057-01-01T00%3A00%3A00Z&time_end=2057-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:08:20.414153+00:00",
+      "sha256": "7fb3c99ebfa4138fb3378bbf77f3154f45f2d5412964dd24ff66f555beda2fc9",
+      "bytes": 30266,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023817_2057.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2058_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2058-01-01T00%3A00%3A00Z&time_end=2058-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:08:25.962237+00:00",
+      "sha256": "8611743975c9a46b66484f339fa4f8cd3b85eef32da4381a016a55dda25eb819",
+      "bytes": 30262,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023817_2058.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2059_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2059-01-01T00%3A00%3A00Z&time_end=2059-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:08:40.374141+00:00",
+      "sha256": "21290fc7382fd5918a478b331aaa1a520d8dafdd17fcbac612e89f67fd6e9f39",
+      "bytes": 30268,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023817_2059.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2060_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2060-01-01T00%3A00%3A00Z&time_end=2060-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:08:52.762368+00:00",
+      "sha256": "c4b71565b8d0758afb52bb9b2c7b6c2da740320805dd872cb58f06dd95b4ab01",
+      "bytes": 30339,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023817_2060.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2041_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2041-01-01T00%3A00%3A00Z&time_end=2041-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:05:30.750250+00:00",
+      "sha256": "2be3e16a0452af30b148afc0d4a616bfa6014929b18e86fb4d4676cd45e49e64",
+      "bytes": 29891,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023933_2041.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2042_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2042-01-01T00%3A00%3A00Z&time_end=2042-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:05:24.474140+00:00",
+      "sha256": "bae223e372f1cd782f0e35ae55810ecf5a0b6bd619138e0fe36c50f6b5af19b0",
+      "bytes": 29901,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023933_2042.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2043_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2043-01-01T00%3A00%3A00Z&time_end=2043-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:05:42.262067+00:00",
+      "sha256": "59f83146521ef9dffc499d50724db34dbced11c64141e2e0e9a96ed04005e325",
+      "bytes": 29910,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023933_2043.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2044_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2044-01-01T00%3A00%3A00Z&time_end=2044-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:05:54.438112+00:00",
+      "sha256": "2b6a4f1c0d0a32a3889271fe2c4bfa6993512b10d2bf536239c33f02167f7fd6",
+      "bytes": 29988,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023933_2044.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2045_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2045-01-01T00%3A00%3A00Z&time_end=2045-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:05:57.955819+00:00",
+      "sha256": "383cc9209a845b8350b54e15be245c3ddca9118030d814ccbafe6b6a363cfe8c",
+      "bytes": 29904,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023933_2045.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2046_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2046-01-01T00%3A00%3A00Z&time_end=2046-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:06:05.298255+00:00",
+      "sha256": "878d9b9955f07b3d2f4ab1b00690f4b3d5a79645e9d528b6179f5fef48d6a0a0",
+      "bytes": 29901,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023933_2046.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2047_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2047-01-01T00%3A00%3A00Z&time_end=2047-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:06:19.770281+00:00",
+      "sha256": "b2565e9c69f54f98ef3e858fdd0cd6329589eceb42dc96d69b8bd5265ffd2d43",
+      "bytes": 29896,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023933_2047.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2048_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2048-01-01T00%3A00%3A00Z&time_end=2048-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:06:26.642229+00:00",
+      "sha256": "45308db2a4ffefae549d54e49518c633a19bb42bf13d1bf8026a401f9ae8a28a",
+      "bytes": 29962,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023933_2048.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2049_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2049-01-01T00%3A00%3A00Z&time_end=2049-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:06:33.732286+00:00",
+      "sha256": "5ee07ada1b04599c855134f8436822f25f17ef4ccbb11a80d88369f739b07738",
+      "bytes": 29890,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023933_2049.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2050_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2050-01-01T00%3A00%3A00Z&time_end=2050-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:06:46.076945+00:00",
+      "sha256": "470876673d6c9a12450570bd46d7e8c207d6f93714cca2db2bb447bbec5e1eb9",
+      "bytes": 29904,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023933_2050.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2051_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2051-01-01T00%3A00%3A00Z&time_end=2051-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:06:53.372725+00:00",
+      "sha256": "f46f5e4e4365ddeee85ca1230b960e6f5342e9756e2f4fba49baf3c6227ff83f",
+      "bytes": 29901,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023933_2051.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2052_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2052-01-01T00%3A00%3A00Z&time_end=2052-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:07:01.070106+00:00",
+      "sha256": "170b29828d08169fa96fda26778cb5ec3ed2b5d0a8f8cb45bef82eec366e4e6e",
+      "bytes": 29981,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023933_2052.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2053_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2053-01-01T00%3A00%3A00Z&time_end=2053-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:07:13.978644+00:00",
+      "sha256": "ad9d248489266904764bbf177de0ab44a6508866a114b52361245c4c5f880de2",
+      "bytes": 29894,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023933_2053.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2054_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2054-01-01T00%3A00%3A00Z&time_end=2054-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:07:24.770158+00:00",
+      "sha256": "dd0d02856a32036411e4f415ffa27c11d0f23cf3c3a5b85f16653913e39208ad",
+      "bytes": 29892,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023933_2054.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2055_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2055-01-01T00%3A00%3A00Z&time_end=2055-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:07:29.390222+00:00",
+      "sha256": "0530ad504cd2ee050cad82631874b564912b9cddd2f884f50bb688426d1fa595",
+      "bytes": 29893,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023933_2055.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2056_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2056-01-01T00%3A00%3A00Z&time_end=2056-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:07:49.406203+00:00",
+      "sha256": "9a08bbaa152487a70e293a88eab3c22ad5b384958fabf07130958cb368a40b97",
+      "bytes": 29971,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023933_2056.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2057_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2057-01-01T00%3A00%3A00Z&time_end=2057-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:08:11.650105+00:00",
+      "sha256": "bf599fd9fa2b59019c2ea5f13af3ea18cd7e42ccd98bf6d1b85a758e22492405",
+      "bytes": 29899,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023933_2057.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2058_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2058-01-01T00%3A00%3A00Z&time_end=2058-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:08:25.798059+00:00",
+      "sha256": "78681ba9bb725b45a62a11bf848735004a6b8ed2b75611b8fa20930d914d0125",
+      "bytes": 29914,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023933_2058.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2059_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2059-01-01T00%3A00%3A00Z&time_end=2059-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:08:40.713806+00:00",
+      "sha256": "35fe56daf5f2271d262650e0322d05c36516d72e1a1e1cddb659d6509c8b9084",
+      "bytes": 29885,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023933_2059.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_2060_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2060-01-01T00%3A00%3A00Z&time_end=2060-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:08:40.203512+00:00",
+      "sha256": "b8d2cf896e64b72c2d410420c63e1385864dbb76c31360bb78cc657511d5d749",
+      "bytes": 29955,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp126/WRI1023933_2060.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2041_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2041-01-01T00%3A00%3A00Z&time_end=2041-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:08:59.702142+00:00",
+      "sha256": "8dda43b4e08c5778646ac62f76603787e5ee0b02d2a9c16ffba98e01953e8ce5",
+      "bytes": 30258,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023817_2041.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2042_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2042-01-01T00%3A00%3A00Z&time_end=2042-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:09:29.198090+00:00",
+      "sha256": "5bb18346b6cc0c37bcf1a96bf1e721515b0034e3a3d341fe0218bcc803230dd0",
+      "bytes": 30265,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023817_2042.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2043_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2043-01-01T00%3A00%3A00Z&time_end=2043-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:09:30.730320+00:00",
+      "sha256": "5e756c589b4735e7211c4893c6621da457c11fe6aa6532e855ae0a6b2100a589",
+      "bytes": 30261,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023817_2043.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2044_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2044-01-01T00%3A00%3A00Z&time_end=2044-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:10:03.862159+00:00",
+      "sha256": "c2e3005b4692c61972de70e5c169f302a4240d5d80ec8d0031a6c35bf882fcc0",
+      "bytes": 30345,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023817_2044.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2045_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2045-01-01T00%3A00%3A00Z&time_end=2045-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:10:18.166166+00:00",
+      "sha256": "ac93c21bc171159d9e10e3bbd4036ce3a663ceb4b1f3cf6846f4e43468a996d6",
+      "bytes": 30280,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023817_2045.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2046_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2046-01-01T00%3A00%3A00Z&time_end=2046-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:10:14.102659+00:00",
+      "sha256": "f81431cfa1b1a642fd1b2535fe18fbb394d178c152d20306837bab72fb70f73b",
+      "bytes": 30264,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023817_2046.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2047_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2047-01-01T00%3A00%3A00Z&time_end=2047-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:10:27.998190+00:00",
+      "sha256": "ded7191e82e7d8c17a1bcd17a9dd7bddd734b6da68804a6398b75b9acc8c8f60",
+      "bytes": 30263,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023817_2047.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2048_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2048-01-01T00%3A00%3A00Z&time_end=2048-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:11:10.998205+00:00",
+      "sha256": "3c4632f69b748977f4e19c7c4c89823c2512d585eab012f63edf0c137a45c0c8",
+      "bytes": 30334,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023817_2048.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2049_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2049-01-01T00%3A00%3A00Z&time_end=2049-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:11:19.526309+00:00",
+      "sha256": "d0b36e62609027c42620cece6e8922e256eeda78597bcc9bd2cb83f0c41b5236",
+      "bytes": 30250,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023817_2049.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2050_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2050-01-01T00%3A00%3A00Z&time_end=2050-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:11:31.342108+00:00",
+      "sha256": "6ddae2d1ea9d1b426923504296423d82f863f8470080d0107e09dca6728f438e",
+      "bytes": 30267,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023817_2050.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2051_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2051-01-01T00%3A00%3A00Z&time_end=2051-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:12:31.366137+00:00",
+      "sha256": "c3cb32504dd00a22d7fc518f0aa6a78de5a91dda045e3ebed2efb08250222d69",
+      "bytes": 30282,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023817_2051.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2052_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2052-01-01T00%3A00%3A00Z&time_end=2052-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:12:26.470115+00:00",
+      "sha256": "c7bc39e83a946d24d9c091d6dd11656ae38d5e42af348ae529516b2cbdeb0f24",
+      "bytes": 30341,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023817_2052.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2053_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2053-01-01T00%3A00%3A00Z&time_end=2053-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:13:09.774317+00:00",
+      "sha256": "ba7c9babf17059791d7a1dab9cc1b080a85212d3d3281b13ede18b9c5119f698",
+      "bytes": 30286,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023817_2053.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2054_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2054-01-01T00%3A00%3A00Z&time_end=2054-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:12:52.982161+00:00",
+      "sha256": "c9a9cfc9c84df45a143e2f10f513c8917e0fdf932340ae46551b190ac5c8592f",
+      "bytes": 30255,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023817_2054.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2055_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2055-01-01T00%3A00%3A00Z&time_end=2055-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:13:15.630157+00:00",
+      "sha256": "0948e561aa46566798f36e8d53ff772b315c86b1bb2c40e2dc1d90fe24e28cd2",
+      "bytes": 30283,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023817_2055.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2056_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2056-01-01T00%3A00%3A00Z&time_end=2056-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:13:28.682669+00:00",
+      "sha256": "86fac66b4103e3d0a56bc1d929934d7a5fc4a95948df26461af8f6ced160d571",
+      "bytes": 30355,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023817_2056.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2057_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2057-01-01T00%3A00%3A00Z&time_end=2057-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:13:35.802288+00:00",
+      "sha256": "8bb27ad07214146b7779ec66901b021af5fcaf6a7a96a193977a0304415e84a1",
+      "bytes": 30268,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023817_2057.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2058_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2058-01-01T00%3A00%3A00Z&time_end=2058-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:13:41.410589+00:00",
+      "sha256": "48fa8af9f1941c1f9f07ba6e6725ba75c435cfe7e95f11724a489b9559996071",
+      "bytes": 30270,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023817_2058.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2059_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2059-01-01T00%3A00%3A00Z&time_end=2059-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:13:48.570135+00:00",
+      "sha256": "9ffd8078d9d627d06ba5d703181f0af5e1a5144024829d763861839da884b04c",
+      "bytes": 30268,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023817_2059.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2060_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2060-01-01T00%3A00%3A00Z&time_end=2060-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:14:03.774183+00:00",
+      "sha256": "5e3dc06ca3a017c8244aab8d1d25ba1ed55475c9f4b091c732cffbcf37d33ba3",
+      "bytes": 30351,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023817_2060.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2041_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2041-01-01T00%3A00%3A00Z&time_end=2041-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:08:59.926151+00:00",
+      "sha256": "4abfb7b5b3bcc2d7df265a5aa64466310d8df9c49007f424c2058f5389f9057a",
+      "bytes": 29906,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023933_2041.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2042_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2042-01-01T00%3A00%3A00Z&time_end=2042-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:09:06.746261+00:00",
+      "sha256": "68417507633dd28a3de243aaa75af146725b74d04447ddef99adbe56f41d602b",
+      "bytes": 29899,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023933_2042.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2043_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2043-01-01T00%3A00%3A00Z&time_end=2043-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:09:21.594120+00:00",
+      "sha256": "1fa4cdf886593e183daf436b78573c97e2eae99907d54ef1ad2127b900d06b22",
+      "bytes": 29910,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023933_2043.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2044_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2044-01-01T00%3A00%3A00Z&time_end=2044-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:10:05.226568+00:00",
+      "sha256": "4a43278dfff3cf38e7ae685631a82747557c3403d15ff30df06c8fe5c49d622f",
+      "bytes": 29976,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023933_2044.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2045_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2045-01-01T00%3A00%3A00Z&time_end=2045-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:10:00.090120+00:00",
+      "sha256": "ec7fbb52ce61420ea8ce833ba4207aa2de779c114bf52c2e77c097b59b1b4285",
+      "bytes": 29891,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023933_2045.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2046_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2046-01-01T00%3A00%3A00Z&time_end=2046-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:10:14.638189+00:00",
+      "sha256": "afa712049db30e7e6da21a5e9f37d7df78f9dc63bf240577199eca0a57bd1601",
+      "bytes": 29894,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023933_2046.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2047_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2047-01-01T00%3A00%3A00Z&time_end=2047-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:10:27.050244+00:00",
+      "sha256": "e16768242e757fb10af70e4a09c474810b1d48231acd53e3fa4cf830092c475c",
+      "bytes": 29898,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023933_2047.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2048_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2048-01-01T00%3A00%3A00Z&time_end=2048-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:11:10.890153+00:00",
+      "sha256": "376aff8974bbbd22fbf43cd9f2aabe75fed9cb895844b1515c2e6b0841d40097",
+      "bytes": 29972,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023933_2048.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2049_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2049-01-01T00%3A00%3A00Z&time_end=2049-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:11:00.794238+00:00",
+      "sha256": "80624652504a58e990125141a7d0d4502443eec74e276f598851ea8a9b7219cb",
+      "bytes": 29903,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023933_2049.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2050_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2050-01-01T00%3A00%3A00Z&time_end=2050-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:11:36.306283+00:00",
+      "sha256": "badffd351c35730fe16835405e002e179a24524b37492ea846b0a9ee525d3a6c",
+      "bytes": 29893,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023933_2050.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2051_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2051-01-01T00%3A00%3A00Z&time_end=2051-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:11:30.546181+00:00",
+      "sha256": "5c96d8bc6e1950e42f9da3bd61343a6101268537765fca9792ea1ee88e054f3f",
+      "bytes": 29898,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023933_2051.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2052_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2052-01-01T00%3A00%3A00Z&time_end=2052-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:12:26.549667+00:00",
+      "sha256": "322efcfb2c53a453017b81fd5f6064bad3b18f0236f0bd84cc3863464bf71537",
+      "bytes": 29977,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023933_2052.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2053_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2053-01-01T00%3A00%3A00Z&time_end=2053-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:12:56.726075+00:00",
+      "sha256": "4ff342d0fe594174b912b6fcc5cd06060a80eeb9644ccfde24885a456b586137",
+      "bytes": 29894,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023933_2053.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2054_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2054-01-01T00%3A00%3A00Z&time_end=2054-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:12:39.622240+00:00",
+      "sha256": "9f1e55aea5f4f6a903c2866ae991becf7bd8250e5c655579c440e2f6d1635683",
+      "bytes": 29883,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023933_2054.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2055_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2055-01-01T00%3A00%3A00Z&time_end=2055-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:13:18.438142+00:00",
+      "sha256": "640b5248cfcdcc04feb8cf592df47a77f69a88bcc0b1dc2f288570fda1156ff4",
+      "bytes": 29888,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023933_2055.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2056_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2056-01-01T00%3A00%3A00Z&time_end=2056-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:13:22.670180+00:00",
+      "sha256": "2004ebc977c3177ae97a8b60f3aec650259400a6b730d2d63ba7f8744d4fbae2",
+      "bytes": 29972,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023933_2056.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2057_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2057-01-01T00%3A00%3A00Z&time_end=2057-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:13:33.758125+00:00",
+      "sha256": "97a4e7d2763559c76e7f8eb13514791e392a40a6ee620679aec858358ff2dc50",
+      "bytes": 29906,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023933_2057.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2058_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2058-01-01T00%3A00%3A00Z&time_end=2058-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:13:41.402165+00:00",
+      "sha256": "f32359d808f30aa20cdd752e78190073107d9af6eeda5f272d5956cc6cfaf050",
+      "bytes": 29891,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023933_2058.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2059_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2059-01-01T00%3A00%3A00Z&time_end=2059-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:13:50.562156+00:00",
+      "sha256": "bfddb20765356e990c0538680458677dfed60892496f94e3eb643e73432c7f89",
+      "bytes": 29906,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023933_2059.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/tasmax_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_2060_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2060-01-01T00%3A00%3A00Z&time_end=2060-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:13:50.082083+00:00",
+      "sha256": "6959966bc934cf3f521c98ff96d164103b707ad5e301d5145a73e3ef2f6950df",
+      "bytes": 29969,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/ACCESS-CM2/ssp585/WRI1023933_2060.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2041_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2041-01-01T00%3A00%3A00Z&time_end=2041-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:14:01.540930+00:00",
+      "sha256": "f8876eb665f78c8eac1c61bb497577e6da2ba6e97d3ebdbc641895b27a9bf53f",
+      "bytes": 30249,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023817_2041.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2042_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2042-01-01T00%3A00%3A00Z&time_end=2042-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:14:17.610126+00:00",
+      "sha256": "bac34bb9c390e7a0716bc795003a0fd8dfab7a1d8d3a673b4d96719ab705bfbf",
+      "bytes": 30262,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023817_2042.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2043_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2043-01-01T00%3A00%3A00Z&time_end=2043-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:14:37.414220+00:00",
+      "sha256": "f1271c07affcf242f500129e6b4838164924fd63a97d51cf8e2ae591929b0956",
+      "bytes": 30258,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023817_2043.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2044_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2044-01-01T00%3A00%3A00Z&time_end=2044-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:14:37.714264+00:00",
+      "sha256": "636f01e11c5b9e3cf2aa5481ac995670b792c497af51a4211468f17de2884c08",
+      "bytes": 30357,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023817_2044.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2045_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2045-01-01T00%3A00%3A00Z&time_end=2045-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:14:51.586247+00:00",
+      "sha256": "2e5654577f76c0e2ce9fb370a9452d30167cbc69d0c660d9e7160cecc722583d",
+      "bytes": 30270,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023817_2045.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2046_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2046-01-01T00%3A00%3A00Z&time_end=2046-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:15:06.662217+00:00",
+      "sha256": "a9c30987c168a9bbee3986e98e7f960434a018f6a3297d1d28e5adad2d49a1b1",
+      "bytes": 30277,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023817_2046.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2047_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2047-01-01T00%3A00%3A00Z&time_end=2047-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:15:05.482226+00:00",
+      "sha256": "0846dd28bbd6a7159d13c5508c22817451e9330133703578ccfd2d1abff29f12",
+      "bytes": 30248,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023817_2047.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2048_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2048-01-01T00%3A00%3A00Z&time_end=2048-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:15:21.150764+00:00",
+      "sha256": "becf4218a3405e64db05e6820bdfc458df57e0a0c17de002f95d84b8cb961053",
+      "bytes": 30339,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023817_2048.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2049_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2049-01-01T00%3A00%3A00Z&time_end=2049-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:15:40.271959+00:00",
+      "sha256": "aa2edb9f69cc7d8626c69ca40909b71429f49a68d3bfd721b013ee7499f7013a",
+      "bytes": 30250,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023817_2049.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2050_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2050-01-01T00%3A00%3A00Z&time_end=2050-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:15:42.058119+00:00",
+      "sha256": "de5aa776e6af56228294607a4bd0ab1da0048f72987154db32a4708b6a5dbee8",
+      "bytes": 30264,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023817_2050.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2051_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2051-01-01T00%3A00%3A00Z&time_end=2051-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:15:56.634125+00:00",
+      "sha256": "5ea5730fc33ac44829d84e83a3d81e9404d511b245e71df753758e30c8bdf769",
+      "bytes": 30285,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023817_2051.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2052_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2052-01-01T00%3A00%3A00Z&time_end=2052-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:16:11.562196+00:00",
+      "sha256": "b14980396bc0ae79a825f494e0752c7b0638e50c0caab1f185766a58cf86a8cf",
+      "bytes": 30347,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023817_2052.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2053_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2053-01-01T00%3A00%3A00Z&time_end=2053-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:16:18.070137+00:00",
+      "sha256": "22e1d1eab9b2c044b03c5c866e1f4a7adb71a4815dbb5afa920da363e477a75f",
+      "bytes": 30255,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023817_2053.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2054_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2054-01-01T00%3A00%3A00Z&time_end=2054-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:16:29.594177+00:00",
+      "sha256": "3cb197b1801e25e63fd26b4621ccdc1eb93d8367d8c13fb45f9fb5a4f9e55632",
+      "bytes": 30256,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023817_2054.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2055_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2055-01-01T00%3A00%3A00Z&time_end=2055-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:16:43.934161+00:00",
+      "sha256": "9da2971b5b943cc2994c0fe5e00fdb8c53a432b33c0f1cd94ef31378bb717208",
+      "bytes": 30272,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023817_2055.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2056_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2056-01-01T00%3A00%3A00Z&time_end=2056-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:16:48.494207+00:00",
+      "sha256": "c5f23c8ce8e72e946f1eff6da54acff6e40a7a15cc20715d30ec898a62dbadcc",
+      "bytes": 30350,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023817_2056.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2057_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2057-01-01T00%3A00%3A00Z&time_end=2057-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:16:56.986236+00:00",
+      "sha256": "856352f2258b917bcf5700da51a3679457cdf8b8ecd7d4bbdc2ca79f8c6bb8e7",
+      "bytes": 30272,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023817_2057.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2058_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2058-01-01T00%3A00%3A00Z&time_end=2058-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:17:10.742077+00:00",
+      "sha256": "7122ab938215cf7c47336ba25a7b850f8f1e02ba186cb6d2a38af09b2e35c8ca",
+      "bytes": 30278,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023817_2058.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2059_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2059-01-01T00%3A00%3A00Z&time_end=2059-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:17:13.086074+00:00",
+      "sha256": "09c82c2a5d2a410fb3fb85dadfb8be50fff7385a633c1a9d9440f55df5d670c0",
+      "bytes": 30263,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023817_2059.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2060_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2060-01-01T00%3A00%3A00Z&time_end=2060-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:17:24.446413+00:00",
+      "sha256": "6b5a49822fb70197a0065120972d08c723ced4b3c7ed6598a0bbcf47aa8cabba",
+      "bytes": 30349,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023817_2060.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2041_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2041-01-01T00%3A00%3A00Z&time_end=2041-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:14:03.986163+00:00",
+      "sha256": "75b5c5f2df202352b93643fa278da2ffc8706e48eefd058ff569ed881f019987",
+      "bytes": 29901,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023933_2041.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2042_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2042-01-01T00%3A00%3A00Z&time_end=2042-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:14:16.250197+00:00",
+      "sha256": "ba04c490b65a10d09373d6692329f7928551978f8b689619e7a6a1adc3462fa9",
+      "bytes": 29894,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023933_2042.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2043_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2043-01-01T00%3A00%3A00Z&time_end=2043-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:14:18.418152+00:00",
+      "sha256": "6c93f15232ecb5e69e46a5e77e73c3b9fcebd301dbdca5f15852dbd6bbaaf43b",
+      "bytes": 29899,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023933_2043.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2044_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2044-01-01T00%3A00%3A00Z&time_end=2044-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:14:40.910107+00:00",
+      "sha256": "e5131400bfecaf80921d23962078c372a329827fe55ce00ae28a4f2a45e3e59c",
+      "bytes": 29967,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023933_2044.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2045_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2045-01-01T00%3A00%3A00Z&time_end=2045-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:14:52.866128+00:00",
+      "sha256": "64f2d325cc0a51b1ec48e07117d4fcdf036fe66902fa74ec0e1877f27d1dbb16",
+      "bytes": 29913,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023933_2045.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2046_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2046-01-01T00%3A00%3A00Z&time_end=2046-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:14:52.762232+00:00",
+      "sha256": "e199706d70eaf7d3154c7149e562fd9e012f5f5d88ef0a7b02c2dbc8523a35f6",
+      "bytes": 29921,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023933_2046.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2047_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2047-01-01T00%3A00%3A00Z&time_end=2047-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:15:05.290151+00:00",
+      "sha256": "aae164fe8f67e492e9e7da35229f8eb59286f0caa082839b243ff5efd2a9fc7f",
+      "bytes": 29875,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023933_2047.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2048_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2048-01-01T00%3A00%3A00Z&time_end=2048-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:15:21.130138+00:00",
+      "sha256": "de3eaae44dc41686f9c06bfabcc49948106ff9464b3fb0ab43692dfccafb3667",
+      "bytes": 29975,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023933_2048.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2049_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2049-01-01T00%3A00%3A00Z&time_end=2049-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:15:25.346202+00:00",
+      "sha256": "8316c71a8639ab8d245a88f1e15f45c5a982ea76939210ade95126ff76349a9f",
+      "bytes": 29919,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023933_2049.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2050_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2050-01-01T00%3A00%3A00Z&time_end=2050-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:15:42.102151+00:00",
+      "sha256": "b39fc94d4fb80efaf67e9748917bc0998a6335b5f36fded29765affa1062ad77",
+      "bytes": 29895,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023933_2050.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2051_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2051-01-01T00%3A00%3A00Z&time_end=2051-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:15:56.648455+00:00",
+      "sha256": "15c20f2f7e831c081c98b72cfed914a4fdeaf50e005b9515372b7e4977b78082",
+      "bytes": 29910,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023933_2051.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2052_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2052-01-01T00%3A00%3A00Z&time_end=2052-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:16:02.602171+00:00",
+      "sha256": "d5265121f31e5666428120eaacbf71a6130c74278ae468d810cc065d6e20ee25",
+      "bytes": 29970,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023933_2052.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2053_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2053-01-01T00%3A00%3A00Z&time_end=2053-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:16:13.834153+00:00",
+      "sha256": "5e59c643cce6c16a503ef5249bdcfd7b3dec7b6e5589d0130c38f30de813ce39",
+      "bytes": 29905,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023933_2053.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2054_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2054-01-01T00%3A00%3A00Z&time_end=2054-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:16:30.766153+00:00",
+      "sha256": "750586e922ae8dd1d7612503be68890f07904ce1cb2d05536a0c4265251b97d2",
+      "bytes": 29911,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023933_2054.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2055_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2055-01-01T00%3A00%3A00Z&time_end=2055-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:16:29.614218+00:00",
+      "sha256": "f290468fd1e459479ef4513a2b070fead96afefe492c039e9d177507ed84e8c7",
+      "bytes": 29877,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023933_2055.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2056_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2056-01-01T00%3A00%3A00Z&time_end=2056-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:16:45.422245+00:00",
+      "sha256": "1e3a4e1a0148377ddadd134e0115f4c6e979734dc69844f1cd43a17de9885dcd",
+      "bytes": 29988,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023933_2056.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2057_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2057-01-01T00%3A00%3A00Z&time_end=2057-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:16:56.914196+00:00",
+      "sha256": "1373c4ba8acbdd3b66f5eb3d2f225af8ce5efb31966932d10c2eb2553c31a2a1",
+      "bytes": 29912,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023933_2057.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2058_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2058-01-01T00%3A00%3A00Z&time_end=2058-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:16:58.826548+00:00",
+      "sha256": "aa953c988edfac8862e86ab5672344ef9591e22b3bf3cc027e053595518fa36a",
+      "bytes": 29915,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023933_2058.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2059_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2059-01-01T00%3A00%3A00Z&time_end=2059-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:17:10.850083+00:00",
+      "sha256": "84201469e1dec960c765bf446491798b197f90b3d7a8c7594bfc6cb3de90e003",
+      "bytes": 29883,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023933_2059.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp126_r1i1p1f1_gn_2060_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2060-01-01T00%3A00%3A00Z&time_end=2060-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:17:25.422217+00:00",
+      "sha256": "ec0cccc6519c50f44c4538760943c5222aa8b7e441125459f36c8d5280754a2e",
+      "bytes": 29986,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp126/WRI1023933_2060.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2041_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2041-01-01T00%3A00%3A00Z&time_end=2041-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:17:38.406195+00:00",
+      "sha256": "197b20f6d01568f18a5ff05ba4cbc2c1721d144e6f9947d3303bab26b06d7292",
+      "bytes": 30263,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023817_2041.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2042_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2042-01-01T00%3A00%3A00Z&time_end=2042-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:17:41.686108+00:00",
+      "sha256": "ede522a6e78e65739146d0358f2277b8c3cd6084c6f78cff343dcd93070c56ea",
+      "bytes": 30252,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023817_2042.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2043_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2043-01-01T00%3A00%3A00Z&time_end=2043-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:17:54.570166+00:00",
+      "sha256": "f403633dd84227a1e99f5f11545ea00a1471680c605c4f10896f9f9f064c4fb9",
+      "bytes": 30266,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023817_2043.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2044_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2044-01-01T00%3A00%3A00Z&time_end=2044-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:18:19.586121+00:00",
+      "sha256": "bfd952648a4b262e9a3ee0572a41a9bab3eb77df3418aad77825a68af72c51e6",
+      "bytes": 30351,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023817_2044.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2045_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2045-01-01T00%3A00%3A00Z&time_end=2045-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:18:11.994100+00:00",
+      "sha256": "087d60607f441a4ed218a7eb1a65fe247a9f90e72fa446128708ccdd4e5f0088",
+      "bytes": 30260,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023817_2045.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2046_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2046-01-01T00%3A00%3A00Z&time_end=2046-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:18:29.890109+00:00",
+      "sha256": "88be40803977569e6ad970a42cd801bf15da052d350f68cde5ec9c4afdff9410",
+      "bytes": 30255,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023817_2046.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2047_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2047-01-01T00%3A00%3A00Z&time_end=2047-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:18:44.554206+00:00",
+      "sha256": "170721d2916c110338e8b276ee6e37ae4dd5fd985be20873b56f66a6518fa850",
+      "bytes": 30281,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023817_2047.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2048_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2048-01-01T00%3A00%3A00Z&time_end=2048-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:19:00.526074+00:00",
+      "sha256": "d8cfaea2d7cfa39cd0f938ab8769cd6cde0a7612c4818a346944662107b6d15e",
+      "bytes": 30363,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023817_2048.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2049_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2049-01-01T00%3A00%3A00Z&time_end=2049-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:19:16.170121+00:00",
+      "sha256": "9202ec84526f85dfb763c607d68b2cd6fd7b021d6fb5604929f3ded0f1ec4740",
+      "bytes": 30243,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023817_2049.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2050_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2050-01-01T00%3A00%3A00Z&time_end=2050-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:20:13.010826+00:00",
+      "sha256": "805ff45f254beec12ff8fe1f87a39c046996b50189600dfc005bdf9df4229fe0",
+      "bytes": 30261,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023817_2050.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2051_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2051-01-01T00%3A00%3A00Z&time_end=2051-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:19:38.882095+00:00",
+      "sha256": "0b7f9c35ecb7846dd608ed3bed56a591cf306c1edbfefe24cc639aa8e2f0cbfe",
+      "bytes": 30286,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023817_2051.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2052_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2052-01-01T00%3A00%3A00Z&time_end=2052-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:20:02.866246+00:00",
+      "sha256": "50a764885feafae5e4cb02c3f7de9a5d3782027cef8e626e10ec8155d60af874",
+      "bytes": 30344,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023817_2052.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2053_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2053-01-01T00%3A00%3A00Z&time_end=2053-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:20:59.934271+00:00",
+      "sha256": "dd86a381072b5998852c0ff5393b9371c95186738e720e623e9ec15b46593806",
+      "bytes": 30266,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023817_2053.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2054_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2054-01-01T00%3A00%3A00Z&time_end=2054-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:20:39.262356+00:00",
+      "sha256": "f5e3e08f3ca9664c870fdbd64bf8b961a0afe224c507c205d3fdcd365698e51c",
+      "bytes": 30260,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023817_2054.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2055_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2055-01-01T00%3A00%3A00Z&time_end=2055-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:22:01.482158+00:00",
+      "sha256": "2541ef952255cd31911495a9dc785984295cb2da8f6f6d4a68725de8673877a8",
+      "bytes": 30261,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023817_2055.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2056_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2056-01-01T00%3A00%3A00Z&time_end=2056-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:21:38.482128+00:00",
+      "sha256": "86a4deda4b44c0f8e26b80a4014b75c1ba953ca39adcc3495259c614cfce22c2",
+      "bytes": 30354,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023817_2056.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2057_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2057-01-01T00%3A00%3A00Z&time_end=2057-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:22:14.838366+00:00",
+      "sha256": "d443615d8025d37060c5e2cedf0d3131c5499cc2df5421e894ef81a2339909c2",
+      "bytes": 30254,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023817_2057.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2058_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2058-01-01T00%3A00%3A00Z&time_end=2058-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:22:48.102192+00:00",
+      "sha256": "d95030adf793d6d2df5307c7b2081fd814dcd8bf8c5b40aa0b20e1064392788a",
+      "bytes": 30265,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023817_2058.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2059_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2059-01-01T00%3A00%3A00Z&time_end=2059-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:23:02.222183+00:00",
+      "sha256": "1ca585e93db3d1da85f20ef336bc0a3e49337e6c99c92e25b65d925f359a7094",
+      "bytes": 30268,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023817_2059.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2060_v2.0.nc?var=tasmax&latitude=51.2679&longitude=19.3265&time_start=2060-01-01T00%3A00%3A00Z&time_end=2060-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:23:24.666043+00:00",
+      "sha256": "09cb2f5aa61b28142b330168479bb5df54b8c201cd82eb43190ccade1b3899fb",
+      "bytes": 30369,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023817_2060.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2041_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2041-01-01T00%3A00%3A00Z&time_end=2041-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:17:26.298196+00:00",
+      "sha256": "15e89b097f6e826d19f2d57ae5f24cc9d2c20fa31fc135718c7df241d3214111",
+      "bytes": 29916,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023933_2041.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2042_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2042-01-01T00%3A00%3A00Z&time_end=2042-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:17:41.650183+00:00",
+      "sha256": "72417aa78cf3b1bb6c42af71e0212cc3a6db1440ec7d337c2d31aa7ec723618d",
+      "bytes": 29893,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023933_2042.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2043_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2043-01-01T00%3A00%3A00Z&time_end=2043-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:18:01.006230+00:00",
+      "sha256": "6fb660714883519139484353aec79e639a6d87dc4ae7d26190c281d7753ed1c8",
+      "bytes": 29882,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023933_2043.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2044_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2044-01-01T00%3A00%3A00Z&time_end=2044-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:17:55.494198+00:00",
+      "sha256": "4473e45f834b0cc9153f9b551da45d94fc85a26c8bfcfe1e8603ab80f472df88",
+      "bytes": 29982,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023933_2044.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2045_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2045-01-01T00%3A00%3A00Z&time_end=2045-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:18:11.974162+00:00",
+      "sha256": "4a41e2451d7014af2c5a482a6c0bd96ce78348f2711ae098ba6e677edf4a4d14",
+      "bytes": 29914,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023933_2045.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2046_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2046-01-01T00%3A00%3A00Z&time_end=2046-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:18:36.710708+00:00",
+      "sha256": "b99781bea4f805ee175f4833703d429067b3bda37b728cb8508eccb2177c6de5",
+      "bytes": 29916,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023933_2046.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2047_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2047-01-01T00%3A00%3A00Z&time_end=2047-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:18:39.166104+00:00",
+      "sha256": "6d4e35c2dc367b58ea095a6fd309727011e7c907498bee005db286df5eaa1be5",
+      "bytes": 29877,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023933_2047.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2048_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2048-01-01T00%3A00%3A00Z&time_end=2048-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:19:00.682042+00:00",
+      "sha256": "57b5f91de4e2018bbcb168b6d2ef8f3fa1cd913d0cd28561a9ef07dc8f917184",
+      "bytes": 29999,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023933_2048.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2049_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2049-01-01T00%3A00%3A00Z&time_end=2049-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:19:14.422094+00:00",
+      "sha256": "6c561f8142abb1812ecfa69ba84962812f8d6d0b421478d39c45ce01013b8939",
+      "bytes": 29910,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023933_2049.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2050_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2050-01-01T00%3A00%3A00Z&time_end=2050-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:19:15.642117+00:00",
+      "sha256": "97b87076c63e9158b38338817861a2b956097612c35074c3f2c757320bde9b2a",
+      "bytes": 29918,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023933_2050.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2051_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2051-01-01T00%3A00%3A00Z&time_end=2051-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:19:34.721581+00:00",
+      "sha256": "e392bb9e97996812924b94d85815d5203536db5cac5d628aeec6d8d05f4017aa",
+      "bytes": 29890,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023933_2051.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2052_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2052-01-01T00%3A00%3A00Z&time_end=2052-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:20:14.198185+00:00",
+      "sha256": "ff3b9fda572c2c42562da03106adb8ebdcb94ab87b360ba7c02e27ed902e4bca",
+      "bytes": 29968,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023933_2052.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2053_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2053-01-01T00%3A00%3A00Z&time_end=2053-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:20:24.962112+00:00",
+      "sha256": "9ba2c7f6abcc2cb24614a394f5c987e1a7b26072749224344069602033e5ea81",
+      "bytes": 29917,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023933_2053.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2054_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2054-01-01T00%3A00%3A00Z&time_end=2054-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:20:34.330191+00:00",
+      "sha256": "85dcf1a7f710100d73f43f45f279da89a8ef37be970ee7d80d8a30c25e9e3ee4",
+      "bytes": 29909,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023933_2054.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2055_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2055-01-01T00%3A00%3A00Z&time_end=2055-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:22:01.318153+00:00",
+      "sha256": "b9a08ca155afdac2bd72c77368dec3f83a920a0df26bcebcf7ff0a2100f1a4b7",
+      "bytes": 29902,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023933_2055.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2056_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2056-01-01T00%3A00%3A00Z&time_end=2056-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:21:15.262326+00:00",
+      "sha256": "86cf9b1165e50a09233f472b9d0551ab67de96c31d46317003df790309c356d9",
+      "bytes": 29968,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023933_2056.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2057_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2057-01-01T00%3A00%3A00Z&time_end=2057-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:23:03.638169+00:00",
+      "sha256": "82af0d175fdb6b743c46952ab6452f2a5adcfcf3f59b6518145807086d9eecb5",
+      "bytes": 29903,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023933_2057.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2058_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2058-01-01T00%3A00%3A00Z&time_end=2058-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:22:14.738151+00:00",
+      "sha256": "169694cfd8b56da909c3680760170c7f8b33e1a9b780b78e4519757e8fc8ed8e",
+      "bytes": 29907,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023933_2058.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2059_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2059-01-01T00%3A00%3A00Z&time_end=2059-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:22:56.886152+00:00",
+      "sha256": "34e29684a540258f2ef1415b84140b59a560015f13152c9297d044923ca649fa",
+      "bytes": 29908,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023933_2059.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/tasmax_day_MPI-ESM1-2-LR_ssp585_r1i1p1f1_gn_2060_v2.0.nc?var=tasmax&latitude=44.7242&longitude=-0.8150&time_start=2060-01-01T00%3A00%3A00Z&time_end=2060-12-31T23%3A59%3A59Z&accept=csv",
+      "retrieved_utc": "2026-11-10T20:24:25.774171+00:00",
+      "sha256": "edf238e0d138d5a0fa40deef6da7c8e6b2daf74e81bfef2b4310f25a80951339",
+      "bytes": 29993,
+      "content_type": "text/plain;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6/MPI-ESM1-2-LR/ssp585/WRI1023933_2060.csv"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/catalog/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp126/r1i1p1f1/tasmax/catalog.xml",
+      "retrieved_utc": "2026-11-10T20:04:51.198341+00:00",
+      "sha256": "f9a1bf993beb1a3fb4883dc370355951aea4006778c35a408412684abdf71528",
+      "bytes": 38528,
+      "content_type": "application/xml;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6_catalogs/ACCESS-CM2_ssp126_r1i1p1f1.xml"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/catalog/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/ssp585/r1i1p1f1/tasmax/catalog.xml",
+      "retrieved_utc": "2026-11-10T20:04:58.370357+00:00",
+      "sha256": "9914d176f69d720c518ba267ab35837b8ca205339412857e4fe43744c21617da",
+      "bytes": 38528,
+      "content_type": "application/xml;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6_catalogs/ACCESS-CM2_ssp585_r1i1p1f1.xml"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/catalog/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp126/r1i1p1f1/tasmax/catalog.xml",
+      "retrieved_utc": "2026-11-10T20:05:04.066183+00:00",
+      "sha256": "5206d899ac11850f2d3ba62e06ae612e32da6718e4a32f56b7b50f10a7b49cea",
+      "bytes": 39821,
+      "content_type": "application/xml;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6_catalogs/MPI-ESM1-2-LR_ssp126_r1i1p1f1.xml"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/catalog/AMES/NEX/GDDP-CMIP6/MPI-ESM1-2-LR/ssp585/r1i1p1f1/tasmax/catalog.xml",
+      "retrieved_utc": "2026-11-10T20:05:10.755305+00:00",
+      "sha256": "a7e608e625e3e9401b03a79ce4cd2f5e6771aabdad905b575be946abb87e2584",
+      "bytes": 39817,
+      "content_type": "application/xml;charset=UTF-8",
+      "last_modified": null,
+      "cache_path": "data/raw/cmip6_catalogs/MPI-ESM1-2-LR_ssp585_r1i1p1f1.xml"
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=53.2409&longitude=-3.0227&start_date=1991-01-01&end_date=2025-12-31&daily=temperature_2m_max%2Ctemperature_2m_min&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+      "retrieved_utc": "2026-11-10T20:04:05.422339+00:00",
+      "sha256": "c83ed5d9916f9a6231a3d0bcdb9ec17b3516e00d20c17f07ac86b7a81cb0b0bd",
+      "bytes": 282917,
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "cache_path": "data/raw/era5/GBR0002347_1991-01-01_2025-12-31.json"
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=51.0141&longitude=2.1332&start_date=1991-01-01&end_date=2025-12-31&daily=temperature_2m_max%2Ctemperature_2m_min&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+      "retrieved_utc": "2026-11-10T20:04:36.370966+00:00",
+      "sha256": "02e62899751bd94add5c1f4174bea0c1fa329335f9fb47bb004efa6d5ab9bc60",
+      "bytes": 284299,
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "cache_path": "data/raw/era5/WRI1002735_1991-01-01_2025-12-31.json"
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=50.9930&longitude=6.6685&start_date=1991-01-01&end_date=2025-12-31&daily=temperature_2m_max%2Ctemperature_2m_min&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+      "retrieved_utc": "2026-11-10T20:04:43.126838+00:00",
+      "sha256": "8ce3c907b188ad6c16b345016c1ce69b0908d4f446e0a1e2367a461cfff3105b",
+      "bytes": 284174,
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "cache_path": "data/raw/era5/WRI1005979_1991-01-01_2025-12-31.json"
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=39.8070&longitude=-5.6986&start_date=1991-01-01&end_date=2025-12-31&daily=temperature_2m_max%2Ctemperature_2m_min&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+      "retrieved_utc": "2026-11-10T20:04:29.769111+00:00",
+      "sha256": "39f6dc100ce0893534952e40433038abc8792d2bce03cfec8fc90121871ebd86",
+      "bytes": 288199,
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "cache_path": "data/raw/era5/WRI1006358_1991-01-01_2025-12-31.json"
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=45.0367&longitude=11.5706&start_date=1991-01-01&end_date=2025-12-31&daily=temperature_2m_max%2Ctemperature_2m_min&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+      "retrieved_utc": "2026-11-10T20:03:58.770103+00:00",
+      "sha256": "67748f6735b5a5ee6525964b19b55809a8f251236a2bd6d192daacdb08ee88d9",
+      "bytes": 287402,
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "cache_path": "data/raw/era5/WRI1021333_1991-01-01_2025-12-31.json"
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=39.0118&longitude=-8.9521&start_date=1991-01-01&end_date=2025-12-31&daily=temperature_2m_max%2Ctemperature_2m_min&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+      "retrieved_utc": "2026-11-10T20:08:00.006141+00:00",
+      "sha256": "e7488e36075ee7289d3691c996178f410b4f6bb78a8f18fa035fd14e8879b010",
+      "bytes": 290164,
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "cache_path": "data/raw/era5/WRI1023228_1991-01-01_2025-12-31.json"
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=51.2679&longitude=19.3265&start_date=1991-01-01&end_date=2025-12-31&daily=temperature_2m_max%2Ctemperature_2m_min&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+      "retrieved_utc": "2026-11-10T20:07:53.326194+00:00",
+      "sha256": "97c1282ce9cc59125b103bc93e31352d5a3e18dd6ccc54b83acde1fba72a309c",
+      "bytes": 285072,
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "cache_path": "data/raw/era5/WRI1023817_1991-01-01_2025-12-31.json"
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=44.7242&longitude=-0.8150&start_date=1991-01-01&end_date=2025-12-31&daily=temperature_2m_max%2Ctemperature_2m_min&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+      "retrieved_utc": "2026-11-10T20:03:45.370217+00:00",
+      "sha256": "31ae431b7ca60fa016a04fe2a3ec999f71e294e38b8c00d51ef7130ab45d63fe",
+      "bytes": 287246,
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "cache_path": "data/raw/era5/WRI1023933_1991-01-01_2025-12-31.json"
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=51.5446&longitude=13.9795&start_date=1991-01-01&end_date=2025-12-31&daily=temperature_2m_max%2Ctemperature_2m_min&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+      "retrieved_utc": "2026-11-10T20:03:52.059274+00:00",
+      "sha256": "91048c792b66d2441112cc27e1c7cc3c91f61d140132363c89d398218a635064",
+      "bytes": 284379,
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "cache_path": "data/raw/era5/WRI1025872_1991-01-01_2025-12-31.json"
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=37.4180&longitude=22.1083&start_date=1991-01-01&end_date=2025-12-31&daily=temperature_2m_max%2Ctemperature_2m_min&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+      "retrieved_utc": "2026-11-10T20:04:49.880138+00:00",
+      "sha256": "f2335e54383e79793eefcff5127da9348c6647beffe2295485dec68c1aedd507",
+      "bytes": 287081,
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "cache_path": "data/raw/era5/WRI1061098_1991-01-01_2025-12-31.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wri/global-power-plant-database/7a91cfbb2a4e272597acbc00506d61fc1ec73b3d/output_database/global_power_plant_database.csv",
+      "retrieved_utc": "2026-11-10T20:03:38.159117+00:00",
+      "sha256": "4b1f93e0fd93664f18684d9b05d0a52ed9658c6a8cf0d21ff2520791379ba7fc",
+      "bytes": 11973385,
+      "content_type": "text/plain; charset=utf-8",
+      "last_modified": null,
+      "cache_path": "data/raw/gppd_global.csv"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_110m_admin_0_countries.geojson",
+      "retrieved_utc": "2026-11-10T20:09:01.274223+00:00",
+      "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+      "bytes": 838726,
+      "content_type": "text/plain; charset=utf-8",
+      "last_modified": null,
+      "cache_path": "data/raw/natural_earth_countries.geojson"
+    }
+  ],
+  "processed_files": [
+    {
+      "path": "data/processed/cmip6_daily_pilot.csv",
+      "bytes": 7566614,
+      "sha256": "1803710c48c2c3787bd34e6c2ef87473962a00c5342440f280ec3592da5c806e"
+    },
+    {
+      "path": "data/processed/cmip6_daily_pilot.csv.gz",
+      "bytes": 430832,
+      "sha256": "13e2b44cf64b7a2fefa0c67a1ee6d9d97afea3a0d5a14370ff309d607071ec51"
+    },
+    {
+      "path": "data/processed/cmip6_summary.csv",
+      "bytes": 604,
+      "sha256": "f853b2523dfaac8ff8de31e46419d465d6ae7f62bbdef45f93b56afa201ce73b"
+    },
+    {
+      "path": "data/processed/era5_daily_pilot.csv",
+      "bytes": 5504159,
+      "sha256": "d4dfcba0f167c734a74377fd5a83d2be40b37c42ac29f73be05f19144bda8f42"
+    },
+    {
+      "path": "data/processed/era5_daily_pilot.csv.gz",
+      "bytes": 753595,
+      "sha256": "078ae01cc4cebc8a66dd50751bbf715a2bc5588d05c9c914950d7a875143509c"
+    },
+    {
+      "path": "data/processed/era5_daily_synchrony.csv",
+      "bytes": 434740,
+      "sha256": "d6d50dc865414dbd8775318105820a04ee8383cae02cf3e4a23210c782af9b1e"
+    },
+    {
+      "path": "data/processed/era5_seasonal_tx90.csv",
+      "bytes": 86410,
+      "sha256": "01bb41a4ab74f83b9ebf777ed3108ef0f5d26b5909c71db8091a874cc72a661d"
+    },
+    {
+      "path": "data/processed/era5_spells.csv",
+      "bytes": 78076,
+      "sha256": "99e021a8e322c81fd4a73eb8698c21063d2b8f13b49b2a2f5eb56e45e91387e6"
+    },
+    {
+      "path": "data/processed/era5_summer_indicators.csv",
+      "bytes": 9027,
+      "sha256": "78aa9f62b4b4fb04e2e7f762bd4e6dcc9e963cef31082106d8b064e26b403e83"
+    },
+    {
+      "path": "data/processed/europe_plant_inventory.csv",
+      "bytes": 3267286,
+      "sha256": "7a5063b1e18286d37ad018342ce0a608104267e00dd7e8bd0b21e9a0860f7ac3"
+    },
+    {
+      "path": "data/processed/europe_plant_inventory.csv.gz",
+      "bytes": 453117,
+      "sha256": "7caaad0136745f6a17e0f485edf3b88ff1bc05b31c553d9d155656094279e7f3"
+    },
+    {
+      "path": "data/processed/pilot_sites.csv",
+      "bytes": 3245,
+      "sha256": "6b879fae9c92844766971a471619aa0836699f56bf0cec680e3edff46a4620ee"
+    },
+    {
+      "path": "data/processed/prototype_audit.json",
+      "bytes": 2473,
+      "sha256": "3825c243cf8776cf842f43913b603f25be70bc3491aa854eed4316d69c8c9258"
+    }
+  ],
+  "compressed_snapshots": [
+    {
+      "path": "data/processed/europe_plant_inventory.csv.gz",
+      "uncompressed_bytes": 3267286,
+      "compressed_bytes": 453117
+    },
+    {
+      "path": "data/processed/era5_daily_pilot.csv.gz",
+      "uncompressed_bytes": 5504159,
+      "compressed_bytes": 753595
+    },
+    {
+      "path": "data/processed/cmip6_daily_pilot.csv.gz",
+      "uncompressed_bytes": 7566614,
+      "compressed_bytes": 430832
+    }
+  ],
+  "provenance_note": "Raw responses are cached locally. Public snapshots preserve the downloaded values; no synthetic replacement of missing data."
+}

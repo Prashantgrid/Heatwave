@@ -19,7 +19,7 @@ Real climate-input pilot and methods audit for an actuarial digital twin study.
 |---|---|---|
 | WRI plant inventory | 10,050 records; EU27 + UK, Norway and Switzerland; 2022 source snapshot | `data/processed/europe_plant_inventory.csv.gz` |
 | ERA5 daily temperature | 10 real sites, 1991-2025, Tmax and Tmin; 127,840 complete site-days | `data/processed/era5_daily_pilot.csv.gz` |
-| NEX-GDDP-CMIP6 | Two models, SSP1-2.6/SSP5-8.5, 2041-2060, two pilot sites; see completion manifest | `data/processed/cmip6_daily_pilot.csv.gz` |
+| NEX-GDDP-CMIP6 | ACCESS-CM2 and MPI-ESM1-2-LR, SSP1-2.6/SSP5-8.5, 2041-2060, two sites; 58,440 daily values from 160 complete subsets | `data/processed/cmip6_daily_pilot.csv.gz` |
 | Derived historical diagnostics | Seasonal thresholds, three-day hot spells, summer indicators and common-date co-occurrence | Small CSVs in `data/processed/` |
 
 Pilot locations are chosen by pre-specified country/fuel strata and recorded capacity. They are not an actual insurance book or a representative sample. No missing observations are replaced with synthetic values.

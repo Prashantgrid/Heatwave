@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+.cdsapirc
+.env
+*.part
+data/raw/gppd_global.csv
+data/raw/era5/
+data/raw/cmip6/
+data/raw/cmip6_catalogs/
+data/processed/era5_daily_with_thresholds.csv
+data/processed/europe_plant_inventory.csv
+data/processed/era5_daily_pilot.csv
+data/processed/cmip6_daily_pilot.csv

@@ -1,0 +1,9 @@
+{
+  "inventory_records": 10050,
+  "era5_site_days": 127840,
+  "era5_sites": 10,
+  "raw_source_hashes_checked": 176,
+  "status": "passed",
+  "cmip6_site_model_scenario_days": 58440,
+  "cmip6_subsets": 160
+}

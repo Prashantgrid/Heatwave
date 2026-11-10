@@ -1,0 +1,26 @@
+{
+  "imported_filename": "adt_heatwave_prototype.zip",
+  "archive_sha256": "d93c984ca27c1e5bef36d3c09314aa6b15792c51469c9e8b8202685b46f7e283",
+  "files_unchanged": true,
+  "files": {
+    "sim.py": "a2f4f93125cf816868dcf35246509eee24f47af779ae9db7ebda2b4f396782dc",
+    "runs.py": "5baae6b699f2425cdfc2d8a46aac7570a9ba2828fd2a06744af94a5f79d68573",
+    "harden.py": "71d4a258f01bc02b8439b1f053e8771e4114c1025b202bccc79d2e08d2c26869",
+    "analyze.py": "37a0b8612edd1bec2138a95ad063cda58f34a661d93e372ed36e993b42bcde7a",
+    "value.py": "b43425283bbf95a322023d2d7dd2beb2d239850743379a53c211afaeb22344f3",
+    "event_pick.py": "2938dca1272ab314466abec37fea6f60d007c6d172231bf90b8fa518a8d41c1e",
+    "build_map.py": "28b91caee08b9a8f22c1c0ac144fcab8413d188611c0fd4e993f49d3e0681c06",
+    "map_sites.csv": "82e578ef34da3ae0a4a24bcb501a5bf80750977a505dc8c79615ad595b047ba8",
+    "map_land.csv": "af187a72434d9437132c3e275d07f0ba872cfa89c363f7615c3a7580bb8b630b",
+    "res_base.json": "f63e63c498b03e91a665fe52f61cbea54111031a2048a9ed89d79219bd8012e2",
+    "res_harden.json": "369d8dce7fe14a908e3e3ad4a6df523aee5e69a7b8fcea98072b72ef31802c01",
+    "res_matched2.0.json": "fb206338372b76a43a8f9a5f714815fffb1f296f0ed57015d65f66148705b006",
+    "res_matched3.0.json": "5b5a63579acabc6a8bd48a148e19e1601bf879a3427fd5ca44bafbc86e5b4d50",
+    "res_noact.json": "967982836b35de51e4f2cd1a3485edb8714cd2cf6477802706beff77540c7110",
+    "res_stale.json": "d40156e0fb67c77887a3a70b774a7937a53d9448462e9f69c356cba6084013de",
+    "res_twin0.33.json": "43971a325b4d6a2a83c6a04aef58c779cf54508575acfcea2a6cd09a4c9e0b75",
+    "res_twin2.0.json": "e185a39001eb3fbc578c41ed62007eba6d154501087771abd6c8d65b09b5b422",
+    "res_twin3.0.json": "422391c6d2f4d2f92dc7913b96b0b1ed6f699b08677b243debbf954430611b71",
+    "res_warm.json": "886ddb68c6ad689cce64863aeb406d2fdba78efba409c938a46f67dc8b27e389"
+  }
+}

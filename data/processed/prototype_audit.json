@@ -1,0 +1,78 @@
+{
+  "status": "synthetic, uncalibrated results supplied with prototype",
+  "replicates": 10,
+  "units": "EUR million per synthetic year, except rates",
+  "base": {
+    "AAL": {
+      "class_median": 4.070933227829983,
+      "adt_median": 1.6048330441788674,
+      "median_paired_percent_change": -63.204675872833704
+    },
+    "VaR": {
+      "class_median": 52.59613200736372,
+      "adt_median": 43.76125816771543,
+      "median_paired_percent_change": -20.585965167258852
+    },
+    "SCR": {
+      "class_median": 48.63729871756972,
+      "adt_median": 42.1527836963531,
+      "median_paired_percent_change": -16.56181635483759
+    },
+    "ret": {
+      "class_median": 1.798293129688071,
+      "adt_median": 1.2084400091140493,
+      "median_paired_percent_change": -33.75403283481489
+    },
+    "unins": {
+      "class_median": 19.520855808658208,
+      "adt_median": 13.716996137288392,
+      "median_paired_percent_change": -31.192737447357743
+    },
+    "act": {
+      "class_median": 2.9383041988861747,
+      "adt_median": 4.419635191229447,
+      "median_paired_percent_change": 48.90330322066335
+    },
+    "act_rate": {
+      "class_median": 0.11132663604012583,
+      "adt_median": 0.23172321611591726,
+      "median_paired_percent_change": 106.88029217316796
+    }
+  },
+  "matched_controls": {
+    "2.0": {
+      "truth_class": {
+        "AAL": 3.113371002986574,
+        "VaR": 47.75902096835655,
+        "act": 4.716255339521855,
+        "act_rate": 0.19785986221508967
+      },
+      "truth_adt": {
+        "AAL": 1.6048330441788674,
+        "VaR": 43.76125816771543,
+        "act": 4.419635191229447,
+        "act_rate": 0.23172321611591726
+      }
+    },
+    "3.0": {
+      "truth_class": {
+        "AAL": 2.2778439755380457,
+        "VaR": 45.61131119698297,
+        "act": 7.3106694292689465,
+        "act_rate": 0.3322991609985645
+      },
+      "truth_adt": {
+        "AAL": 1.6048330441788674,
+        "VaR": 43.76125816771543,
+        "act": 4.419635191229447,
+        "act_rate": 0.23172321611591726
+      }
+    }
+  },
+  "interpretation": [
+    "Matched-margin sensitivity controls already exist; they are not exact cost-matched optimisation.",
+    "The class-to-ADT loss contrast changes operation and cannot identify the effect of insurer recognition alone.",
+    "The reported SCR is an excess-VaR single-peril proxy; it is not a regulatory capital result.",
+    "Saved result ranges across synthetic books are not confidence intervals."
+  ]
+}
