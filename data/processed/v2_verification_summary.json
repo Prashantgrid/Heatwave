@@ -1,0 +1,273 @@
+{
+  "base": {
+    "books": 10,
+    "seeds": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109
+    ],
+    "equal_budget": {
+      "AAL_percent_change": {
+        "mean": -50.16037594331915,
+        "median": -48.80242625272533,
+        "minimum": -61.2051853565829,
+        "maximum": -35.35065926273172
+      },
+      "VaR_percent_change": {
+        "mean": -11.630489622110606,
+        "median": -11.060261213237403,
+        "minimum": -20.41717979213581,
+        "maximum": -4.643662677250693
+      }
+    },
+    "max_relative_budget_error": 2.6577178606768115e-06,
+    "cc_VaR_error_percent": {
+      "mean": 20.04185933312215,
+      "median": 23.75551743087698,
+      "minimum": -26.57833891478858,
+      "maximum": 68.12361646077301,
+      "rmse": 34.87972098023804
+    },
+    "tc_VaR_error_percent": {
+      "mean": -1.9933689955447096,
+      "median": -2.6113477004685413,
+      "minimum": -8.809121778116879,
+      "maximum": 10.814087671518703,
+      "rmse": 5.834158784124379
+    },
+    "tt_VaR_error_percent": {
+      "mean": -1.2600515064100226,
+      "median": -1.5250814487534847,
+      "minimum": -10.286952642383607,
+      "maximum": 10.058606467493657,
+      "rmse": 6.139313439087532
+    },
+    "funding": {
+      "class op | class model": {
+        "mean": 0.44250000000000006,
+        "median": 0.275,
+        "minimum": 0.095,
+        "maximum": 1.39
+      },
+      "class op | twin model": {
+        "mean": 0.5439999999999999,
+        "median": 0.56,
+        "minimum": 0.38999999999999996,
+        "maximum": 0.65
+      },
+      "twin op | class model (w=0)": {
+        "mean": 0.2585,
+        "median": 0.2125,
+        "minimum": 0.09,
+        "maximum": 0.565
+      },
+      "twin op | class model, actions known": {
+        "mean": 0.2355,
+        "median": 0.1875,
+        "minimum": 0.04,
+        "maximum": 0.65
+      },
+      "twin op | twin model, tempered": {
+        "mean": 0.45549999999999996,
+        "median": 0.43,
+        "minimum": 0.335,
+        "maximum": 0.5950000000000001
+      },
+      "twin op | twin model, full": {
+        "mean": 0.5199999999999999,
+        "median": 0.5275000000000001,
+        "minimum": 0.41000000000000003,
+        "maximum": 0.635
+      }
+    }
+  },
+  "warm": {
+    "books": 10,
+    "seeds": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109
+    ],
+    "equal_budget": {
+      "AAL_percent_change": {
+        "mean": -45.896544154645554,
+        "median": -44.95938406384983,
+        "minimum": -60.02624811062633,
+        "maximum": -27.440160104637012
+      },
+      "VaR_percent_change": {
+        "mean": -9.457632700680248,
+        "median": -8.703532058671431,
+        "minimum": -16.84502230836512,
+        "maximum": -5.0516719870783096
+      }
+    },
+    "max_relative_budget_error": 1.475923411597968e-06,
+    "cc_VaR_error_percent": {
+      "mean": 20.425167091623372,
+      "median": 19.189046119240174,
+      "minimum": -28.527630417063378,
+      "maximum": 69.24910292381688,
+      "rmse": 37.19290491273067
+    },
+    "tc_VaR_error_percent": {
+      "mean": -1.4221912634445668,
+      "median": -0.6909298593068269,
+      "minimum": -10.849940201567954,
+      "maximum": 7.682219539923962,
+      "rmse": 5.2497806551587045
+    },
+    "tt_VaR_error_percent": {
+      "mean": -1.1202968232137125,
+      "median": -3.561208045944042,
+      "minimum": -7.663322207262368,
+      "maximum": 7.824958915957958,
+      "rmse": 5.219966519470095
+    },
+    "funding": {
+      "class op | class model": {
+        "mean": 0.4755,
+        "median": 0.29000000000000004,
+        "minimum": 0.1,
+        "maximum": 1.5599999999999998
+      },
+      "class op | twin model": {
+        "mean": 0.5345,
+        "median": 0.515,
+        "minimum": 0.395,
+        "maximum": 0.7250000000000001
+      },
+      "twin op | class model (w=0)": {
+        "mean": 0.2895,
+        "median": 0.20249999999999999,
+        "minimum": 0.06999999999999999,
+        "maximum": 0.8099999999999999
+      },
+      "twin op | class model, actions known": {
+        "mean": 0.2505,
+        "median": 0.1575,
+        "minimum": 0.03,
+        "maximum": 0.7799999999999999
+      },
+      "twin op | twin model, tempered": {
+        "mean": 0.46900000000000003,
+        "median": 0.45,
+        "minimum": 0.365,
+        "maximum": 0.645
+      },
+      "twin op | twin model, full": {
+        "mean": 0.5195000000000001,
+        "median": 0.5449999999999999,
+        "minimum": 0.40499999999999997,
+        "maximum": 0.61
+      }
+    }
+  },
+  "stale": {
+    "books": 6,
+    "seeds": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "equal_budget": {
+      "AAL_percent_change": {
+        "mean": -49.76296344083489,
+        "median": -50.88470878618725,
+        "minimum": -60.7768555821111,
+        "maximum": -35.35065926273172
+      },
+      "VaR_percent_change": {
+        "mean": -12.392570663867472,
+        "median": -13.599001460914689,
+        "minimum": -20.41717979213581,
+        "maximum": -4.643662677250693
+      }
+    },
+    "max_relative_budget_error": 1.6435500711509121e-06,
+    "cc_VaR_error_percent": {
+      "mean": -22.25721356841584,
+      "median": -22.519933863831316,
+      "minimum": -55.15584181519024,
+      "maximum": 12.262979468584657,
+      "rmse": 30.005537552004682
+    },
+    "tc_VaR_error_percent": {
+      "mean": -3.847719181346728,
+      "median": -2.909901852633623,
+      "minimum": -13.381888939336939,
+      "maximum": 1.5333954256289362,
+      "rmse": 6.292749854839759
+    },
+    "tt_VaR_error_percent": {
+      "mean": -2.118919849700459,
+      "median": -2.4775330793980253,
+      "minimum": -9.822331535333717,
+      "maximum": 3.6710293519213177,
+      "rmse": 5.19121069044476
+    },
+    "funding": {
+      "class op | class model": {
+        "mean": 1.7025,
+        "median": 1.0724999999999998,
+        "minimum": 0.33,
+        "maximum": 5.5
+      },
+      "class op | twin model": {
+        "mean": 0.5825,
+        "median": 0.5625,
+        "minimum": 0.49500000000000005,
+        "maximum": 0.7250000000000001
+      },
+      "twin op | class model (w=0)": {
+        "mean": 0.4825000000000001,
+        "median": 0.3875,
+        "minimum": 0.16999999999999998,
+        "maximum": 1.1900000000000002
+      },
+      "twin op | class model, actions known": {
+        "mean": 0.5875,
+        "median": 0.43,
+        "minimum": 0.13,
+        "maximum": 1.625
+      },
+      "twin op | twin model, tempered": {
+        "mean": 0.5008333333333334,
+        "median": 0.5025,
+        "minimum": 0.44999999999999996,
+        "maximum": 0.5700000000000001
+      },
+      "twin op | twin model, full": {
+        "mean": 0.5291666666666667,
+        "median": 0.535,
+        "minimum": 0.46499999999999997,
+        "maximum": 0.62
+      }
+    }
+  },
+  "interpretation": {
+    "data": "Synthetic books with a shared generating/insurer failure-response model",
+    "equal_budget": "In-sample numerical action-budget match; not a held-out optimised policy",
+    "funding": "Modelled 99.5th-percentile funds; approximation to a 0.5% annual exceedance target",
+    "information_only": "cc versus tc holds owner operation and true losses fixed",
+    "original_event_bin_events": 30058,
+    "original_event_bin_limit": "Original supplied bins end at 20 K; overflow must be included before claiming all heatwaves"
+  }
+}

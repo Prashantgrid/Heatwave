@@ -1,0 +1,8 @@
+{
+  "seed": 100,
+  "years": 20000,
+  "all_saved_metrics_reproduced": true,
+  "rtol": 1e-09,
+  "atol": 1e-10,
+  "elapsed_seconds": 39.902499198913574
+}

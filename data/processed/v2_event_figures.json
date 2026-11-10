@@ -1,0 +1,2807 @@
+{
+  "seed": 100,
+  "years": 20000,
+  "events": 30062,
+  "maximum_peak_anomaly_k": 21.412569658652142,
+  "sites": [
+    {
+      "site_id": 0,
+      "asset_class": "PV",
+      "lon": 24.27205380214782,
+      "lat": 41.386754280106494
+    },
+    {
+      "site_id": 1,
+      "asset_class": "PV",
+      "lon": 11.808444839164942,
+      "lat": 51.21464881660201
+    },
+    {
+      "site_id": 2,
+      "asset_class": "PV",
+      "lon": -5.102443217101151,
+      "lat": 39.7591170788714
+    },
+    {
+      "site_id": 3,
+      "asset_class": "PV",
+      "lon": -5.391630321594032,
+      "lat": 37.99399133678957
+    },
+    {
+      "site_id": 4,
+      "asset_class": "PV",
+      "lon": 18.883031757356363,
+      "lat": 52.31088117364442
+    },
+    {
+      "site_id": 5,
+      "asset_class": "PV",
+      "lon": 9.578132633614004,
+      "lat": 51.22761723554641
+    },
+    {
+      "site_id": 6,
+      "asset_class": "PV",
+      "lon": 0.6783303480429979,
+      "lat": 45.76723955035839
+    },
+    {
+      "site_id": 7,
+      "asset_class": "PV",
+      "lon": 4.76222530140596,
+      "lat": 51.54864332336511
+    },
+    {
+      "site_id": 8,
+      "asset_class": "PV",
+      "lon": 11.072870481179242,
+      "lat": 50.32282242575139
+    },
+    {
+      "site_id": 9,
+      "asset_class": "PV",
+      "lon": -0.10786722460515819,
+      "lat": 41.49829190370795
+    },
+    {
+      "site_id": 10,
+      "asset_class": "PV",
+      "lon": 20.847688563662754,
+      "lat": 52.18166219557683
+    },
+    {
+      "site_id": 11,
+      "asset_class": "PV",
+      "lon": -5.066488775056515,
+      "lat": 40.60044751459292
+    },
+    {
+      "site_id": 12,
+      "asset_class": "PV",
+      "lon": 8.906861092137342,
+      "lat": 51.27996977808769
+    },
+    {
+      "site_id": 13,
+      "asset_class": "PV",
+      "lon": 10.352449100134432,
+      "lat": 52.482473382638034
+    },
+    {
+      "site_id": 14,
+      "asset_class": "PV",
+      "lon": 10.661536846957594,
+      "lat": 51.179197566637605
+    },
+    {
+      "site_id": 15,
+      "asset_class": "PV",
+      "lon": 12.080977219182659,
+      "lat": 50.86091264655094
+    },
+    {
+      "site_id": 16,
+      "asset_class": "PV",
+      "lon": 18.202296013812425,
+      "lat": 51.38762181915451
+    },
+    {
+      "site_id": 17,
+      "asset_class": "PV",
+      "lon": 12.186675328927404,
+      "lat": 51.03825359201121
+    },
+    {
+      "site_id": 18,
+      "asset_class": "PV",
+      "lon": 2.1394919019837477,
+      "lat": 42.151048935464615
+    },
+    {
+      "site_id": 19,
+      "asset_class": "PV",
+      "lon": 10.434706007783593,
+      "lat": 43.375188966536435
+    },
+    {
+      "site_id": 20,
+      "asset_class": "PV",
+      "lon": 19.878596908176327,
+      "lat": 53.99688856233803
+    },
+    {
+      "site_id": 21,
+      "asset_class": "PV",
+      "lon": 17.955535054568458,
+      "lat": 52.59791962949481
+    },
+    {
+      "site_id": 22,
+      "asset_class": "PV",
+      "lon": 13.943936468418297,
+      "lat": 40.257195972319124
+    },
+    {
+      "site_id": 23,
+      "asset_class": "PV",
+      "lon": 15.46678453386024,
+      "lat": 41.63715099809657
+    },
+    {
+      "site_id": 24,
+      "asset_class": "PV",
+      "lon": 20.29505612742275,
+      "lat": 41.620548146283376
+    },
+    {
+      "site_id": 25,
+      "asset_class": "PV",
+      "lon": 3.6211207217274866,
+      "lat": 45.95861556215486
+    },
+    {
+      "site_id": 26,
+      "asset_class": "PV",
+      "lon": 10.97658518005895,
+      "lat": 51.363577125181116
+    },
+    {
+      "site_id": 27,
+      "asset_class": "PV",
+      "lon": 11.81165606595426,
+      "lat": 42.06987390963948
+    },
+    {
+      "site_id": 28,
+      "asset_class": "PV",
+      "lon": 12.884716502539478,
+      "lat": 40.69419627775529
+    },
+    {
+      "site_id": 29,
+      "asset_class": "PV",
+      "lon": -4.275892668236002,
+      "lat": 40.937243831928335
+    },
+    {
+      "site_id": 30,
+      "asset_class": "PV",
+      "lon": 8.272469382327662,
+      "lat": 52.01039780126642
+    },
+    {
+      "site_id": 31,
+      "asset_class": "PV",
+      "lon": -2.5286991640228216,
+      "lat": 40.092781267077804
+    },
+    {
+      "site_id": 32,
+      "asset_class": "PV",
+      "lon": -4.2277585744976465,
+      "lat": 40.66557786332387
+    },
+    {
+      "site_id": 33,
+      "asset_class": "PV",
+      "lon": 10.964356635190818,
+      "lat": 50.70071106655972
+    },
+    {
+      "site_id": 34,
+      "asset_class": "PV",
+      "lon": -0.9067910747688961,
+      "lat": 41.82905100822243
+    },
+    {
+      "site_id": 35,
+      "asset_class": "PV",
+      "lon": 23.510587560379953,
+      "lat": 42.181085822047855
+    },
+    {
+      "site_id": 36,
+      "asset_class": "PV",
+      "lon": -2.0330865393599957,
+      "lat": 38.34343314348072
+    },
+    {
+      "site_id": 37,
+      "asset_class": "PV",
+      "lon": 13.819133613578835,
+      "lat": 49.26706641663152
+    },
+    {
+      "site_id": 38,
+      "asset_class": "PV",
+      "lon": 10.318675953942689,
+      "lat": 49.67158637002098
+    },
+    {
+      "site_id": 39,
+      "asset_class": "PV",
+      "lon": -3.045613604320455,
+      "lat": 40.53282477776003
+    },
+    {
+      "site_id": 40,
+      "asset_class": "PV",
+      "lon": 19.368377362303274,
+      "lat": 48.5535533711739
+    },
+    {
+      "site_id": 41,
+      "asset_class": "PV",
+      "lon": 13.212062164644072,
+      "lat": 43.30632942354477
+    },
+    {
+      "site_id": 42,
+      "asset_class": "PV",
+      "lon": 6.919988587345162,
+      "lat": 52.818222513506974
+    },
+    {
+      "site_id": 43,
+      "asset_class": "PV",
+      "lon": 21.775025381145365,
+      "lat": 39.59085314388798
+    },
+    {
+      "site_id": 44,
+      "asset_class": "PV",
+      "lon": 10.652631828031522,
+      "lat": 50.356844685481946
+    },
+    {
+      "site_id": 45,
+      "asset_class": "PV",
+      "lon": 12.592422344131103,
+      "lat": 42.56591599656475
+    },
+    {
+      "site_id": 46,
+      "asset_class": "PV",
+      "lon": -5.347385922526036,
+      "lat": 38.62749263986555
+    },
+    {
+      "site_id": 47,
+      "asset_class": "PV",
+      "lon": 20.214833260916585,
+      "lat": 52.124324665528185
+    },
+    {
+      "site_id": 48,
+      "asset_class": "PV",
+      "lon": 8.86700511525833,
+      "lat": 50.301374128603044
+    },
+    {
+      "site_id": 49,
+      "asset_class": "PV",
+      "lon": 8.67891334699975,
+      "lat": 53.59303224389725
+    },
+    {
+      "site_id": 50,
+      "asset_class": "PV",
+      "lon": 10.576482618034946,
+      "lat": 51.221050876841836
+    },
+    {
+      "site_id": 51,
+      "asset_class": "PV",
+      "lon": -1.707071850688735,
+      "lat": 39.22395553531472
+    },
+    {
+      "site_id": 52,
+      "asset_class": "PV",
+      "lon": 8.356140564969477,
+      "lat": 50.394868931175964
+    },
+    {
+      "site_id": 53,
+      "asset_class": "PV",
+      "lon": 10.259697144900596,
+      "lat": 50.7552481816352
+    },
+    {
+      "site_id": 54,
+      "asset_class": "PV",
+      "lon": 9.480855813912008,
+      "lat": 51.18183827712378
+    },
+    {
+      "site_id": 55,
+      "asset_class": "PV",
+      "lon": -4.672196780179921,
+      "lat": 38.67043418324612
+    },
+    {
+      "site_id": 56,
+      "asset_class": "PV",
+      "lon": 4.106945542299755,
+      "lat": 44.16186330811064
+    },
+    {
+      "site_id": 57,
+      "asset_class": "PV",
+      "lon": -4.466014681061331,
+      "lat": 40.59989724637326
+    },
+    {
+      "site_id": 58,
+      "asset_class": "PV",
+      "lon": 12.601834825038688,
+      "lat": 41.6234638478185
+    },
+    {
+      "site_id": 59,
+      "asset_class": "PV",
+      "lon": -5.141909130193332,
+      "lat": 38.28647829845042
+    },
+    {
+      "site_id": 60,
+      "asset_class": "PV",
+      "lon": 1.147082963674378,
+      "lat": 44.83416337610616
+    },
+    {
+      "site_id": 61,
+      "asset_class": "PV",
+      "lon": 9.217693413087632,
+      "lat": 49.82664493756216
+    },
+    {
+      "site_id": 62,
+      "asset_class": "PV",
+      "lon": 9.947731597789339,
+      "lat": 44.484876162973805
+    },
+    {
+      "site_id": 63,
+      "asset_class": "PV",
+      "lon": -4.682436308299185,
+      "lat": 40.237961655944076
+    },
+    {
+      "site_id": 64,
+      "asset_class": "PV",
+      "lon": 11.822644891910334,
+      "lat": 41.80761732378116
+    },
+    {
+      "site_id": 65,
+      "asset_class": "PV",
+      "lon": -3.4094183041823305,
+      "lat": 40.10215830940247
+    },
+    {
+      "site_id": 66,
+      "asset_class": "PV",
+      "lon": 13.907272214415183,
+      "lat": 43.66598023772122
+    },
+    {
+      "site_id": 67,
+      "asset_class": "PV",
+      "lon": 10.046038614714936,
+      "lat": 42.78881948349756
+    },
+    {
+      "site_id": 68,
+      "asset_class": "PV",
+      "lon": 2.758583494087781,
+      "lat": 44.34748407623663
+    },
+    {
+      "site_id": 69,
+      "asset_class": "PV",
+      "lon": 1.051207388952788,
+      "lat": 42.4159444988487
+    },
+    {
+      "site_id": 70,
+      "asset_class": "PV",
+      "lon": 11.723762518086907,
+      "lat": 43.354443160171755
+    },
+    {
+      "site_id": 71,
+      "asset_class": "PV",
+      "lon": 8.121812386931875,
+      "lat": 53.17702427377779
+    },
+    {
+      "site_id": 72,
+      "asset_class": "PV",
+      "lon": 10.909638893041528,
+      "lat": 50.34943041503046
+    },
+    {
+      "site_id": 73,
+      "asset_class": "PV",
+      "lon": 13.008873034378544,
+      "lat": 49.10533610359617
+    },
+    {
+      "site_id": 74,
+      "asset_class": "PV",
+      "lon": 10.399978395374994,
+      "lat": 41.64433010908258
+    },
+    {
+      "site_id": 75,
+      "asset_class": "PV",
+      "lon": 23.694501557919022,
+      "lat": 39.54670030544288
+    },
+    {
+      "site_id": 76,
+      "asset_class": "PV",
+      "lon": 11.036410078787837,
+      "lat": 51.246954359938016
+    },
+    {
+      "site_id": 77,
+      "asset_class": "PV",
+      "lon": -4.951081610281402,
+      "lat": 40.101827686194994
+    },
+    {
+      "site_id": 78,
+      "asset_class": "PV",
+      "lon": 8.150861168291403,
+      "lat": 51.954829645491564
+    },
+    {
+      "site_id": 79,
+      "asset_class": "PV",
+      "lon": 1.4479406308361278,
+      "lat": 43.392582726629236
+    },
+    {
+      "site_id": 80,
+      "asset_class": "PV",
+      "lon": 3.964508091059476,
+      "lat": 43.87318457513058
+    },
+    {
+      "site_id": 81,
+      "asset_class": "PV",
+      "lon": 14.754422060615028,
+      "lat": 44.61990103621115
+    },
+    {
+      "site_id": 82,
+      "asset_class": "PV",
+      "lon": -6.537041571531812,
+      "lat": 40.14532050626305
+    },
+    {
+      "site_id": 83,
+      "asset_class": "PV",
+      "lon": 9.734347847616839,
+      "lat": 53.54694581651724
+    },
+    {
+      "site_id": 84,
+      "asset_class": "PV",
+      "lon": 2.1237719543494356,
+      "lat": 43.70982318361835
+    },
+    {
+      "site_id": 85,
+      "asset_class": "PV",
+      "lon": 9.655429131566356,
+      "lat": 50.70456981286632
+    },
+    {
+      "site_id": 86,
+      "asset_class": "PV",
+      "lon": -5.4059689771200015,
+      "lat": 40.27256295299032
+    },
+    {
+      "site_id": 87,
+      "asset_class": "PV",
+      "lon": 9.148429032090593,
+      "lat": 49.94024440251689
+    },
+    {
+      "site_id": 88,
+      "asset_class": "PV",
+      "lon": 5.243132215954295,
+      "lat": 44.645392402231614
+    },
+    {
+      "site_id": 89,
+      "asset_class": "PV",
+      "lon": 3.371340696410017,
+      "lat": 49.79740457042018
+    },
+    {
+      "site_id": 90,
+      "asset_class": "PV",
+      "lon": 18.45513297176829,
+      "lat": 50.466387184897904
+    },
+    {
+      "site_id": 91,
+      "asset_class": "PV",
+      "lon": 10.004751133480845,
+      "lat": 44.29169922737236
+    },
+    {
+      "site_id": 92,
+      "asset_class": "PV",
+      "lon": 21.733169459472645,
+      "lat": 39.78838895266792
+    },
+    {
+      "site_id": 93,
+      "asset_class": "PV",
+      "lon": 10.235255101857765,
+      "lat": 50.287109640689124
+    },
+    {
+      "site_id": 94,
+      "asset_class": "PV",
+      "lon": 19.070734477133268,
+      "lat": 54.143840919111746
+    },
+    {
+      "site_id": 95,
+      "asset_class": "PV",
+      "lon": 9.913838966715984,
+      "lat": 50.23931527988539
+    },
+    {
+      "site_id": 96,
+      "asset_class": "PV",
+      "lon": 20.249453051545693,
+      "lat": 41.23239136244408
+    },
+    {
+      "site_id": 97,
+      "asset_class": "PV",
+      "lon": 9.70811038892192,
+      "lat": 51.457981659765906
+    },
+    {
+      "site_id": 98,
+      "asset_class": "PV",
+      "lon": -6.460058956990585,
+      "lat": 39.50930126336552
+    },
+    {
+      "site_id": 99,
+      "asset_class": "PV",
+      "lon": 19.11020282066683,
+      "lat": 52.606411750758745
+    },
+    {
+      "site_id": 100,
+      "asset_class": "PV",
+      "lon": -3.647270917080747,
+      "lat": 39.64225619454451
+    },
+    {
+      "site_id": 101,
+      "asset_class": "PV",
+      "lon": 13.880359307560612,
+      "lat": 42.941861045724394
+    },
+    {
+      "site_id": 102,
+      "asset_class": "PV",
+      "lon": -7.154928454500272,
+      "lat": 38.43943084856271
+    },
+    {
+      "site_id": 103,
+      "asset_class": "PV",
+      "lon": -4.112677364341669,
+      "lat": 40.243077646734484
+    },
+    {
+      "site_id": 104,
+      "asset_class": "PV",
+      "lon": 9.962458915836416,
+      "lat": 41.517311768869575
+    },
+    {
+      "site_id": 105,
+      "asset_class": "PV",
+      "lon": -3.4845124895114066,
+      "lat": 40.28569527729647
+    },
+    {
+      "site_id": 106,
+      "asset_class": "PV",
+      "lon": 3.5227903007212795,
+      "lat": 45.331689087600154
+    },
+    {
+      "site_id": 107,
+      "asset_class": "PV",
+      "lon": -3.9404977523265527,
+      "lat": 39.02867447115787
+    },
+    {
+      "site_id": 108,
+      "asset_class": "PV",
+      "lon": 23.885327638916923,
+      "lat": 41.73141798163504
+    },
+    {
+      "site_id": 109,
+      "asset_class": "PV",
+      "lon": 24.573567354479547,
+      "lat": 41.063197413912256
+    },
+    {
+      "site_id": 110,
+      "asset_class": "PV",
+      "lon": 5.233805320880161,
+      "lat": 51.81460299794133
+    },
+    {
+      "site_id": 111,
+      "asset_class": "PV",
+      "lon": 3.5389404561211255,
+      "lat": 42.35627128531653
+    },
+    {
+      "site_id": 112,
+      "asset_class": "PV",
+      "lon": 9.860162176302588,
+      "lat": 50.65310519642553
+    },
+    {
+      "site_id": 113,
+      "asset_class": "PV",
+      "lon": 3.659887332970513,
+      "lat": 44.95914871300154
+    },
+    {
+      "site_id": 114,
+      "asset_class": "PV",
+      "lon": 21.632622976995087,
+      "lat": 40.05778163096895
+    },
+    {
+      "site_id": 115,
+      "asset_class": "PV",
+      "lon": 20.106134474493608,
+      "lat": 40.92117441893571
+    },
+    {
+      "site_id": 116,
+      "asset_class": "PV",
+      "lon": -4.599181403767676,
+      "lat": 39.661143611311225
+    },
+    {
+      "site_id": 117,
+      "asset_class": "PV",
+      "lon": 20.723381512732658,
+      "lat": 53.34390002851441
+    },
+    {
+      "site_id": 118,
+      "asset_class": "PV",
+      "lon": 18.627883074996266,
+      "lat": 54.11225513220557
+    },
+    {
+      "site_id": 119,
+      "asset_class": "PV",
+      "lon": 11.17663835379075,
+      "lat": 51.12817304442392
+    },
+    {
+      "site_id": 120,
+      "asset_class": "TX",
+      "lon": -6.8167445798836495,
+      "lat": 39.821990380918585
+    },
+    {
+      "site_id": 121,
+      "asset_class": "TX",
+      "lon": 4.627242121844694,
+      "lat": 46.525347070360844
+    },
+    {
+      "site_id": 122,
+      "asset_class": "TX",
+      "lon": 9.733926760543666,
+      "lat": 49.364608932585746
+    },
+    {
+      "site_id": 123,
+      "asset_class": "TX",
+      "lon": 4.117388441198596,
+      "lat": 53.030676065229635
+    },
+    {
+      "site_id": 124,
+      "asset_class": "TX",
+      "lon": 1.5968697879458,
+      "lat": 52.32625718544745
+    },
+    {
+      "site_id": 125,
+      "asset_class": "TX",
+      "lon": 7.764508467524251,
+      "lat": 51.212429212510855
+    },
+    {
+      "site_id": 126,
+      "asset_class": "TX",
+      "lon": -0.2839753390759372,
+      "lat": 53.61620017562403
+    },
+    {
+      "site_id": 127,
+      "asset_class": "TX",
+      "lon": -0.9052372817788592,
+      "lat": 55.49886737852089
+    },
+    {
+      "site_id": 128,
+      "asset_class": "TX",
+      "lon": 5.031874978312903,
+      "lat": 54.98325669392579
+    },
+    {
+      "site_id": 129,
+      "asset_class": "TX",
+      "lon": 20.414257435861096,
+      "lat": 42.303133713038115
+    },
+    {
+      "site_id": 130,
+      "asset_class": "TX",
+      "lon": 23.73199892607816,
+      "lat": 41.52519614219675
+    },
+    {
+      "site_id": 131,
+      "asset_class": "TX",
+      "lon": 0.8709622459832869,
+      "lat": 48.36401807083525
+    },
+    {
+      "site_id": 132,
+      "asset_class": "TX",
+      "lon": -5.759809929432697,
+      "lat": 40.082424248415215
+    },
+    {
+      "site_id": 133,
+      "asset_class": "TX",
+      "lon": 19.46503451635147,
+      "lat": 52.71711033228581
+    },
+    {
+      "site_id": 134,
+      "asset_class": "TX",
+      "lon": 1.202527395725733,
+      "lat": 43.646607685411475
+    },
+    {
+      "site_id": 135,
+      "asset_class": "TX",
+      "lon": -4.73252861994799,
+      "lat": 52.59898031274526
+    },
+    {
+      "site_id": 136,
+      "asset_class": "TX",
+      "lon": 10.452499523135387,
+      "lat": 44.2830201554906
+    },
+    {
+      "site_id": 137,
+      "asset_class": "TX",
+      "lon": 1.1977972226067912,
+      "lat": 49.12630610638371
+    },
+    {
+      "site_id": 138,
+      "asset_class": "TX",
+      "lon": 9.43469350577624,
+      "lat": 50.97095257525808
+    },
+    {
+      "site_id": 139,
+      "asset_class": "TX",
+      "lon": -4.3084742351192515,
+      "lat": 38.562789124660554
+    },
+    {
+      "site_id": 140,
+      "asset_class": "TX",
+      "lon": 26.293463832370406,
+      "lat": 43.94167918570605
+    },
+    {
+      "site_id": 141,
+      "asset_class": "TX",
+      "lon": 11.926255342238703,
+      "lat": 48.01778382581519
+    },
+    {
+      "site_id": 142,
+      "asset_class": "TX",
+      "lon": -4.762525640744066,
+      "lat": 40.99209027926881
+    },
+    {
+      "site_id": 143,
+      "asset_class": "TX",
+      "lon": -0.23249292688988366,
+      "lat": 50.13465012824043
+    },
+    {
+      "site_id": 144,
+      "asset_class": "TX",
+      "lon": -3.7326437248474935,
+      "lat": 40.19181982779698
+    },
+    {
+      "site_id": 145,
+      "asset_class": "TX",
+      "lon": 19.374070721136064,
+      "lat": 51.514051283612275
+    },
+    {
+      "site_id": 146,
+      "asset_class": "TX",
+      "lon": 10.772259369300972,
+      "lat": 43.1944216279545
+    },
+    {
+      "site_id": 147,
+      "asset_class": "TX",
+      "lon": 2.8069553914643435,
+      "lat": 49.65116809710117
+    },
+    {
+      "site_id": 148,
+      "asset_class": "TX",
+      "lon": 2.8266123827445613,
+      "lat": 43.465472556636904
+    },
+    {
+      "site_id": 149,
+      "asset_class": "TX",
+      "lon": -2.9506864414629908,
+      "lat": 38.29713571278416
+    },
+    {
+      "site_id": 150,
+      "asset_class": "TX",
+      "lon": 0.8816524009924118,
+      "lat": 47.684369145266764
+    },
+    {
+      "site_id": 151,
+      "asset_class": "TX",
+      "lon": 18.934542516492264,
+      "lat": 52.17460393931145
+    },
+    {
+      "site_id": 152,
+      "asset_class": "TX",
+      "lon": -1.0560694089386584,
+      "lat": 40.73729400393561
+    },
+    {
+      "site_id": 153,
+      "asset_class": "TX",
+      "lon": 4.408031249988749,
+      "lat": 43.99599782469455
+    },
+    {
+      "site_id": 154,
+      "asset_class": "TX",
+      "lon": 10.356964059857887,
+      "lat": 42.54205811386466
+    },
+    {
+      "site_id": 155,
+      "asset_class": "TX",
+      "lon": 9.20791362205846,
+      "lat": 53.493151007345205
+    },
+    {
+      "site_id": 156,
+      "asset_class": "TX",
+      "lon": 12.21696999987886,
+      "lat": 52.03968152148368
+    },
+    {
+      "site_id": 157,
+      "asset_class": "TX",
+      "lon": 11.884600575621757,
+      "lat": 41.448190303622546
+    },
+    {
+      "site_id": 158,
+      "asset_class": "TX",
+      "lon": -4.4691895725352575,
+      "lat": 39.258555694263784
+    },
+    {
+      "site_id": 159,
+      "asset_class": "TX",
+      "lon": 23.871167754930816,
+      "lat": 45.530828580853054
+    },
+    {
+      "site_id": 160,
+      "asset_class": "TX",
+      "lon": 12.674955253547004,
+      "lat": 53.50210589744305
+    },
+    {
+      "site_id": 161,
+      "asset_class": "TX",
+      "lon": 1.750233463627828,
+      "lat": 48.658717831849955
+    },
+    {
+      "site_id": 162,
+      "asset_class": "TX",
+      "lon": 3.5336259798138876,
+      "lat": 43.74131518892046
+    },
+    {
+      "site_id": 163,
+      "asset_class": "TX",
+      "lon": 4.059718419013847,
+      "lat": 49.185344342481855
+    },
+    {
+      "site_id": 164,
+      "asset_class": "TX",
+      "lon": 10.211990528568288,
+      "lat": 51.72895561681049
+    },
+    {
+      "site_id": 165,
+      "asset_class": "TX",
+      "lon": 9.385533347344252,
+      "lat": 50.79426292879515
+    },
+    {
+      "site_id": 166,
+      "asset_class": "TX",
+      "lon": 4.998316149793637,
+      "lat": 45.76816931824016
+    },
+    {
+      "site_id": 167,
+      "asset_class": "TX",
+      "lon": 10.341136541376265,
+      "lat": 49.35052696767244
+    },
+    {
+      "site_id": 168,
+      "asset_class": "TX",
+      "lon": -0.1479970694327677,
+      "lat": 40.64750819356012
+    },
+    {
+      "site_id": 169,
+      "asset_class": "TX",
+      "lon": 13.57011272330621,
+      "lat": 41.93319060544434
+    },
+    {
+      "site_id": 170,
+      "asset_class": "TX",
+      "lon": 6.0227568064479495,
+      "lat": 52.34020089597659
+    },
+    {
+      "site_id": 171,
+      "asset_class": "TX",
+      "lon": 5.647176590742685,
+      "lat": 53.06033476706671
+    },
+    {
+      "site_id": 172,
+      "asset_class": "TX",
+      "lon": -3.9499017053477345,
+      "lat": 54.10445425938817
+    },
+    {
+      "site_id": 173,
+      "asset_class": "TX",
+      "lon": -1.899564072959324,
+      "lat": 52.04309664532017
+    },
+    {
+      "site_id": 174,
+      "asset_class": "TX",
+      "lon": 12.157116902625074,
+      "lat": 43.66462584198669
+    },
+    {
+      "site_id": 175,
+      "asset_class": "TX",
+      "lon": -3.511585837201294,
+      "lat": 39.685849928324416
+    },
+    {
+      "site_id": 176,
+      "asset_class": "TX",
+      "lon": -2.9208470282170853,
+      "lat": 43.586589082410086
+    },
+    {
+      "site_id": 177,
+      "asset_class": "TX",
+      "lon": 23.207153191589093,
+      "lat": 40.20202579743174
+    },
+    {
+      "site_id": 178,
+      "asset_class": "TX",
+      "lon": 5.026399555823148,
+      "lat": 45.72879408515435
+    },
+    {
+      "site_id": 179,
+      "asset_class": "TX",
+      "lon": -4.9904152665592925,
+      "lat": 41.65571572805391
+    },
+    {
+      "site_id": 180,
+      "asset_class": "TX",
+      "lon": 20.116353712291726,
+      "lat": 41.2344588443149
+    },
+    {
+      "site_id": 181,
+      "asset_class": "TX",
+      "lon": -1.0087253695847287,
+      "lat": 38.693011113836306
+    },
+    {
+      "site_id": 182,
+      "asset_class": "TX",
+      "lon": -4.527409168837579,
+      "lat": 39.15563726531468
+    },
+    {
+      "site_id": 183,
+      "asset_class": "TX",
+      "lon": 4.181391227710273,
+      "lat": 47.764319939583054
+    },
+    {
+      "site_id": 184,
+      "asset_class": "TX",
+      "lon": 11.99434764758873,
+      "lat": 43.58992367114404
+    },
+    {
+      "site_id": 185,
+      "asset_class": "TX",
+      "lon": 13.597943327140008,
+      "lat": 43.93858580421501
+    },
+    {
+      "site_id": 186,
+      "asset_class": "TX",
+      "lon": 8.663893272363447,
+      "lat": 48.64218504498848
+    },
+    {
+      "site_id": 187,
+      "asset_class": "TX",
+      "lon": 3.501443282323197,
+      "lat": 48.59415939020421
+    },
+    {
+      "site_id": 188,
+      "asset_class": "TX",
+      "lon": 12.98171874483785,
+      "lat": 42.28319755898471
+    },
+    {
+      "site_id": 189,
+      "asset_class": "TX",
+      "lon": -4.00401521564618,
+      "lat": 41.66770823018211
+    },
+    {
+      "site_id": 190,
+      "asset_class": "TX",
+      "lon": 19.78238480742145,
+      "lat": 40.260119069681785
+    },
+    {
+      "site_id": 191,
+      "asset_class": "TX",
+      "lon": 7.660513904801271,
+      "lat": 52.5925819571355
+    },
+    {
+      "site_id": 192,
+      "asset_class": "TX",
+      "lon": 12.251650565040812,
+      "lat": 41.84577139812963
+    },
+    {
+      "site_id": 193,
+      "asset_class": "TX",
+      "lon": 7.526612796673231,
+      "lat": 51.10936326172845
+    },
+    {
+      "site_id": 194,
+      "asset_class": "TX",
+      "lon": -3.7820554678679605,
+      "lat": 39.79466979185599
+    },
+    {
+      "site_id": 195,
+      "asset_class": "TX",
+      "lon": 12.01195636349761,
+      "lat": 49.80597939990928
+    },
+    {
+      "site_id": 196,
+      "asset_class": "TX",
+      "lon": 3.162103625395031,
+      "lat": 50.324652841746385
+    },
+    {
+      "site_id": 197,
+      "asset_class": "TX",
+      "lon": 11.126590902133422,
+      "lat": 44.04998965479062
+    },
+    {
+      "site_id": 198,
+      "asset_class": "TX",
+      "lon": 0.7999443520080098,
+      "lat": 50.86851655966442
+    },
+    {
+      "site_id": 199,
+      "asset_class": "TX",
+      "lon": 11.063514495666443,
+      "lat": 41.48931303342741
+    },
+    {
+      "site_id": 200,
+      "asset_class": "BESS",
+      "lon": -2.810565704740363,
+      "lat": 51.73788582285471
+    },
+    {
+      "site_id": 201,
+      "asset_class": "BESS",
+      "lon": 11.558952126479731,
+      "lat": 42.63014239883298
+    },
+    {
+      "site_id": 202,
+      "asset_class": "BESS",
+      "lon": -3.166493918250782,
+      "lat": 40.50800147458536
+    },
+    {
+      "site_id": 203,
+      "asset_class": "BESS",
+      "lon": 6.419622715864644,
+      "lat": 52.42312222795882
+    },
+    {
+      "site_id": 204,
+      "asset_class": "BESS",
+      "lon": 0.15463939524432613,
+      "lat": 53.64138386224106
+    },
+    {
+      "site_id": 205,
+      "asset_class": "BESS",
+      "lon": 2.7610961588377267,
+      "lat": 46.68002573193865
+    },
+    {
+      "site_id": 206,
+      "asset_class": "BESS",
+      "lon": 13.164988881754168,
+      "lat": 42.46735199586881
+    },
+    {
+      "site_id": 207,
+      "asset_class": "BESS",
+      "lon": 8.409117747705597,
+      "lat": 51.06932975903341
+    },
+    {
+      "site_id": 208,
+      "asset_class": "BESS",
+      "lon": 11.016190794262087,
+      "lat": 49.807688546265865
+    },
+    {
+      "site_id": 209,
+      "asset_class": "BESS",
+      "lon": -5.590516327974107,
+      "lat": 40.73159177019159
+    },
+    {
+      "site_id": 210,
+      "asset_class": "BESS",
+      "lon": 13.570856265941515,
+      "lat": 42.34942768465974
+    },
+    {
+      "site_id": 211,
+      "asset_class": "BESS",
+      "lon": -3.672448934116761,
+      "lat": 40.018483635488906
+    },
+    {
+      "site_id": 212,
+      "asset_class": "BESS",
+      "lon": 12.025963623942836,
+      "lat": 51.34794416338846
+    },
+    {
+      "site_id": 213,
+      "asset_class": "BESS",
+      "lon": 7.289393495255246,
+      "lat": 49.99703320948299
+    },
+    {
+      "site_id": 214,
+      "asset_class": "BESS",
+      "lon": 11.86361516088469,
+      "lat": 52.64305943044982
+    },
+    {
+      "site_id": 215,
+      "asset_class": "BESS",
+      "lon": 11.995820376448114,
+      "lat": 50.748358909772925
+    },
+    {
+      "site_id": 216,
+      "asset_class": "BESS",
+      "lon": -5.322955223992024,
+      "lat": 40.86934300700638
+    },
+    {
+      "site_id": 217,
+      "asset_class": "BESS",
+      "lon": 11.819859191557324,
+      "lat": 42.70758949215134
+    },
+    {
+      "site_id": 218,
+      "asset_class": "BESS",
+      "lon": 8.974527406722405,
+      "lat": 51.416594437901225
+    },
+    {
+      "site_id": 219,
+      "asset_class": "BESS",
+      "lon": 10.655266289148074,
+      "lat": 42.5167426480557
+    },
+    {
+      "site_id": 220,
+      "asset_class": "BESS",
+      "lon": 7.959282930178592,
+      "lat": 51.40501785333053
+    },
+    {
+      "site_id": 221,
+      "asset_class": "BESS",
+      "lon": 6.871179955367765,
+      "lat": 51.76915488655286
+    },
+    {
+      "site_id": 222,
+      "asset_class": "BESS",
+      "lon": -0.8672883683219417,
+      "lat": 52.72435538949466
+    },
+    {
+      "site_id": 223,
+      "asset_class": "BESS",
+      "lon": 1.872717240199873,
+      "lat": 52.954659469205815
+    },
+    {
+      "site_id": 224,
+      "asset_class": "BESS",
+      "lon": -1.072955588993796,
+      "lat": 52.71467439398611
+    },
+    {
+      "site_id": 225,
+      "asset_class": "BESS",
+      "lon": 11.26578532300461,
+      "lat": 44.447404290205775
+    },
+    {
+      "site_id": 226,
+      "asset_class": "BESS",
+      "lon": -2.712719145259773,
+      "lat": 50.666624716964485
+    },
+    {
+      "site_id": 227,
+      "asset_class": "BESS",
+      "lon": -1.1042102608216409,
+      "lat": 53.052446809592
+    },
+    {
+      "site_id": 228,
+      "asset_class": "BESS",
+      "lon": 3.2166542011916373,
+      "lat": 51.836801626168366
+    },
+    {
+      "site_id": 229,
+      "asset_class": "BESS",
+      "lon": 9.985863307018905,
+      "lat": 49.064305141729314
+    },
+    {
+      "site_id": 230,
+      "asset_class": "BESS",
+      "lon": 6.79693705695509,
+      "lat": 51.418913669565754
+    },
+    {
+      "site_id": 231,
+      "asset_class": "BESS",
+      "lon": -1.496483926189264,
+      "lat": 53.508549955578886
+    },
+    {
+      "site_id": 232,
+      "asset_class": "BESS",
+      "lon": -3.526282313811442,
+      "lat": 53.91901335309694
+    },
+    {
+      "site_id": 233,
+      "asset_class": "BESS",
+      "lon": -1.3252615166685309,
+      "lat": 53.04487269701819
+    },
+    {
+      "site_id": 234,
+      "asset_class": "BESS",
+      "lon": 7.929166735548123,
+      "lat": 51.47354929804766
+    },
+    {
+      "site_id": 235,
+      "asset_class": "BESS",
+      "lon": -1.7597347498695382,
+      "lat": 51.985040482182406
+    },
+    {
+      "site_id": 236,
+      "asset_class": "BESS",
+      "lon": 2.8264975280140106,
+      "lat": 51.394112504321775
+    },
+    {
+      "site_id": 237,
+      "asset_class": "BESS",
+      "lon": 9.788921929754759,
+      "lat": 41.70662729345908
+    },
+    {
+      "site_id": 238,
+      "asset_class": "BESS",
+      "lon": 2.2763065413977217,
+      "lat": 52.43658076610691
+    },
+    {
+      "site_id": 239,
+      "asset_class": "BESS",
+      "lon": -1.663067234636054,
+      "lat": 53.971234514103244
+    },
+    {
+      "site_id": 240,
+      "asset_class": "TH",
+      "lon": 2.901405960497762,
+      "lat": 43.15683678949413
+    },
+    {
+      "site_id": 241,
+      "asset_class": "TH",
+      "lon": 10.53408401443292,
+      "lat": 52.53822001675127
+    },
+    {
+      "site_id": 242,
+      "asset_class": "TH",
+      "lon": 10.029464411680916,
+      "lat": 50.6280705766801
+    },
+    {
+      "site_id": 243,
+      "asset_class": "TH",
+      "lon": 12.433077987865042,
+      "lat": 43.56803318540839
+    },
+    {
+      "site_id": 244,
+      "asset_class": "TH",
+      "lon": 3.329909460244804,
+      "lat": 47.92873541336864
+    },
+    {
+      "site_id": 245,
+      "asset_class": "TH",
+      "lon": 4.782625237824289,
+      "lat": 43.267157171615885
+    },
+    {
+      "site_id": 246,
+      "asset_class": "TH",
+      "lon": 2.7729925492968315,
+      "lat": 47.20796100366784
+    },
+    {
+      "site_id": 247,
+      "asset_class": "TH",
+      "lon": -3.667329051048825,
+      "lat": 40.913115657786015
+    },
+    {
+      "site_id": 248,
+      "asset_class": "TH",
+      "lon": 3.6500026292007637,
+      "lat": 44.88130564076318
+    },
+    {
+      "site_id": 249,
+      "asset_class": "TH",
+      "lon": 5.988151222412569,
+      "lat": 44.587127341066775
+    },
+    {
+      "site_id": 250,
+      "asset_class": "TH",
+      "lon": 9.695307373590163,
+      "lat": 42.77218667610803
+    },
+    {
+      "site_id": 251,
+      "asset_class": "TH",
+      "lon": 10.32511534444238,
+      "lat": 50.34420150895483
+    },
+    {
+      "site_id": 252,
+      "asset_class": "TH",
+      "lon": 2.1415878246194913,
+      "lat": 46.039172680263526
+    },
+    {
+      "site_id": 253,
+      "asset_class": "TH",
+      "lon": 3.8765049116366037,
+      "lat": 46.45227686643716
+    },
+    {
+      "site_id": 254,
+      "asset_class": "TH",
+      "lon": 3.420657782728174,
+      "lat": 43.18294835030166
+    },
+    {
+      "site_id": 255,
+      "asset_class": "TH",
+      "lon": 24.68301194333052,
+      "lat": 44.66542469748474
+    },
+    {
+      "site_id": 256,
+      "asset_class": "TH",
+      "lon": 2.5123236013259125,
+      "lat": 45.435204940402876
+    },
+    {
+      "site_id": 257,
+      "asset_class": "TH",
+      "lon": 0.3501002101303734,
+      "lat": 44.334169222317705
+    },
+    {
+      "site_id": 258,
+      "asset_class": "TH",
+      "lon": 12.400755048493323,
+      "lat": 49.65221926294398
+    },
+    {
+      "site_id": 259,
+      "asset_class": "TH",
+      "lon": 11.133139129485151,
+      "lat": 51.04276109151225
+    },
+    {
+      "site_id": 260,
+      "asset_class": "TH",
+      "lon": 0.514444632239035,
+      "lat": 43.3924725560941
+    },
+    {
+      "site_id": 261,
+      "asset_class": "TH",
+      "lon": 4.0612055528299535,
+      "lat": 47.686073532732195
+    },
+    {
+      "site_id": 262,
+      "asset_class": "TH",
+      "lon": 19.129079806256097,
+      "lat": 51.91652808619501
+    },
+    {
+      "site_id": 263,
+      "asset_class": "TH",
+      "lon": 8.306461163973603,
+      "lat": 52.411240554293315
+    },
+    {
+      "site_id": 264,
+      "asset_class": "TH",
+      "lon": 4.428346244598757,
+      "lat": 45.01817077863974
+    }
+  ],
+  "bins": [
+    {
+      "lo_k": 2.5,
+      "hi_k": 4,
+      "events": 15762,
+      "class_failures": 7841,
+      "condition_failures": 1209,
+      "gross_avoided": 6632,
+      "new_failures": 0,
+      "net_reduction_fraction": 0.8458104833567147
+    },
+    {
+      "lo_k": 4,
+      "hi_k": 5,
+      "events": 5694,
+      "class_failures": 5156,
+      "condition_failures": 691,
+      "gross_avoided": 4467,
+      "new_failures": 2,
+      "net_reduction_fraction": 0.8659813809154383
+    },
+    {
+      "lo_k": 5,
+      "hi_k": 6,
+      "events": 3405,
+      "class_failures": 3693,
+      "condition_failures": 646,
+      "gross_avoided": 3063,
+      "new_failures": 16,
+      "net_reduction_fraction": 0.8250744652044408
+    },
+    {
+      "lo_k": 6,
+      "hi_k": 7,
+      "events": 2038,
+      "class_failures": 2673,
+      "condition_failures": 667,
+      "gross_avoided": 2027,
+      "new_failures": 21,
+      "net_reduction_fraction": 0.7504676393565283
+    },
+    {
+      "lo_k": 7,
+      "hi_k": 8,
+      "events": 1260,
+      "class_failures": 1998,
+      "condition_failures": 798,
+      "gross_avoided": 1231,
+      "new_failures": 31,
+      "net_reduction_fraction": 0.6006006006006006
+    },
+    {
+      "lo_k": 8,
+      "hi_k": 9,
+      "events": 716,
+      "class_failures": 1470,
+      "condition_failures": 797,
+      "gross_avoided": 692,
+      "new_failures": 19,
+      "net_reduction_fraction": 0.45782312925170066
+    },
+    {
+      "lo_k": 9,
+      "hi_k": 10,
+      "events": 470,
+      "class_failures": 1333,
+      "condition_failures": 889,
+      "gross_avoided": 462,
+      "new_failures": 18,
+      "net_reduction_fraction": 0.33308327081770445
+    },
+    {
+      "lo_k": 10,
+      "hi_k": 12,
+      "events": 454,
+      "class_failures": 2070,
+      "condition_failures": 1686,
+      "gross_avoided": 414,
+      "new_failures": 30,
+      "net_reduction_fraction": 0.1855072463768116
+    },
+    {
+      "lo_k": 12,
+      "hi_k": 20,
+      "events": 259,
+      "class_failures": 3057,
+      "condition_failures": 2796,
+      "gross_avoided": 280,
+      "new_failures": 19,
+      "net_reduction_fraction": 0.08537782139352307
+    },
+    {
+      "lo_k": 20,
+      "hi_k": null,
+      "events": 4,
+      "class_failures": 86,
+      "condition_failures": 81,
+      "gross_avoided": 5,
+      "new_failures": 0,
+      "net_reduction_fraction": 0.05813953488372093
+    }
+  ],
+  "examples": [
+    {
+      "return_period_target_years": 10,
+      "event_index": 2567,
+      "target_oep_loss_eurm": 8.842613040419083,
+      "class_loss_eurm": 8.842536991444245,
+      "condition_loss_eurm": 8.842536991444245,
+      "class_failures": 5,
+      "condition_failures": 5,
+      "avoided": 0,
+      "new": 0,
+      "peak_anomaly_k": 10.873557316623335,
+      "duration_days": 13,
+      "centre_lon": -4.5467485910811485,
+      "centre_lat": 39.775616465521395,
+      "angle_rad": 1.35094560133385,
+      "lx_km": 1249.35902170902,
+      "ly_km": 454.0274842856601,
+      "site_class_fail": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "site_condition_fail": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "return_period_target_years": 200,
+      "event_index": 10028,
+      "target_oep_loss_eurm": 44.745493006150944,
+      "class_loss_eurm": 44.74481958748573,
+      "condition_loss_eurm": 44.74481958748573,
+      "class_failures": 18,
+      "condition_failures": 18,
+      "avoided": 0,
+      "new": 0,
+      "peak_anomaly_k": 13.236671108759404,
+      "duration_days": 20,
+      "centre_lon": 0.6901358672737485,
+      "centre_lat": 44.79420125110816,
+      "angle_rad": 0.5911725844420045,
+      "lx_km": 1035.351687582486,
+      "ly_km": 825.0463056248984,
+      "site_class_fail": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true
+      ],
+      "site_condition_fail": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true
+      ]
+    }
+  ],
+  "interpretation": "Synthetic event-centre temperature anomalies; not degrees above each asset's design temperature. Net reduction includes new failures."
+}
