@@ -1,5 +1,7 @@
 # Heatwave insurance prototype: methods, evidence and publication review
 
+**Revision status:** this is the review of the initial supplied prototype. The revised simulator addresses several points below; see [v2 verification](v2_verification.md) for reproduced results, corrected event bins and remaining limits.
+
 Review date: 10 November 2026. Basis: the supplied `adt_heatwave_prototype.zip`, its saved simulation results, source documentation and the real datasets retrieved in this repository. The GitHub repository was empty when inspected. The ZIP contains seven Python scripts, two map-coordinate CSVs and simulation summaries. It contains no manuscript, plotting source for the proposed eight display items, or rendered figures. Therefore this is a code and study-design review; it cannot certify the wording, figure count or visual quality of an unseen manuscript.
 
 ## Overall judgement

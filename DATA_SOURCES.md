@@ -9,6 +9,7 @@ This project contains real meteorological and location inputs alongside a separa
 | NASA NEX-GDDP-CMIP6, original CMIP6 modelling groups | Catalog-discovered v2.0 files; model/member/SSP in CSV and manifest | Daily tasmax at two pilot locations, 2041-2060 | Archive currently distributed under [CC0](https://registry.opendata.aws/nex-gddp-cmip6/); acknowledge original modelling groups and NASA |
 | Natural Earth | v5.1.2, 110m country boundaries | Basemap only | [Public domain](https://www.naturalearthdata.com/about/terms-of-use/) |
 | User-supplied prototype ZIP | Original imported files and result summaries | Reproduction/audit of an illustrative insurance model | No new licensing decision for the user's original code is implied |
+| User-supplied revised prototype ZIP | Imported under `prototype_v2/`; archive/source hashes recorded | Joint-posterior, equal-budget and funding experiments; synthetic results | Same separation from real climate inputs; no new licensing decision is implied |
 
 ERA5: Hersbach et al. (2020), “The ERA5 global reanalysis”, Quarterly Journal of the Royal Meteorological Society, doi:[10.1002/qj.3803](https://doi.org/10.1002/qj.3803).
 
