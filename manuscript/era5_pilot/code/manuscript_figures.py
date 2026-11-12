@@ -171,7 +171,7 @@ def twin_workflow():
     arrow((0.774, 0.765), (0.774, 0.699))
 
     box(0.018, 0.52, 0.416, 0.18, "Class-based assessment",
-        "Class, age, location and historical claims")
+        "Class, age, location and simulated claims")
     box(0.566, 0.52, 0.416, 0.18, "Assessment with an ADT",
         "Site measurements and an imperfect thermal model")
 

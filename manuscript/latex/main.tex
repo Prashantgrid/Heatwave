@@ -15,11 +15,14 @@
 \setlength{\parskip}{0.45em}
 \setlength{\textfloatsep}{13pt}
 \setlength{\intextsep}{11pt}
+\renewcommand{\topfraction}{0.86}
+\renewcommand{\textfraction}{0.10}
+\renewcommand{\floatpagefraction}{0.83}
 \setlength{\emergencystretch}{1em}
-\hypersetup{pdftitle={Actuarial digital twins for heatwave failures and thermal ageing in European power insurance},
+\hypersetup{pdftitle={Actuarial digital twins for heatwave accumulation risk in European power insurance},
   pdfauthor={Prashant Pant, Vladimir Terzija and Thomas Hamacher}}
 
-\title{\bfseries Actuarial digital twins for heatwave failures and thermal ageing in European power insurance}
+\title{\bfseries Actuarial digital twins for heatwave accumulation risk in European power insurance}
 \author{Prashant Pant\textsuperscript{1}, Vladimir Terzija\textsuperscript{2} and Thomas Hamacher\textsuperscript{1}\\[0.5em]
 \small \textsuperscript{1}Technical University of Munich, Munich, Germany\quad
 \textsuperscript{2}Newcastle University, Newcastle upon Tyne, UK}
@@ -28,16 +31,16 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-Warmer summers expose power assets to acute heat stress and accelerate the ageing that makes subsequent failures more likely. We design an actuarial digital twin (ADT) experiment to test whether site measurements improve the estimation and avoidance of insured heat losses. Each asset's operating temperature and condition evolve from its design, duty, age and local weather history. The ADT estimates condition from available measurements using an imperfect thermal model. The class benchmark uses asset class, age, location and historical claims. Within each climate case, we hold the portfolio, policies and weather fixed. We compare estimates of 1-in-200 annual covered loss and a capital proxy at fixed operation, and compare avoided losses at matched intervention spending. ERA5 observations at ten European sites and inverter telemetry establish the pilot exposure and measurement evidence. The paired present and future climate loss comparisons require asset-specific reliability calibration.
+A heatwave can cause breakdowns and restrict generation at multiple sites in an energy insurer's portfolio. Warmer summers can also accelerate equipment ageing, changing which assets are vulnerable when the next heatwave arrives. We design a paired study to test whether actuarial digital twins improve estimates of that accumulation risk and help operators avoid losses. Asset condition evolves from design, duty, age and local weather. Cooling-water conditions and operating limits govern thermal-plant deratings and shutdowns. Within each climate case, we keep the portfolio, policies and weather fixed and compare a class model with a model using site measurements. We report relative errors in 1-in-200 annual loss and a capital proxy, and relative avoided loss at matched spending. The experiment uses a common modelled loss reference. ERA5 and inverter telemetry support the pilot. The study is designed to inform the heat-risk component of climate scenario analysis.
 \end{abstract}
 
 \section*{Introduction}
 
-From 30 January 2027, national measures transposing the revised Solvency II Directive apply. Article 45a calls for long-term climate scenario analysis in the own-risk and solvency assessment of undertakings with material climate exposure, subject to the derogation for small and non-complex undertakings \cite{solvency}. For power insurance, warming acts through two mechanisms. Heatwaves can cause sudden equipment breakdowns and cluster claims across sites. Higher operating temperatures can also accelerate ageing between extreme events, leaving some assets more vulnerable to later breakdown. A short heat event and years of accumulated thermal damage can contribute to the same insured failure.
+From 30 January 2027, national measures transposing the revised Solvency II Directive apply. Article 45a calls for long-term climate scenario analysis in the own-risk and solvency assessment of undertakings with material climate exposure, subject to the derogation for small and non-complex undertakings \cite{solvency}. For power insurance, warming acts through two mechanisms. Heatwaves can cause sudden equipment breakdowns and restrict output at multiple sites. Higher operating temperatures can also accelerate ageing between extreme events, leaving some assets more vulnerable to later breakdown. When the same heatwave stresses several parts of an insured energy portfolio, claims can accumulate even if each asset's exposure appears manageable in isolation.
 
-We compare a class-based assessment using asset class, age, location and historical claims with an actuarial digital twin using site operating measurements. Claims from earlier years anchor the class baseline. Both approaches receive the climate input for the case being assessed. The ADT estimates each asset's condition by linking measurable operating behaviour to thermal stress, ageing, breakdown, restoration and policy response \cite{aes,dtinsure,sparc}.
+We compare a class-based assessment using asset class, age, location and pooled simulated claims with an actuarial digital twin using site operating measurements. Simulated claims under historical weather anchor the class baseline. Both approaches receive the climate input for the case being assessed. The ADT estimates each asset's condition by linking measurable operating behaviour to thermal stress, ageing, breakdown, restoration and policy response \cite{aes,dtinsure,sparc}.
 
-The first question is whether the ADT improves the insurer's estimate of the 1-in-200 annual loss and its associated capital proxy. The second is how much loss better operating decisions can avoid. We keep the same portfolio, policy schedules and exposure paths within each climate case. We hold operating actions fixed for the estimation comparison and match intervention spending for the avoidance comparison.
+The first question is whether the ADT improves the insurer's estimate of the portfolio's 1-in-200 annual loss and its associated capital proxy. The second is how much loss better operating decisions can avoid. We keep the same portfolio, policy schedules and exposure paths within each climate case. We hold operating actions fixed for the estimation comparison and match intervention spending for the avoidance comparison.
 
 \section*{Study design}
 
@@ -57,16 +60,22 @@ Asset & Thermal driver & Accumulated condition & Acute outcome\\
 Transformer & Ambient temperature and load drive top-oil and winding hot-spot temperature \cite{iec}. & Insulation ageing integrates the hot-spot history. & Sudden breakdown risk depends on current stress and insulation condition.\\
 PV inverter & Ambient temperature, power and conversion losses drive cabinet and component temperature. & Capacitor life is consumed at high temperature. Component cycling contributes to solder fatigue. & Breakdown probability rises with consumed life. Reversible protective derating has a separate outcome.\\
 Battery storage & Current and the available cooling capacity govern cell temperature. & Capacity fades and internal resistance rises. & High cell temperature can trigger protection or contribute to damage.\\
-Thermal plant & Cooling-water temperature and flow set the operating margin. River temperature can lag air temperature. & The cooling-water pathway focuses on output limits. & A site-specific discharge or intake limit can force curtailment \cite{golfech}.\\
+Thermal plant & Water temperature, flow or level and plant cooling design set the operating margin \cite{vanvliet}. & Antecedent river conditions affect cooling availability during the event. & Cooling constraints can limit output or force a shutdown \cite{paks,golfech}.\\
 \bottomrule
 \end{tabularx}
 \end{table}
 
+\subsection*{Cooling-water constraints and thermal generation}
+
+Hot river water and low river levels can constrain generation through different mechanisms. At Paks in Hungary, low Danube levels left seven of eight turbines out of operation on 2 August 2026, reducing available capacity by about 1,750\,MW \cite{paks}. EDF shut Golfech unit 1 in June 2025 ahead of high temperatures forecast for the Garonne \cite{golfech}. These events illustrate cooling constraints and potential accumulation across assets with shared weather or river-basin exposure.
+
+Use water temperature, flow or level, cooling configuration and operating limits to estimate feasible power \(P^{\mathrm{cool}}_t\). Compare it with power \(P^{0}_t\) that would be delivered without the cooling constraint under otherwise comparable operation. The energy shortfall is \(\sum_t(P^0_t-P^{\mathrm{cool}}_t)^+\Delta t\). A class model estimates this response from technology, site and climate information. The ADT updates the estimate with plant and river measurements. Validate available output, derating and shutdown timing against operating and hydrological evidence. Advance warning can improve scheduling and the estimate of concurrent portfolio losses. Count avoided physical loss only where feasible cooling or operating actions change the outcome under the applicable limits.
+
 \subsection*{The ADT sees measurements available in operation}
 
-The class assessment uses class, age, location and pooled claims. The ADT assessment also uses class-appropriate measurements, such as transformer loading and top-oil temperature, inverter power and enclosure temperature, or BMS temperature and current. Its own thermal model estimates the internal state and damage from those measurements. Sensor coverage, model structure and out-of-sample performance determine its error. The reference damage and hidden equipment parameters stay outside both information sets.
+The class assessment uses class, age, location and pooled simulated claims from the training period. The ADT assessment also uses class-appropriate measurements, such as transformer loading and top-oil temperature, inverter power and enclosure temperature, or BMS temperature and current. Its own thermal model estimates the internal state and damage from those measurements. Sensor coverage, model structure and out-of-sample performance determine its error. The reference damage and hidden equipment parameters stay outside both information sets.
 
-Use operating measurements to check the thermal estimates. Fit the insurer's reliance on twin information on a training period of simulated claims, then score its predictions on unseen years or sites. Test the class and ADT assessments on the same simulated outcomes at fixed operation. An asset class may show little or no improvement. Performance on simulated claims describes performance against the reference model. Linked operating and real claims records are needed for field validation of covered losses.
+We check the thermal estimates against operating measurements and fit the insurer's reliance on twin information on a training period of simulated claims. On unseen years or sites, we test both assessments on the same simulated outcomes at fixed operation. An asset class may show little or no improvement. These scores quantify performance against the common modelled loss reference. Linked operating and claims records would support a separate validation of absolute insured losses.
 
 
 
@@ -74,7 +83,9 @@ Use operating measurements to check the thermal estimates. Fit the insurer's rel
 
 Historical ERA5 drives the present case. Future runs will use bias-evaluated CMIP6 sequences with coherent weather across sites and chronological temperature histories for ageing. Within each climate case, all arms receive the same weather paths and use the same asset register and policy terms. The underwriting comparison changes only the information used to estimate risk under a given operating rule. The intervention comparison changes the operating rule at matched spending and measures the resulting change in damage, curtailment and covered claims.
 
-The policy model applies physical-damage and damage-triggered business-interruption terms to eligible breakdowns. Gradual wear and reversible curtailment affect asset or owner outcomes. A payout for them depends on the policy's actual trigger. Report the annual loss mean, the 99.5th-percentile annual covered loss and its excess over the mean as a study capital proxy. The study will distinguish the present and warming comparisons from the scope of an undertaking's full ORSA. For in-scope undertakings, Article 45a specifies future cases below 2\,K and significantly above 2\,K of global warming \cite{solvency}. The existing two-site SSP subset is a data pilot.
+Aggregate site outcomes by heatwave and year, preserving the timing of cross-site heat and cooling-water constraints. Report coincident power or energy shortfall and the tail of annual aggregate claims. As a dependence diagnostic, compare the aggregate loss tail with independently resampled annual site losses that preserve each site's marginal loss distribution.
+
+Eligible breakdowns are evaluated under common assumed physical-damage and damage-triggered business-interruption terms. Cooling-water deratings and shutdowns also produce economic generation losses. Evaluate any insurer exposure to non-damage interruption under an explicitly specified, illustrative cover with the same trigger and terms in both arms. Report modelled relative errors in mean annual claims, the 99.5th-percentile annual loss and its excess over the mean as a study capital proxy. For the operating comparison, report relative changes from class-guided operation. Test sensitivity to repair costs, downtime and policy terms. This design can support the heat-risk component of the own-risk and solvency assessment. Article 45a specifies future cases below 2\,K and significantly above 2\,K of global warming for in-scope undertakings \cite{solvency}. The existing two-site SSP subset is a data pilot.
 
 \section*{Pilot evidence}
 
@@ -82,7 +93,7 @@ The policy model applies physical-damage and damage-triggered business-interrupt
 
 Seven of the ten sites reached a daily maximum at least 4\,K above their local June--August 90th percentile during 17--21 July 2022 (Fig.~\ref{fig:weather}a). At most four reached that threshold on the same day. Exceedances within that window extend from Almaraz in western Spain to Bełchatów in central Poland (Fig.~\ref{fig:weather}b shows the daily counts). The rate of spells peaking above 4\,K increased from 0.37 to 0.72 per site-year between 1991--2005 and 2011--2025 (55 and 108 spells across ten sites in the respective periods, Fig.~\ref{fig:weather}c). This is a descriptive comparison for the selected sites. The daily sequence shows why a definition of the event window matters when modelling claims accumulation.
 
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[width=\linewidth]{figures/era5_observed.pdf}
 \caption{\textbf{European heat exposure during 17--21 July 2022.}
@@ -96,7 +107,7 @@ The generator reproduces the broad pattern of spell frequencies but its fitted d
 
 Figure~\ref{fig:workflow} shows the paired comparisons that use those exposure histories.
 
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[width=\linewidth]{figures/adt_workflow.pdf}
 \caption{\textbf{Paired comparisons within each climate case.}
@@ -108,7 +119,7 @@ The physical reference supplies the loss outcomes. The class and ADT assessments
 
 The ERA5 record establishes when and where heat occurs together. The ten locations comprise four solar-labelled plants and six thermal plants. Their daily temperature extrema support exposure analysis. Hourly air temperature and solar radiation are available for all ten sites for June--August 2022. Temperature and damage trajectories also require equipment parameters and operating histories at each asset. Transformer and battery validation need additional asset records, and the thermal-plant mechanism needs local cooling-water observations and operating limits.
 
-The inverter field study checks what can be learned from telemetry. In North Macedonia, internal inverter temperature improved five-minute forecasts of self-derating, while the model underestimated coincident starts (Extended Data Fig.~1). The Bali case in DT-INSURE supplies complementary thermal and maintenance evidence \cite{dtinsure}. Reversible derating and breakdown are distinct observed outcomes. The current PV code integrates the temperature and capacitor life consumption from a specified history and equipment model \cite{nichicon}. Claims calibration, solder fatigue, asset-level failure probabilities and the paired climate comparison remain to be estimated.
+The inverter field study checks what can be learned from telemetry. In North Macedonia, internal inverter temperature improved five-minute forecasts of self-derating, while the model underestimated coincident starts (Extended Data Fig.~1). The Bali case in DT-INSURE supplies complementary thermal and maintenance evidence \cite{dtinsure}. Reversible derating and breakdown are distinct observed outcomes. The current PV code integrates the temperature and capacitor life consumption from a specified history and equipment model \cite{nichicon}. Solder fatigue, asset-level failure relationships and the paired climate comparison remain to be estimated.
 
 \section*{Methods for the pilot evidence}
 
@@ -164,9 +175,9 @@ Thermal plant (per GW for BI) & 400,000 & 30 & 180 & 1.00 & 60\\
 \end{tabularx}
 \end{table}
 
-For an operating portfolio, BI exposure should be estimated from counterfactual plant delivery during restoration and the value insured by the actual wording. This requires plant production and sales records, the failed unit's share of plant output, and deductions for saved expenses or recovery where required. For reversible derating, the energy shortfall over a period is \(\sum_t(P_t^{\mathrm{no\ derating}}-P_t^{\mathrm{delivered}})^+\Delta t\), restricted to periods with evidence of derating and using the same realised weather in both outputs. Delivered power can come from telemetry for validation and from a thermal generation model for simulation. Pricing this shortfall at the relevant net electricity value gives the economic loss, separately from breakdown BI. The DT-INSURE weather index uses a generation index \(H\) driven by independent weather, a strike \(K\), a payout rate \(\nu\) and a limit \(L_W\) \cite{dtinsure}. Its payout is \(\min\{L_W,\nu(K-H)^+\}\). Compare the payout with the measured loss to quantify basis risk.
+For the relative study, BI is derived from modelled plant delivery during restoration and a common assumed insured value of interrupted output. Actual production and sales records could later support an estimate of absolute BI for an operating portfolio. For reversible derating, the energy shortfall over a period is \(\sum_t(P_t^{\mathrm{no\ derating}}-P_t^{\mathrm{delivered}})^+\Delta t\), restricted to periods with evidence of derating and using the same realised weather in both outputs. Delivered power can come from telemetry for validation and from a thermal generation model for simulation. Pricing this shortfall at the relevant net electricity value gives the economic loss, separately from breakdown BI. The DT-INSURE weather index uses a generation index \(H\) driven by independent weather, a strike \(K\), a payout rate \(\nu\) and a limit \(L_W\) \cite{dtinsure}. Its payout is \(\min\{L_W,\nu(K-H)^+\}\). Compare the payout with the measured loss to quantify basis risk.
 
-A policy sensitivity should compare PD-only with PD plus BI, vary the eligibility of thermally associated failures, and test the actual waiting period, deductible and limit. The saved runs use the single combined contract in Table~\ref{tab:terms}. Separately estimating the additional loss brought into cover by BI requires applying both contracts to the same simulated damage and restoration events.
+A policy sensitivity should compare PD-only with PD plus BI, vary the eligibility of thermally associated failures, and test alternative waiting periods, deductibles and limits. The saved runs use the single combined contract in Table~\ref{tab:terms}. Separately estimating the additional loss brought into cover by BI requires applying both contracts to the same simulated damage and restoration events.
 
 \subsection*{Legacy prototype aggregation and underwriting}
 
@@ -190,7 +201,7 @@ We simulate ten portfolios with the same exposure, vulnerability and contract in
 
 Holding the class-based operating rule fixed, we then change only the information used to estimate headroom in underwriting. The relative 99.5th-percentile loss error across the ten synthetic books has an RMSE of 30.2\% with class evidence and 7.5\% with twin evidence (Fig.~\ref{fig:loss}b). The comparison is against the simulated loss for each book. With this operating rule, the median fraction of simulated years exceeding the modelled threshold changes from 0.18\% with class evidence to 0.60\% with twin evidence, against the nominal exceedance probability of 0.50\%. A smaller estimation error can bring funding closer to its target while increasing exceedances in books for which the class estimate was conservative.
 
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[width=\linewidth]{figures/era5_simulated_losses.pdf}
 \caption{\textbf{Illustrative results from the assumed-headroom prototype.}
@@ -200,7 +211,7 @@ Holding the class-based operating rule fixed, we then change only the informatio
 \end{figure}
 
 \FloatBarrier
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
 \centering
 \includegraphics[width=0.84\linewidth]{figures/pv_derating_field.pdf}
 \caption*{\textbf{Extended Data Fig. 1. Coincident inverter self-derating in North Macedonia.}
@@ -214,6 +225,8 @@ Counts of May 2025 five-minute windows meeting each onset threshold. There were 
 \bibitem{solvency} European Parliament and Council. \href{https://eur-lex.europa.eu/eli/dir/2025/2/oj/eng}{Directive (EU) 2025/2}, Article 1(24) inserting Article 45a, and Article 4 on transposition.
 \bibitem{iec} IEC. \href{https://webstore.iec.ch/en/publication/34351}{IEC 60076-7:2018. Loading guide for mineral-oil-immersed power transformers}.
 \bibitem{nichicon} Nichicon. \href{https://www.nichicon.com/en-us/design-support/lifetime-calculator/}{Estimated life calculator for capacitors}. Manufacturer guidance on temperature, ripple and voltage.
+\bibitem{paks} Budapest University of Technology and Economics. \href{https://www.bme.hu/en/news/260805/attila-aszodi-paks-nuclear-power-station-shut-down}{Why must the Paks Nuclear Power Station be shut down?} (5 August 2026).
+\bibitem{vanvliet} van Vliet, M. T. H. et al. \href{https://doi.org/10.1038/nclimate1546}{Vulnerability of US and European electricity supply to climate change}. Nature Climate Change 2, 676--681 (2012).
 \bibitem{golfech} Reuters. \href{https://www.reuters.com/business/energy/edf-shuts-down-golftech-nuclear-plant-due-high-river-temperature-2025-06-30/}{EDF shuts down Golfech nuclear reactor due to high river temperature} (30 June 2025).
 \bibitem{hsb} HSB. \href{https://www.munichre.com/content/dam/munichre/hsb/hsb-iic/documents/hsb-energy-insurance-product-sheet.pdf/_jcr_content/renditions/original./hsb-energy-insurance-product-sheet.pdf}{Renewable energy risk solutions}. Operational property product sheet.
 \bibitem{chubb} Chubb. \href{https://www.chubb.com/content/dam/chubb-sites/chubb-com/uk-en/business/by-category-construction/documents/pdf/Chubb-UK7377-Construction-Technical_Lines_Brochure-202103.pdf}{Construction and technical lines}. Operational power and business interruption.

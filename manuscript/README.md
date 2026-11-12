@@ -1,6 +1,6 @@
-# Actuarial digital twins for heatwave failures and thermal ageing in European power insurance
+# Actuarial digital twins for heatwave accumulation risk in European power insurance
 
-Research draft, 12 November 2026.
+Research draft, 12 November 2026. The study evaluates relative changes in portfolio accumulation from equipment failures and cooling-water output restrictions using a common modelled loss basis.
 
 - [Manuscript PDF](latex/main.pdf) and [LaTeX source](latex/main.tex)
 - [Europe map](latex/figures/era5_observed.pdf) and [owner–insurer workflow](latex/figures/adt_workflow.pdf)
