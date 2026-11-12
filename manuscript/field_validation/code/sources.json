@@ -1,0 +1,41 @@
+{
+  "doi": "10.17632/4zgsckxpdy.2",
+  "version": 2,
+  "files": {
+    "devices.csv": {
+      "download_url": "https://data.mendeley.com/public-files/datasets/4zgsckxpdy/files/88e6e32f-7530-4ace-aec3-9c7ea190a2c0/file_downloaded",
+      "sha256_hash": "5ab654e5ecf32e1e34a9b0740cc9cb047c399eb838447c35df88b5ed6ad8362f",
+      "size": 7213
+    },
+    "fusionsolar_energy_production.csv": {
+      "download_url": "https://data.mendeley.com/public-files/datasets/4zgsckxpdy/files/ad9c6b73-33da-4697-b3b9-68f5b0e7e740/file_downloaded",
+      "sha256_hash": "b1379380da7c374ae9d657104d57159baf3ba140607bc1186b409d33c1ae4ea6",
+      "size": 89773898
+    },
+    "hourly_pv_weather_station.csv": {
+      "download_url": "https://data.mendeley.com/public-files/datasets/4zgsckxpdy/files/fac7b49d-96d8-4a4a-8d9b-4aa008683339/file_downloaded",
+      "sha256_hash": "fd504ae8ec39fad64f3b08adb546d2158c8f94f567bca03752616eb5555ddbd5",
+      "size": 4130562
+    },
+    "inverter_state_mapping_fusionsolar.csv": {
+      "download_url": "https://data.mendeley.com/public-files/datasets/4zgsckxpdy/files/7e3dd21c-6855-4035-9207-2acc43794973/file_downloaded",
+      "sha256_hash": "264f7cd6b458ed86d7f81bfab2c1fd7e9c21a8e72668e6bd6daba92edb6d6338",
+      "size": 873
+    },
+    "inverter_state_mapping_solis.csv": {
+      "download_url": "https://data.mendeley.com/public-files/datasets/4zgsckxpdy/files/97b0091c-5500-4b12-8200-7573be15f90c/file_downloaded",
+      "sha256_hash": "2c4f0509826e8f35b18b53200aba823bfddfdd94f10e699f2decfafe88eb83cb",
+      "size": 73
+    },
+    "solis_energy_production.csv": {
+      "download_url": "https://data.mendeley.com/public-files/datasets/4zgsckxpdy/files/68157e18-49f3-4384-8666-423684759106/file_downloaded",
+      "sha256_hash": "a6e9622e52f9458a7cfb99862d9a5eea16462da93706f5631fe4f5b3a3026c45",
+      "size": 65436660
+    },
+    "stations.csv": {
+      "download_url": "https://data.mendeley.com/public-files/datasets/4zgsckxpdy/files/2f7f1b08-f3f6-4b27-b7ed-731136dcf39c/file_downloaded",
+      "sha256_hash": "da84df6944208e5b53eab8554e9b5ea2b06945a6fe7918026352004a10483d2b",
+      "size": 778
+    }
+  }
+}

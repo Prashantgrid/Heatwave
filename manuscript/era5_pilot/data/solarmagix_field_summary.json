@@ -1,0 +1,202 @@
+{
+  "sources": {
+    "dataset": "SolarMagix v2",
+    "doi": "10.17632/4zgsckxpdy.2",
+    "timezone": "UTC"
+  },
+  "split": {
+    "train_start": "2025-01-01",
+    "test_start": "2025-05-01",
+    "test_end_exclusive": "2025-06-01"
+  },
+  "raw": {
+    "fusion_records": 694867,
+    "solis_records": 487254,
+    "fusion_sites": 6,
+    "fusion_units": 37,
+    "solis_sites": 1,
+    "solis_units": 13,
+    "fusion_temperature_max_c": 26.983,
+    "solis_temperature_max_c": 39.2855,
+    "solis_days_at_or_above_35c": 23,
+    "solis_statuses": [
+      1
+    ],
+    "fusion_derating_samples": 6535,
+    "fusion_derating_units": 14,
+    "fusion_derating_sites": 5,
+    "fusion_derating_days": 52,
+    "fusion_shutdown_samples": 2953,
+    "fusion_shutdown_dates": 6,
+    "fusion_communication_loss_samples": 100,
+    "median_internal_onset_c_test": 66.5,
+    "unscreened_eligible_state_onsets": 969,
+    "unscreened_eligible_state_origins": 595821
+  },
+  "episodes": {
+    "all_runs": 969,
+    "bounded_runs": 969,
+    "bounded_median_minutes": 10.0,
+    "bounded_90th_minutes": 91.00000000000023,
+    "bounded_one_sample": 381,
+    "bounded_return_connected": 968
+  },
+  "blackout": {
+    "utc_date": "2025-05-18",
+    "official_start_utc": "2025-05-18 02:59:00",
+    "shutdown_samples": 1461,
+    "affected_units": 37,
+    "affected_sites": 6,
+    "first_utc": "2025-05-18 02:50:00",
+    "last_utc": "2025-05-18 08:25:00"
+  },
+  "thermal_reference": {
+    "fitted_coefficients": [
+      0.04502135069575834,
+      2.04636102149032
+    ],
+    "test_normal_transitions": 166175,
+    "test_rmse_k": 0.6529446197837036,
+    "persistence_rmse_k": 0.7121548253441944
+  },
+  "forecast": {
+    "onset": {
+      "train_n": 395772,
+      "train_events": 231,
+      "weather": {
+        "n": 185809,
+        "events": 738,
+        "expected_events": 779.333474807816,
+        "average_precision": 0.3350195776971259,
+        "brier": 0.003234504326980292,
+        "log_loss": 0.011655358071721324
+      },
+      "condition": {
+        "n": 185809,
+        "events": 738,
+        "expected_events": 734.5164953041084,
+        "average_precision": 0.3506960999247604,
+        "brier": 0.003103422688411371,
+        "log_loss": 0.011334535304803245
+      },
+      "seven_day_block_intervals": {
+        "log_loss_improvement": [
+          2.3086896266389087e-05,
+          0.0007190310687813658
+        ],
+        "brier_improvement": [
+          4.3505425507868304e-05,
+          0.00024431656740600175
+        ]
+      }
+    },
+    "persistence": {
+      "train_n": 1334,
+      "train_events": 1103,
+      "weather": {
+        "n": 5201,
+        "events": 4463,
+        "expected_events": 4467.965459627898,
+        "average_precision": 0.9310483350623944,
+        "brier": 0.10897549622890956,
+        "log_loss": 0.3657132358382311
+      },
+      "condition": {
+        "n": 5201,
+        "events": 4463,
+        "expected_events": 4481.555849452176,
+        "average_precision": 0.9313268207990095,
+        "brier": 0.10861503577815984,
+        "log_loss": 0.3673460006372102
+      }
+    },
+    "sustained_onset": {
+      "train_n": 395319,
+      "train_events": 123,
+      "weather": {
+        "n": 185791,
+        "events": 465,
+        "expected_events": 505.0479055143026,
+        "average_precision": 0.2917825959470706,
+        "brier": 0.002175007889030375,
+        "log_loss": 0.008112988035612957
+      },
+      "condition": {
+        "n": 185791,
+        "events": 465,
+        "expected_events": 482.0162154661359,
+        "average_precision": 0.30224477197190674,
+        "brier": 0.002111658382844516,
+        "log_loss": 0.007847817635225945
+      }
+    }
+  },
+  "fleet": {
+    "rho": 0.18291549454739564,
+    "windows": 5239,
+    "median_eligible_inverters": 37.0,
+    "max_observed_onsets": 6,
+    "windows_with_onsets_at_two_or_more_sites": 63,
+    "groups": {
+      "1": {
+        "observed_windows": 458,
+        "independent_expected_windows": 559.60252355795,
+        "same_plant_expected_windows": 543.1539968985154
+      },
+      "2": {
+        "observed_windows": 156,
+        "independent_expected_windows": 127.6606903966553,
+        "same_plant_expected_windows": 134.573665693415
+      },
+      "3": {
+        "observed_windows": 75,
+        "independent_expected_windows": 33.9677778628424,
+        "same_plant_expected_windows": 39.76667907862203
+      },
+      "4": {
+        "observed_windows": 30,
+        "independent_expected_windows": 9.808865639857881,
+        "same_plant_expected_windows": 12.485678071220974
+      },
+      "5": {
+        "observed_windows": 17,
+        "independent_expected_windows": 2.9162061001206325,
+        "same_plant_expected_windows": 3.7635368850647026
+      }
+    }
+  },
+  "sustained_fleet": {
+    "rho": 0.11542200356228793,
+    "windows": 5233,
+    "median_eligible_inverters": 37.0,
+    "max_observed_onsets": 6,
+    "windows_with_onsets_at_two_or_more_sites": 42,
+    "groups": {
+      "1": {
+        "observed_windows": 296,
+        "independent_expected_windows": 381.8063160699034,
+        "same_plant_expected_windows": 375.4567797445574
+      },
+      "2": {
+        "observed_windows": 97,
+        "independent_expected_windows": 76.2397080482179,
+        "same_plant_expected_windows": 79.45717260426953
+      },
+      "3": {
+        "observed_windows": 46,
+        "independent_expected_windows": 17.161054264986888,
+        "same_plant_expected_windows": 19.33057355222261
+      },
+      "4": {
+        "observed_windows": 15,
+        "independent_expected_windows": 4.6952297700356525,
+        "same_plant_expected_windows": 5.431835809685737
+      },
+      "5": {
+        "observed_windows": 10,
+        "independent_expected_windows": 1.8075207123063355,
+        "same_plant_expected_windows": 1.9799734399406264
+      }
+    }
+  }
+}

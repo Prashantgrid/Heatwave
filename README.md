@@ -1,11 +1,14 @@
 # Heatwave: condition information, adaptation and insurance
 
-Real climate-input pilot and methods audit for an actuarial digital twin study.
+Study of how asset condition informs heat adaptation and insurance for a portfolio of European power assets.
 
-**Current status:** genuine plant locations and historical/projection temperature data are available. The imported insurance model and its saved benefits remain synthetic and uncalibrated. This repository does not yet establish European insured heat losses, earned insurance credibility, regulatory capital relief or readiness for Nature Climate Change.
+**Current status:** the manuscript combines real historical heat exposure with an ERA5-calibrated event generator. Portfolio, vulnerability, operating rules and insurance terms in the loss experiment are illustrative. The physics-based study design specifies the replacement and its validation.
 
 ## Start here
 
+- [Claude handoff and physics-based study design](docs/claude_handoff.md)
+- [Current manuscript, Europe map and offline reproduction](manuscript/README.md)
+- [PV field-validation source](manuscript/field_validation/README.md)
 - [Methods, journal fit and figure review](docs/methods_and_journal_review.md)
 - [Data sources, licences and limitations](DATA_SOURCES.md)
 - [Figure captions](docs/figure_captions.md)
@@ -54,7 +57,7 @@ Raw global/climate downloads and their caches are excluded from git to keep the 
 
 ## Original model and new methods utilities
 
-`prototype/` preserves the seven original scripts and supplied JSON summaries unchanged. Original script entry points should be run from that directory. The map builder references a missing external file, and the original plotting/manuscript files were not supplied.
+`prototype/` preserves the seven original scripts and supplied JSON summaries unchanged. Original script entry points should be run from that directory. The current study manuscript and its reproducible figures are under `manuscript/`.
 
 `heatwave/credibility.py` supplies tested joint Gaussian conditioning that retains residual spatial dependence. `heatwave/risk.py` supplies empirical expected shortfall with exact tail-mass handling and held-out funding-shortfall metrics. These isolated building blocks do not imply that the original simulator's methods issues have been fully repaired or that its vulnerability assumptions have been calibrated.
 
