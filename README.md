@@ -2,7 +2,7 @@
 
 Study of how asset condition informs heat adaptation and insurance for a portfolio of European power assets.
 
-**Current status:** the manuscript combines real historical heat exposure with an ERA5-calibrated event generator. Portfolio, vulnerability, operating rules and insurance terms in the loss experiment are illustrative. The physics-based study design specifies the replacement and its validation.
+**Current status:** the manuscript centres on sudden heat failures and cumulative thermal ageing under present and warmer climates. The pilot contains observed exposure, inverter field evidence and the first PV temperature and capacitor-ageing code. The earlier ERA5-calibrated loss results appear in the appendix and use illustrative vulnerability and policies.
 
 ## Start here
 
@@ -22,6 +22,7 @@ Study of how asset condition informs heat adaptation and insurance for a portfol
 |---|---|---|
 | WRI plant inventory | 10,050 records; EU27 + UK, Norway and Switzerland; 2022 source snapshot | `data/processed/europe_plant_inventory.csv.gz` |
 | ERA5 daily temperature | 10 real sites, 1991-2025, Tmax and Tmin; 127,840 complete site-days | `data/processed/era5_daily_pilot.csv.gz` |
+| ERA5 hourly pilot | 10 sites, June–August 2022, temperature and solar radiation, 22,080 site-hours | `data/processed/era5_hourly_summer_2022.csv.gz` |
 | NEX-GDDP-CMIP6 | ACCESS-CM2 and MPI-ESM1-2-LR, SSP1-2.6/SSP5-8.5, 2041-2060, two sites; 58,440 daily values from 160 complete subsets | `data/processed/cmip6_daily_pilot.csv.gz` |
 | Derived historical diagnostics | Seasonal thresholds, three-day hot spells, summer indicators and common-date co-occurrence | Small CSVs in `data/processed/` |
 
@@ -46,6 +47,7 @@ python -m unittest discover -s tests -v
 
 ```bash
 python scripts/fetch_inputs.py
+python scripts/fetch_era5_hourly_pilot.py --output data/processed/era5_hourly_summer_2022.csv.gz
 python scripts/fetch_cmip6.py
 python scripts/validate_data.py
 python scripts/package_data.py

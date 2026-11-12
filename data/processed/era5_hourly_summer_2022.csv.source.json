@@ -1,0 +1,136 @@
+{
+  "source": "ERA5 via Open-Meteo",
+  "dates": [
+    "2022-06-01",
+    "2022-08-31"
+  ],
+  "units": {
+    "temperature_2m_c": "\u00b0C",
+    "shortwave_radiation_w_per_m2": "W/m\u00b2"
+  },
+  "output": "era5_hourly_summer_2022.csv.gz",
+  "sha256": "a3df8f761ebd93a4c14586c0b36f02771d8259207bfebd3b4270acef5e7180af",
+  "rows": 22080,
+  "sites": [
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=44.7242&longitude=-0.8150&start_date=2022-06-01&end_date=2022-08-31&hourly=temperature_2m%2Cshortwave_radiation&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+      "retrieved_utc": "2026-11-12T17:41:08.820515+00:00",
+      "sha256": "70ba7f329324d1d05a5f789eaf5ceeaa40adf9e14f79cd54506a0d7671c0c712",
+      "bytes": 64644,
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "site_id": "WRI1023933",
+      "grid_latitude": 44.75,
+      "grid_longitude": -0.75,
+      "hours": 2208
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=51.5446&longitude=13.9795&start_date=2022-06-01&end_date=2022-08-31&hourly=temperature_2m%2Cshortwave_radiation&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+      "retrieved_utc": "2026-11-12T17:41:08.496471+00:00",
+      "sha256": "9f9160424f9d9b401767cb060319819dc111391dde935403a0f597b9a451be13",
+      "bytes": 64661,
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "site_id": "WRI1025872",
+      "grid_latitude": 51.5,
+      "grid_longitude": 14.0,
+      "hours": 2208
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=45.0367&longitude=11.5706&start_date=2022-06-01&end_date=2022-08-31&hourly=temperature_2m%2Cshortwave_radiation&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+      "retrieved_utc": "2026-11-12T17:41:08.865625+00:00",
+      "sha256": "06e2ffe73c45d7a2160772121530f6e14ee29f805bd6b3092cb95896e791cae4",
+      "bytes": 64624,
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "site_id": "WRI1021333",
+      "grid_latitude": 45.0,
+      "grid_longitude": 11.5,
+      "hours": 2208
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=53.2409&longitude=-3.0227&start_date=2022-06-01&end_date=2022-08-31&hourly=temperature_2m%2Cshortwave_radiation&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+      "retrieved_utc": "2026-11-12T17:41:14.492615+00:00",
+      "sha256": "0645bd84d920b4180f7aba4c344a01f2afba69f03e1c74d3f0afe6e85183f36a",
+      "bytes": 64623,
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "site_id": "GBR0002347",
+      "grid_latitude": 53.25,
+      "grid_longitude": -3.0,
+      "hours": 2208
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=39.8070&longitude=-5.6986&start_date=2022-06-01&end_date=2022-08-31&hourly=temperature_2m%2Cshortwave_radiation&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+      "retrieved_utc": "2026-11-12T17:41:14.568813+00:00",
+      "sha256": "8e73c75369903bc6eef807ebce0b9f267548bdf11646af8b12477113413345d4",
+      "bytes": 64626,
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "site_id": "WRI1006358",
+      "grid_latitude": 39.75,
+      "grid_longitude": -5.75,
+      "hours": 2208
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=51.0141&longitude=2.1332&start_date=2022-06-01&end_date=2022-08-31&hourly=temperature_2m%2Cshortwave_radiation&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+      "retrieved_utc": "2026-11-12T17:41:14.548688+00:00",
+      "sha256": "55eab0ef3e84642947fe878629fd1de3d7f1310db89ebeac1081b5ecb4e4c180",
+      "bytes": 64681,
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "site_id": "WRI1002735",
+      "grid_latitude": 51.0,
+      "grid_longitude": 2.25,
+      "hours": 2208
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=50.9930&longitude=6.6685&start_date=2022-06-01&end_date=2022-08-31&hourly=temperature_2m%2Cshortwave_radiation&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+      "retrieved_utc": "2026-11-12T17:41:21.896011+00:00",
+      "sha256": "cadb5c0d16a832349e37679b49a270a07e1abbd9a39f584aa8b6da5e0f7e96e3",
+      "bytes": 64620,
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "site_id": "WRI1005979",
+      "grid_latitude": 51.0,
+      "grid_longitude": 6.75,
+      "hours": 2208
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=37.4180&longitude=22.1083&start_date=2022-06-01&end_date=2022-08-31&hourly=temperature_2m%2Cshortwave_radiation&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+      "retrieved_utc": "2026-11-12T17:41:21.881544+00:00",
+      "sha256": "6efe5895ee7dbb710068b5db792627b363c9c4147e45756e7d7c70d01088e63d",
+      "bytes": 64589,
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "site_id": "WRI1061098",
+      "grid_latitude": 37.5,
+      "grid_longitude": 22.0,
+      "hours": 2208
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=51.2679&longitude=19.3265&start_date=2022-06-01&end_date=2022-08-31&hourly=temperature_2m%2Cshortwave_radiation&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+      "retrieved_utc": "2026-11-12T17:41:21.867369+00:00",
+      "sha256": "e61778f508e79a87a5b989add27a41f6987d64b3cff878b28078f7535604cd97",
+      "bytes": 64629,
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "site_id": "WRI1023817",
+      "grid_latitude": 51.25,
+      "grid_longitude": 19.25,
+      "hours": 2208
+    },
+    {
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=39.0118&longitude=-8.9521&start_date=2022-06-01&end_date=2022-08-31&hourly=temperature_2m%2Cshortwave_radiation&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+      "retrieved_utc": "2026-11-12T17:41:28.387940+00:00",
+      "sha256": "f9f1352c452078a689d5db8191e0c709bbff367a2cd4278f7c96a8bd4d4b5824",
+      "bytes": 64595,
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "site_id": "WRI1023228",
+      "grid_latitude": 39.0,
+      "grid_longitude": -9.0,
+      "hours": 2208
+    }
+  ]
+}

@@ -163,27 +163,31 @@ def twin_workflow():
                                                "linewidth": 0.95, "linestyle": linestyle,
                                                "shrinkA": 0, "shrinkB": 0, "mutation_scale": 8})
 
-    box(0.29, 0.80, 0.42, 0.155, "Site thermal headroom", "Estimated from the engineering twin",
-        "#e5eff0", BLUE)
+    box(0.24, 0.80, 0.52, 0.155, "Fixed portfolio and weather within each climate case",
+        "Peak thermal stress and accumulated ageing", "#e5eff0", BLUE)
     ax.plot([0.5, 0.5], [0.8, 0.765], color="#657675", lw=0.95)
     ax.plot([0.226, 0.774], [0.765, 0.765], color="#657675", lw=0.95)
     arrow((0.226, 0.765), (0.226, 0.699))
     arrow((0.774, 0.765), (0.774, 0.699))
 
-    box(0.018, 0.52, 0.416, 0.18, "Owner targets heat interventions",
-        "Use the regional forecast and site headroom")
-    box(0.566, 0.52, 0.416, 0.18, "Insurer estimates covered losses",
-        "Use condition evidence and policy terms")
-    arrow((0.443, 0.59), (0.557, 0.59), "--")
-    ax.text(0.5, 0.625, "Operating\nrule", ha="center", va="bottom", color=GREY, fontsize=6.8)
+    box(0.018, 0.52, 0.416, 0.18, "Class-based assessment",
+        "Class, age, location and historical claims")
+    box(0.566, 0.52, 0.416, 0.18, "Assessment with an ADT",
+        "Site measurements and an imperfect thermal model")
 
-    box(0.018, 0.26, 0.416, 0.15, "Physical outcomes", "Breakdowns, restoration and action costs")
-    box(0.566, 0.26, 0.416, 0.15, "Portfolio estimates", "Average and tail loss under that operating rule")
-    arrow((0.226, 0.51), (0.226, 0.42))
-    arrow((0.774, 0.51), (0.774, 0.42))
+    ax.plot([0.226, 0.226], [0.52, 0.465], color="#657675", lw=0.95)
+    ax.plot([0.774, 0.774], [0.52, 0.465], color="#657675", lw=0.95)
+    ax.plot([0.226, 0.774], [0.465, 0.465], color="#657675", lw=0.95)
+    arrow((0.226, 0.465), (0.226, 0.42))
+    arrow((0.774, 0.465), (0.774, 0.42))
 
-    box(0.018, 0.025, 0.964, 0.14, "Shared record for validation",
-        "Operating actions, failures, restoration and settled claims", "#edf3f2")
+    box(0.018, 0.26, 0.416, 0.15, "Estimate risk at fixed operation",
+        "Compare 1-in-200 annual loss and a capital proxy")
+    box(0.566, 0.26, 0.416, 0.15, "Avoid losses at matched spending",
+        "Compare breakdown, curtailment and claims")
+
+    box(0.018, 0.025, 0.964, 0.14, "Held-out evaluation",
+        "Operating measurements for thermal estimates and simulated claims for underwriting", "#edf3f2")
     arrow((0.226, 0.25), (0.226, 0.174))
     arrow((0.774, 0.25), (0.774, 0.174))
     save(fig, "adt_workflow.pdf")

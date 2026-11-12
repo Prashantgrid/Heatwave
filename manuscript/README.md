@@ -1,4 +1,4 @@
-# Actuarial digital twins for heatwave accumulation in European power insurance
+# Actuarial digital twins for heatwave failures and thermal ageing in European power insurance
 
 Research draft, 12 November 2026.
 
@@ -10,7 +10,7 @@ Research draft, 12 November 2026.
 
 ## Reproduce the current figures and results offline
 
-Run from the repository root. The committed inputs cover all four figures. The saved loss runs use a real-weather-calibrated event generator and synthetic assets, vulnerability and insurance terms.
+Run from the repository root. The committed inputs cover all four figures. The saved loss runs in the appendix use a real-weather-calibrated event generator and synthetic assets, vulnerability and insurance terms.
 
 ```sh
 python -m pip install -r requirements.txt
