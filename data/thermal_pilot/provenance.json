@@ -1,0 +1,136 @@
+{
+  "era5": {
+    "file": "era5_hourly_summers_2025_2026.csv.gz",
+    "sha256": "f0ed2ea538d6531027f07a74ae15e43299a474b10b07f509eea9babe4bbd7b3c",
+    "source": "ERA5 via Open-Meteo",
+    "rows": 22080,
+    "requests": [
+      {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=44.106&longitude=0.8443&start_date=2025-06-01&end_date=2025-08-31&hourly=temperature_2m&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+        "retrieved_utc": "2026-11-13T05:18:35+00:00",
+        "response_sha256": "834c44ea52185609ed724971ecc1b0147c4b578ce1ae27b92eecfbe2a24f04bb",
+        "site_id": "golfech",
+        "year": 2025,
+        "rows": 2208,
+        "grid_latitude": 44.0,
+        "grid_longitude": 0.75
+      },
+      {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=44.106&longitude=0.8443&start_date=2026-06-01&end_date=2026-08-31&hourly=temperature_2m&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+        "retrieved_utc": "2026-11-13T05:18:35+00:00",
+        "response_sha256": "c842b802aba8ab94d453bdaf1a142f1e0d9da927b6ace7a4b3a3ca7ea681de48",
+        "site_id": "golfech",
+        "year": 2026,
+        "rows": 2208,
+        "grid_latitude": 44.0,
+        "grid_longitude": 0.75
+      },
+      {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=45.7973&longitude=5.2706&start_date=2025-06-01&end_date=2025-08-31&hourly=temperature_2m&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+        "retrieved_utc": "2026-11-13T05:18:35+00:00",
+        "response_sha256": "265b4dd1ca5a176571c1577edffa0d653d4a094444196f8dc821a2f26e7d82b2",
+        "site_id": "bugey",
+        "year": 2025,
+        "rows": 2208,
+        "grid_latitude": 45.75,
+        "grid_longitude": 5.25
+      },
+      {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=45.7973&longitude=5.2706&start_date=2026-06-01&end_date=2026-08-31&hourly=temperature_2m&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+        "retrieved_utc": "2026-11-13T05:18:40+00:00",
+        "response_sha256": "0f4ef390d1caa0b466e74214307d65095c15c20302ac3130152c6956e76fc6a8",
+        "site_id": "bugey",
+        "year": 2026,
+        "rows": 2208,
+        "grid_latitude": 45.75,
+        "grid_longitude": 5.25
+      },
+      {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=46.57763&longitude=18.8532&start_date=2025-06-01&end_date=2025-08-31&hourly=temperature_2m&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+        "retrieved_utc": "2026-11-13T05:18:40+00:00",
+        "response_sha256": "164a6f79583fb30113a1fbcd825fad0f5a4fe25f8ef2abc5b1a676c3692ec530",
+        "site_id": "paks",
+        "year": 2025,
+        "rows": 2208,
+        "grid_latitude": 46.5,
+        "grid_longitude": 18.75
+      },
+      {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=46.57763&longitude=18.8532&start_date=2026-06-01&end_date=2026-08-31&hourly=temperature_2m&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+        "retrieved_utc": "2026-11-13T05:18:40+00:00",
+        "response_sha256": "6cb1b0bef271807f3fdee212f39e9c5697fd701cd77e27f09db32411c142102b",
+        "site_id": "paks",
+        "year": 2026,
+        "rows": 2208,
+        "grid_latitude": 46.5,
+        "grid_longitude": 18.75
+      },
+      {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=44.3205&longitude=28.0598&start_date=2025-06-01&end_date=2025-08-31&hourly=temperature_2m&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+        "retrieved_utc": "2026-11-13T05:18:46+00:00",
+        "response_sha256": "7a257e13127b80117854bd51303ce9a76df3487375394a3ed8c2a7cf30d297f2",
+        "site_id": "cernavoda",
+        "year": 2025,
+        "rows": 2208,
+        "grid_latitude": 44.25,
+        "grid_longitude": 28.0
+      },
+      {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=44.3205&longitude=28.0598&start_date=2026-06-01&end_date=2026-08-31&hourly=temperature_2m&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+        "retrieved_utc": "2026-11-13T05:18:46+00:00",
+        "response_sha256": "1f5dc71c73a6463c0f98af52f2ac706827c325ca1422dc0d51fe9c20c1659378",
+        "site_id": "cernavoda",
+        "year": 2026,
+        "rows": 2208,
+        "grid_latitude": 44.25,
+        "grid_longitude": 28.0
+      },
+      {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=43.746142&longitude=23.7689638&start_date=2025-06-01&end_date=2025-08-31&hourly=temperature_2m&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+        "retrieved_utc": "2026-11-13T05:18:46+00:00",
+        "response_sha256": "dfd6dd5e9cc196d4c28289085d2940fc5da89745b759cf23cfa340082335798a",
+        "site_id": "kozloduy",
+        "year": 2025,
+        "rows": 2208,
+        "grid_latitude": 43.75,
+        "grid_longitude": 23.75
+      },
+      {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=43.746142&longitude=23.7689638&start_date=2026-06-01&end_date=2026-08-31&hourly=temperature_2m&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+        "retrieved_utc": "2026-11-13T05:18:51+00:00",
+        "response_sha256": "00d63470c5371a3ef8b41e9856e76046af132a31dc9335bad22a974e944332de",
+        "site_id": "kozloduy",
+        "year": 2026,
+        "rows": 2208,
+        "grid_latitude": 43.75,
+        "grid_longitude": 23.75
+      }
+    ]
+  },
+  "discharge": {
+    "url": "https://hubeau.eaufrance.fr/api/v2/hydrometrie/obs_elab?code_entite=O614001001&grandeur_hydro_elab=QmnJ&date_debut_obs_elab=2025-06-01&date_fin_obs_elab=2025-07-31&size=100",
+    "retrieved_utc": "2026-11-13T05:16:54+00:00",
+    "response_sha256": "ffc6cd26d141423e779a0cbd441df9044e20fb0e20b567aac79c9ac60ea86422",
+    "file": "lamagistere_daily_discharge_jun_jul_2025.csv",
+    "sha256": "ed645014760564de8cf1e5b037131d2a26915a695d8e280c2dcc5040d38fb9ab",
+    "source": "Hub'Eau Hydrométrie v2, Lamagistère",
+    "rows": 61,
+    "unit_conversion": "source L/s divided by 1000 to m³/s"
+  },
+  "water_temperature_search": [
+    {
+      "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05117000&date_debut_mesure=2025-06-01&date_fin_mesure=2025-07-31&size=100",
+      "retrieved_utc": "2026-11-13T05:17:20+00:00",
+      "response_sha256": "7f777e8c97e804080134e332f5092d63dabed2796c16040238bc458dc9a65273",
+      "station": "05117000",
+      "rows": 0
+    },
+    {
+      "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05152000&date_debut_mesure=2025-06-01&date_fin_mesure=2025-07-31&size=100",
+      "retrieved_utc": "2026-11-13T05:17:21+00:00",
+      "response_sha256": "f537ca144eddb443d7775ec656def4fabe2f959c96929ab55ca0fe857c678897",
+      "station": "05152000",
+      "rows": 0
+    }
+  ]
+}

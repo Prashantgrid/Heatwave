@@ -1,0 +1,6 @@
+site_id,site,country,river,latitude,longitude,coordinate_source
+golfech,Golfech,France,Garonne,44.106,0.8443,https://www.gem.wiki/Golfech_nuclear_power_plant
+bugey,Bugey,France,Rhône,45.7973,5.2706,https://www.gem.wiki/Bugey_nuclear_power_plant
+paks,Paks,Hungary,Danube,46.57763,18.8532,https://www.gem.wiki/Paks_nuclear_power_plant
+cernavoda,Cernavodă,Romania,Danube,44.3205,28.0598,https://www.gem.wiki/Cernavod%C4%83_nuclear_power_plant
+kozloduy,Kozloduy,Bulgaria,Danube,43.746142,23.7689638,https://en.wikipedia.org/wiki/List_of_power_stations_in_Bulgaria
