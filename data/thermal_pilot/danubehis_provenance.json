@@ -1,0 +1,67 @@
+{
+  "source": "DanubeHIS, observations supplied by the Hungarian General Directorate of Water Management (OVF)",
+  "licence": "CC BY-NC-SA 4.0",
+  "licence_url": "https://www.danubehis.org/license",
+  "transformation": "Selected rows from the public result tables, sorted and joined by published Europe/Vienna time and resolution.",
+  "station": {
+    "id": "HU442030_HYDRO",
+    "name": "Paks",
+    "latitude": 46.6272,
+    "longitude": 18.8703,
+    "river_km": 1531.3,
+    "relation": "nearby upstream river gauge"
+  },
+  "file": "danubehis_paks_event_extracts.csv",
+  "sha256": "74f8e2a2b870723dec63393893aac03053aa3dc5b5b4ee283c5edbb0430b22a8",
+  "rows": 75,
+  "requests": [
+    {
+      "url": "https://www.danubehis.org/results/HU442030_HYDRO?symbol%5BQ_mean_daily%5D=Q_mean_daily&time_from=10.07.2022&time_to=03.08.2022",
+      "retrieved_utc": "2026-11-13T09:50:51+00:00",
+      "response_sha256": "29e280da74b276acd1e27ecc67a37ded7e02b897713807e3ea07070b8f7d3af8",
+      "rows": 25
+    },
+    {
+      "url": "https://www.danubehis.org/results/HU442030_HYDRO?symbol%5Btw_mean_daily%5D=tw_mean_daily&time_from=10.07.2022&time_to=03.08.2022",
+      "retrieved_utc": "2026-11-13T09:53:31+00:00",
+      "response_sha256": "24d784251cd7ef1255d54a8dd4f316be203faf9281439b8029b118241905c32b",
+      "rows": 25
+    },
+    {
+      "url": "https://www.danubehis.org/results/HU442030_HYDRO?symbol%5Bh%5D=h&time_from=31.07.2026&time_to=01.08.2026",
+      "retrieved_utc": "2026-11-13T09:53:31+00:00",
+      "response_sha256": "6a8ae63c05872eb799810433a5c2506a329bd4b7d2f9434b48d7287cd4176694",
+      "rows": 25
+    },
+    {
+      "url": "https://www.danubehis.org/results/HU442030_HYDRO?symbol%5BQ%5D=Q&time_from=31.07.2026&time_to=01.08.2026",
+      "retrieved_utc": "2026-11-13T09:53:39+00:00",
+      "response_sha256": "f269a468dd27f2454fd2814e81313ef051957481e2839228f5e62408869b735f",
+      "rows": 25
+    },
+    {
+      "url": "https://www.danubehis.org/results/HU442030_HYDRO?symbol%5Btw%5D=tw&time_from=31.07.2026&time_to=01.08.2026",
+      "retrieved_utc": "2026-11-13T09:53:38+00:00",
+      "response_sha256": "b2414ebcc7dfe9e82c709782d3e49f06c72367c85ad3977e0480586081d873b2",
+      "rows": 25
+    },
+    {
+      "url": "https://www.danubehis.org/results/HU442030_HYDRO?symbol%5Bh%5D=h&time_from=02.08.2026&time_to=03.08.2026",
+      "retrieved_utc": "2026-11-13T09:50:52+00:00",
+      "response_sha256": "23bfedcc34d43a72274310ed61745ef1f1f054f7c5b825882979813f818eddae",
+      "rows": 25
+    },
+    {
+      "url": "https://www.danubehis.org/results/HU442030_HYDRO?symbol%5BQ%5D=Q&time_from=02.08.2026&time_to=03.08.2026",
+      "retrieved_utc": "2026-11-13T09:51:01+00:00",
+      "response_sha256": "82f3499e93ef700fe5d9b50140b843cd40511135ec23eda0696782d4c50ffa01",
+      "rows": 25
+    },
+    {
+      "url": "https://www.danubehis.org/results/HU442030_HYDRO?symbol%5Btw%5D=tw&time_from=02.08.2026&time_to=03.08.2026",
+      "retrieved_utc": "2026-11-13T09:51:01+00:00",
+      "response_sha256": "c3728c933147b177777a56ff3da035fc3bbaaa1165cd16f2225dd3390f0a027a",
+      "rows": 25
+    }
+  ]
+}

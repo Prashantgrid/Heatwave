@@ -1,0 +1,472 @@
+{
+  "era5_daily": {
+    "file": "era5_daily_1991_2025.csv.gz",
+    "rows": 63920,
+    "sha256": "a6b03a74eb2b3d8772c42b0f8eec56f45aad785b5ec865a1d37c68d80030eb17",
+    "source": "ERA5 via Open-Meteo",
+    "series": [
+      {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=44.106&longitude=0.8443&start_date=1991-01-01&end_date=2025-12-31&daily=temperature_2m_min%2Ctemperature_2m_mean%2Ctemperature_2m_max&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+        "retrieved_utc": "2026-11-13T09:48:24.660955+00:00",
+        "response_sha256": "843b473b39d4b015eefce9d0275403569447fd9d2609142768688f8c3a2afc73",
+        "site_id": "golfech",
+        "rows": 12784,
+        "grid_latitude": 44.0,
+        "grid_longitude": 0.75
+      },
+      {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=45.7973&longitude=5.2706&start_date=1991-01-01&end_date=2025-12-31&daily=temperature_2m_min%2Ctemperature_2m_mean%2Ctemperature_2m_max&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+        "retrieved_utc": "2026-11-13T09:48:37.346305+00:00",
+        "response_sha256": "3ebf48f5568c79d1454a5461314cd0fbfedc83bc25994d2a3868ff36c55be752",
+        "site_id": "bugey",
+        "rows": 12784,
+        "grid_latitude": 45.75,
+        "grid_longitude": 5.25
+      },
+      {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=46.57763&longitude=18.8532&start_date=1991-01-01&end_date=2025-12-31&daily=temperature_2m_min%2Ctemperature_2m_mean%2Ctemperature_2m_max&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+        "retrieved_utc": "2026-11-13T09:48:45.575780+00:00",
+        "response_sha256": "4f8e0fe189385564245f2e099ef4f75eba0855a9763232e3c8c044ae7e9c229a",
+        "site_id": "paks",
+        "rows": 12784,
+        "grid_latitude": 46.5,
+        "grid_longitude": 18.75
+      },
+      {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=44.3205&longitude=28.0598&start_date=1991-01-01&end_date=2025-12-31&daily=temperature_2m_min%2Ctemperature_2m_mean%2Ctemperature_2m_max&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+        "retrieved_utc": "2026-11-13T09:42:56+00:00",
+        "response_sha256": "95440431776ea6c52513d57a1d6b2c76bd7193933d4920fdc29958a554148dc9",
+        "site_id": "cernavoda",
+        "rows": 12784,
+        "grid_latitude": 44.25,
+        "grid_longitude": 28.0
+      },
+      {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=43.746142&longitude=23.7689638&start_date=1991-01-01&end_date=2025-12-31&daily=temperature_2m_min%2Ctemperature_2m_mean%2Ctemperature_2m_max&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+        "retrieved_utc": "2026-11-13T09:43:03+00:00",
+        "response_sha256": "50c7683e08f1b70b22177c7149dfc7cfa5b358d73c0ec332fe51236fa736cc81",
+        "site_id": "kozloduy",
+        "rows": 12784,
+        "grid_latitude": 43.75,
+        "grid_longitude": 23.75
+      }
+    ]
+  },
+  "hubeau_discharge": {
+    "file": "hubeau_daily_discharge_1991_2025.csv.gz",
+    "rows": 25204,
+    "sha256": "ef948ea146fc93266644184ea84bb74369deca1588312717b8ccca9fc5a556bb",
+    "source": "Hub'Eau Hydrométrie v2",
+    "conversion": "source L/s divided by 1000",
+    "series": [
+      {
+        "site_id": "golfech",
+        "station_id": "O614001001",
+        "station": "Lamagistère",
+        "relation": "downstream",
+        "rows": 12784,
+        "first_date": "1991-01-01",
+        "last_date": "2025-12-31",
+        "missing_days": 0,
+        "observed_rows": 12784,
+        "null_source_rows": 0,
+        "latitude": 44.121025182,
+        "longitude": 0.831075405,
+        "requests": [
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v2/hydrometrie/obs_elab?code_entite=O614001001&grandeur_hydro_elab=QmnJ&date_debut_obs_elab=1991-01-01&date_fin_obs_elab=2025-12-31&size=5000",
+            "retrieved_utc": "2026-11-13T09:49:23.870537+00:00",
+            "response_sha256": "826bffeabc593fc55ecbcebe572c937c3da65d5f4ceaaf0c8d070de872fe3a65"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v2/hydrometrie/obs_elab?code_entite=O614001001&grandeur_hydro_elab=QmnJ&date_debut_obs_elab=1991-01-01&date_fin_obs_elab=2025-12-31&cursor=AoQkUW1uSipPNjE0MDAxMDAxcMDd1e3%2BAT8NUW1uSi1PNjE0MDAxMC1PNjE0MDAxMDAxLTIwMDQtMDktMDhUMDA6MDA6MDA%3D&size=5000",
+            "retrieved_utc": "2026-11-13T09:49:35.689945+00:00",
+            "response_sha256": "419dbb1ead133fb91763b7ad4e02e25a7a87ed89ff2fca986febe37bcd88f047"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v2/hydrometrie/obs_elab?code_entite=O614001001&grandeur_hydro_elab=QmnJ&date_debut_obs_elab=1991-01-01&date_fin_obs_elab=2025-12-31&cursor=AoQkUW1uSipPNjE0MDAxMDAxcMD5orjjAj8NUW1uSi1PNjE0MDAxMC1PNjE0MDAxMDAxLTIwMTgtMDUtMThUMDA6MDA6MDA%3D&size=5000",
+            "retrieved_utc": "2026-11-13T09:49:45.208383+00:00",
+            "response_sha256": "95de51889497cb7578e6011a1c7ddec89df5503a6f1d408f956f4d412f35af31"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v2/hydrometrie/obs_elab?code_entite=O614001001&grandeur_hydro_elab=QmnJ&date_debut_obs_elab=1991-01-01&date_fin_obs_elab=2025-12-31&cursor=AoQkUW1uSipPNjE0MDAxMDAxcMCJ7bibAz8NUW1uSi1PNjE0MDAxMC1PNjE0MDAxMDAxLTIwMjUtMTItMzFUMDA6MDA6MDA%3D&size=5000",
+            "retrieved_utc": "2026-11-13T09:49:50.905584+00:00",
+            "response_sha256": "2b6f715da7100ac78a4f131d5144e3068c50ee6decd08c6bc60e05ae7f989919"
+          }
+        ]
+      },
+      {
+        "site_id": "bugey",
+        "station_id": "V163002001",
+        "station": "Lagnieu",
+        "relation": "upstream",
+        "rows": 12420,
+        "first_date": "1991-01-01",
+        "last_date": "2024-12-31",
+        "missing_days": 365,
+        "observed_rows": 12419,
+        "null_source_rows": 1,
+        "latitude": 45.881379741,
+        "longitude": 5.340434628,
+        "requests": [
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v2/hydrometrie/obs_elab?code_entite=V163002001&grandeur_hydro_elab=QmnJ&date_debut_obs_elab=1991-01-01&date_fin_obs_elab=2025-12-31&size=5000",
+            "retrieved_utc": "2026-11-13T09:50:15.532182+00:00",
+            "response_sha256": "8b20215e0fa0e709e7eeff29ce14eb29c4d302b4151412e11f6b4137e1cdd38d"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v2/hydrometrie/obs_elab?code_entite=V163002001&grandeur_hydro_elab=QmnJ&date_debut_obs_elab=1991-01-01&date_fin_obs_elab=2025-12-31&cursor=AoQkUW1uSipWMTYzMDAyMDAxcMDd1e3%2BAT8NUW1uSi1WMTYzMDAyMC1WMTYzMDAyMDAxLTIwMDQtMDktMDhUMDA6MDA6MDA%3D&size=5000",
+            "retrieved_utc": "2026-11-13T09:50:27.023750+00:00",
+            "response_sha256": "4714e897443abbb735edadfb1480cf8fb33130ca83d87ee12889bbda4bb9170f"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v2/hydrometrie/obs_elab?code_entite=V163002001&grandeur_hydro_elab=QmnJ&date_debut_obs_elab=1991-01-01&date_fin_obs_elab=2025-12-31&cursor=AoQkUW1uSipWMTYzMDAyMDAxcMD5orjjAj8NUW1uSi1WMTYzMDAyMC1WMTYzMDAyMDAxLTIwMTgtMDUtMThUMDA6MDA6MDA%3D&size=5000",
+            "retrieved_utc": "2026-11-13T09:50:37.482213+00:00",
+            "response_sha256": "eee9f24c129a9a6faca1278ad9532674c50d9e5b58ec5b18e4e949e3fc954a9e"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v2/hydrometrie/obs_elab?code_entite=V163002001&grandeur_hydro_elab=QmnJ&date_debut_obs_elab=1991-01-01&date_fin_obs_elab=2025-12-31&cursor=AoQkUW1uSipWMTYzMDAyMDAxcICj4I2VAz8NUW1uSi1WMTYzMDAyMC1WMTYzMDAyMDAxLTIwMjUtMDItMTlUMDA6MDA6MDA%3D&size=5000",
+            "retrieved_utc": "2026-11-13T09:50:43.258988+00:00",
+            "response_sha256": "7992db8a27fa39b35dea8723df409093f6f14a02044e58472337957792235afb"
+          }
+        ]
+      }
+    ]
+  },
+  "hubeau_water_temperature": {
+    "file": "hubeau_daily_water_temperature.csv.gz",
+    "rows": 8560,
+    "sha256": "48ecd2287a122c3992fa3cbd6889da36cfead9ec201fbc5cbc2e26ecfb90e7af",
+    "source": "Hub'Eau Température des cours d'eau / Naïades",
+    "aggregation": "Arithmetic mean, min and max of distinct observed samples on each provider-reported date",
+    "series": [
+      {
+        "site_id": "golfech",
+        "station_id": "05152000",
+        "station": "Saint-Aignan",
+        "relation": "upstream",
+        "samples": 122395,
+        "first_date": "2008-12-11",
+        "last_date": "2024-03-16",
+        "rows": 5102,
+        "exact_duplicate_rows_removed": 0,
+        "null_source_rows": 0,
+        "requests": [
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05152000&date_debut_mesure=1991-01-01&date_fin_mesure=2007-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:52:47.637547+00:00",
+            "response_sha256": "76272c92efd4c503ae08eb011d528e7282361b516f7f8ce1dfa915de0e6d5259"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05152000&date_debut_mesure=2008-01-01&date_fin_mesure=2008-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:53:39.493930+00:00",
+            "response_sha256": "722a9dbf54b6005e13b2ec6ec7b16121758e5440b4014a4f0f1771377caabdfa"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05152000&date_debut_mesure=2009-01-01&date_fin_mesure=2009-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:52:51.748063+00:00",
+            "response_sha256": "85407a5122b7629a88b878374a6e840c6c920de85294a28b50b9d727f20ffb28"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05152000&date_debut_mesure=2010-01-01&date_fin_mesure=2010-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:52:57.080037+00:00",
+            "response_sha256": "c911f3ebe25b78c6f82fe753691935dabdd7b0890c3a61b81780a0abf5778d7f"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05152000&date_debut_mesure=2011-01-01&date_fin_mesure=2011-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:52:56.864656+00:00",
+            "response_sha256": "d07f05813d95047a4fac23ba37293c83b40b8435db4bfabf48de870c37503a03"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05152000&date_debut_mesure=2012-01-01&date_fin_mesure=2012-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:52:56.039407+00:00",
+            "response_sha256": "0ea4615afa10ea8a19620d0cfa3fb96292941a73607b478461cd256acaccd987"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05152000&date_debut_mesure=2013-01-01&date_fin_mesure=2013-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:53:06.185093+00:00",
+            "response_sha256": "dd6eb25cde8508d11bf3d2673dcd125a8490a70879eed9796c469788350d0219"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05152000&date_debut_mesure=2014-01-01&date_fin_mesure=2014-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:53:14.183605+00:00",
+            "response_sha256": "22a29582307bfe9e36d55354dd9a608ecca15f7008bca0886e830bcc25b5054f"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05152000&date_debut_mesure=2015-01-01&date_fin_mesure=2015-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:53:19.695134+00:00",
+            "response_sha256": "58594e13590ddcc423edab5a36b48cc71a70ded365d29648fe11ac8ef5660ebc"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05152000&date_debut_mesure=2016-01-01&date_fin_mesure=2016-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:53:17.228099+00:00",
+            "response_sha256": "de6a1c4e2138d2936b80a8d948fcf56505f4254b10f3fa073cc86ea934374126"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05152000&date_debut_mesure=2017-01-01&date_fin_mesure=2017-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:53:23.262896+00:00",
+            "response_sha256": "32bcbee6018c524436856a933456a1b918f2428647c6f839d6ec978773675ff8"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05152000&date_debut_mesure=2018-01-01&date_fin_mesure=2018-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:53:25.910154+00:00",
+            "response_sha256": "75bb25e5cf4e82f45b66c8ab3b859822b68c88b51c3a4fe0f8a7e574b90c475d"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05152000&date_debut_mesure=2019-01-01&date_fin_mesure=2019-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:53:28.128527+00:00",
+            "response_sha256": "302ae2977fa963b42fa81dbb048aae6d68ba973e849aad786adfda1c962187ca"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05152000&date_debut_mesure=2020-01-01&date_fin_mesure=2020-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:53:31.247984+00:00",
+            "response_sha256": "204bc99f0b8e9c386d5b5d76075fc2fe79600de3344fbb1321940b23fe94ec4b"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05152000&date_debut_mesure=2021-01-01&date_fin_mesure=2021-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:53:36.707274+00:00",
+            "response_sha256": "2fad6f1d3125c108db758893d42ab8429de71cc5c68fedff3ce59c7d80c08367"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05152000&date_debut_mesure=2022-01-01&date_fin_mesure=2022-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:53:38.361413+00:00",
+            "response_sha256": "da13c03c98cf7324d70d2b8237d515b3f8d98cd4ac9335122ee0916e8ea86dc1"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05152000&date_debut_mesure=2023-01-01&date_fin_mesure=2023-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:53:38.851619+00:00",
+            "response_sha256": "214c67a58e3390999a67380d617bc0362e6eb60d14c655bde725793d0db409a0"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05152000&date_debut_mesure=2024-01-01&date_fin_mesure=2024-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:53:39.451029+00:00",
+            "response_sha256": "bb5f0701926761999df6ffdc93be5ae00f22f0e8ea42e1897f9cc12d0f9b447a"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05152000&date_debut_mesure=2025-01-01&date_fin_mesure=2025-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:53:44.185927+00:00",
+            "response_sha256": "a651c06b7aa7eba848b46fca07b67c87fe041d5ed7b8a584ad8104b66f7ce660"
+          }
+        ]
+      },
+      {
+        "site_id": "golfech",
+        "station_id": "05117000",
+        "station": "Lamagistère",
+        "relation": "downstream",
+        "samples": 45484,
+        "first_date": "2009-07-08",
+        "last_date": "2017-12-14",
+        "rows": 1897,
+        "exact_duplicate_rows_removed": 0,
+        "null_source_rows": 0,
+        "requests": [
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05117000&date_debut_mesure=1991-01-01&date_fin_mesure=2007-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:53:49.960000+00:00",
+            "response_sha256": "cb8680787581e050f098179d100aa0512109d19a5a8c503dadb80440ee554920"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05117000&date_debut_mesure=2008-01-01&date_fin_mesure=2008-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:53:49.711209+00:00",
+            "response_sha256": "d694d9f8ae8f6d9327e92b04104683bd450e2fc02c9d69c0c23802f027309f98"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05117000&date_debut_mesure=2009-01-01&date_fin_mesure=2009-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:53:53.852616+00:00",
+            "response_sha256": "eec6c265d4ce55bd992a64b9113e4eee5368eaa3e292f2df315c646d3805331f"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05117000&date_debut_mesure=2010-01-01&date_fin_mesure=2010-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:53:58.056267+00:00",
+            "response_sha256": "b5974f7dc688c278027c209eac45e0f098756d58c33e547efbea8e40e6ef20ac"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05117000&date_debut_mesure=2011-01-01&date_fin_mesure=2011-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:54:14.952089+00:00",
+            "response_sha256": "a3a09b22342f8a8ffbe01755ed38b42be3ba5d3897bd49e4461ae45c389aa8d5"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05117000&date_debut_mesure=2012-01-01&date_fin_mesure=2012-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:53:55.628016+00:00",
+            "response_sha256": "bf42f6464def2dafe09d8bd7281e7ac0e38b126505b7b84ccc658d255d3299a1"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05117000&date_debut_mesure=2013-01-01&date_fin_mesure=2013-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:53:55.639745+00:00",
+            "response_sha256": "19e078f970619c84dcbd7c78493f6e92f087eafa94ff2246dbfb0ad3c716718c"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05117000&date_debut_mesure=2014-01-01&date_fin_mesure=2014-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:54:03.143216+00:00",
+            "response_sha256": "58ef278853d4982d02c55493f2a1fafff58cb03c52f08b4d95e307aeb8ae2fcf"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05117000&date_debut_mesure=2015-01-01&date_fin_mesure=2015-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:54:27.600880+00:00",
+            "response_sha256": "72b0daea2214f13280ff5c6ffceeec44f57d76e729d7f5436ae4a8a75dd9ee06"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05117000&date_debut_mesure=2016-01-01&date_fin_mesure=2016-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:54:14.407942+00:00",
+            "response_sha256": "6f4b69b01fab37974396d120c00500f549aa67389a398457b7a64c0748d16e21"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05117000&date_debut_mesure=2017-01-01&date_fin_mesure=2017-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:54:14.472888+00:00",
+            "response_sha256": "e18e8da75198e1cb77daecf1910d59e8a86e83e0e3d745256b477b6b10686de5"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05117000&date_debut_mesure=2018-01-01&date_fin_mesure=2018-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:54:19.440639+00:00",
+            "response_sha256": "ffc55796ac3e4594537ec1d70fb46966680313251c39352c249e873480c2c7c8"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05117000&date_debut_mesure=2019-01-01&date_fin_mesure=2019-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:55:19.709537+00:00",
+            "response_sha256": "66af30ac947a52c9433dbcb02909eeaec20b95d1b661651873ac7abc29656008"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05117000&date_debut_mesure=2020-01-01&date_fin_mesure=2020-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:54:20.594412+00:00",
+            "response_sha256": "53fc420a341edcf166078077e8c8502b03ac5d2d9761c3e5c483b935e95a5b5b"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05117000&date_debut_mesure=2021-01-01&date_fin_mesure=2021-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:55:19.369716+00:00",
+            "response_sha256": "8e1e6169c7a02832ae5b45121183e4e644a726f4d09f7b8b663b8726cab72ca7"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05117000&date_debut_mesure=2022-01-01&date_fin_mesure=2022-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:54:33.807826+00:00",
+            "response_sha256": "8125e92201623112b720954aab4b55254bbe9b90765e315b9d0618aaa6e4fb68"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05117000&date_debut_mesure=2023-01-01&date_fin_mesure=2023-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:54:33.455692+00:00",
+            "response_sha256": "c9fdefd6536ee601211b766dfd7708e3957bcf01ddf430426ddf4f2f5d8231aa"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05117000&date_debut_mesure=2024-01-01&date_fin_mesure=2024-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:54:38.781708+00:00",
+            "response_sha256": "e66afa01c7a7a20c4b33d5d70d0125efb93c76861d76841fad445ed7831ad35f"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=05117000&date_debut_mesure=2025-01-01&date_fin_mesure=2025-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:54:38.716686+00:00",
+            "response_sha256": "f5aa2e325bafc1d86e689cb7c1aba30e7c3b3a7662245dd87648f5259a4a0d5c"
+          }
+        ]
+      },
+      {
+        "site_id": "bugey",
+        "station_id": "06080000",
+        "station": "Saint-Sorlin-en-Bugey",
+        "relation": "upstream",
+        "samples": 37408,
+        "first_date": "2008-10-15",
+        "last_date": "2013-08-26",
+        "rows": 1561,
+        "exact_duplicate_rows_removed": 0,
+        "null_source_rows": 0,
+        "requests": [
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=06080000&date_debut_mesure=1991-01-01&date_fin_mesure=2007-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:55:26.240306+00:00",
+            "response_sha256": "31bf4eb43aeb04e39e08fb0a188e56b0f3acdb88f697423477ddcf4647c5b393"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=06080000&date_debut_mesure=2008-01-01&date_fin_mesure=2008-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:55:29.290238+00:00",
+            "response_sha256": "93fd9a1fd81b21b793784b06cebf2394c6f9f0348f1bb3b5ba8bf9cec77b796b"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=06080000&date_debut_mesure=2009-01-01&date_fin_mesure=2009-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:55:31.368038+00:00",
+            "response_sha256": "a2ad10ebf71139142b3ad59b119ec50f75ae47e2db9e802525b4529b6b2af8e3"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=06080000&date_debut_mesure=2010-01-01&date_fin_mesure=2010-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:55:37.663464+00:00",
+            "response_sha256": "6bc39ef7c54c2c4fbcb11d1d831c086e757cb6c4bc8538b4c91d7b7421320ad3"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=06080000&date_debut_mesure=2011-01-01&date_fin_mesure=2011-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:55:37.528898+00:00",
+            "response_sha256": "d9ada4f0ba953e9c2529a7fe282e82368148d41562570d578853ff7f296e2056"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=06080000&date_debut_mesure=2012-01-01&date_fin_mesure=2012-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:55:40.283947+00:00",
+            "response_sha256": "7d44c2cfd9b79dde77a22eeeccbbafdfe443837b44fc1731e4213195d9d3bd29"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=06080000&date_debut_mesure=2013-01-01&date_fin_mesure=2013-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:55:40.611322+00:00",
+            "response_sha256": "a6846719cd82aaa43b4db79044b60a0dfa3f591bb90ee9185c9c4b535b5a8178"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=06080000&date_debut_mesure=2014-01-01&date_fin_mesure=2014-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:55:50.455499+00:00",
+            "response_sha256": "cee2839a05ec619884369796ca453daeaeb83fc8db41cf54fa6b9a94b914f0b8"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=06080000&date_debut_mesure=2015-01-01&date_fin_mesure=2015-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:55:45.041829+00:00",
+            "response_sha256": "49adcae0230c04d2cd524ac1562c8d0884a19ad5b9f92eb84461281b837c4a39"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=06080000&date_debut_mesure=2016-01-01&date_fin_mesure=2016-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:55:50.036651+00:00",
+            "response_sha256": "7722604ac429c4266837a443669f58397ba103e58dbe48ac6d8cd6628492f10c"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=06080000&date_debut_mesure=2017-01-01&date_fin_mesure=2017-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:55:44.698815+00:00",
+            "response_sha256": "7b40626935ebe6ec72d4f1c81e9ef49071c37f427d3bd66bcb8cee3f51f97726"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=06080000&date_debut_mesure=2018-01-01&date_fin_mesure=2018-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:55:49.700582+00:00",
+            "response_sha256": "8b562dd0338df22c41a82fa2ba3f8050aeb28cffa1272411bd313b3e824f4cfb"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=06080000&date_debut_mesure=2019-01-01&date_fin_mesure=2019-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:55:49.706215+00:00",
+            "response_sha256": "e61e22f599c660ff727008223a9f0ead4b752b7bced10b5c3c2a737edf8e677c"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=06080000&date_debut_mesure=2020-01-01&date_fin_mesure=2020-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:55:54.529495+00:00",
+            "response_sha256": "99fd880b2d30f65509ea72f3884098542ef6af475b3f0af8b2dbd8c4649189fe"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=06080000&date_debut_mesure=2021-01-01&date_fin_mesure=2021-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:55:54.525422+00:00",
+            "response_sha256": "be1f316e4182084e2e89662522201b6848a81820081e8e9b774d357a8fcf0f0d"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=06080000&date_debut_mesure=2022-01-01&date_fin_mesure=2022-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:55:54.501050+00:00",
+            "response_sha256": "70595b0a76349b6375d0233be7a79320befc6da841230d31d18c4966c0ca512a"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=06080000&date_debut_mesure=2023-01-01&date_fin_mesure=2023-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:55:54.528127+00:00",
+            "response_sha256": "ca69f87be824623d59d5d0246b19ca668ab57d8d3b30d7cc43bdd0fe58070a63"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=06080000&date_debut_mesure=2024-01-01&date_fin_mesure=2024-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:56:02.231451+00:00",
+            "response_sha256": "7c64f75b3d0474df1d77856d9a419817c913e57997ff9fd2516697f12d8d2674"
+          },
+          {
+            "url": "https://hubeau.eaufrance.fr/api/v1/temperature/chronique?code_station=06080000&date_debut_mesure=2025-01-01&date_fin_mesure=2025-12-31&size=10000&fields=code_station%2Cdate_mesure_temp%2Cheure_mesure_temp%2Cresultat%2Csymbole_unite%2Ccode_qualification",
+            "retrieved_utc": "2026-11-13T09:56:02.573467+00:00",
+            "response_sha256": "1bb2dc37d89c34a4d77a831cf199572286954ecd1cec4ec95d7bb9967b994938"
+          }
+        ]
+      }
+    ]
+  }
+}
