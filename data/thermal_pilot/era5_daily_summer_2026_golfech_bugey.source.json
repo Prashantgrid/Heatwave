@@ -1,0 +1,39 @@
+{
+  "dataset": "era5_daily_summer_2026_golfech_bugey.csv",
+  "coverage": {
+    "start_date": "2026-06-01",
+    "end_date": "2026-08-31",
+    "site_days": 184,
+    "timezone": "UTC"
+  },
+  "source": {
+    "provider": "ERA5, Copernicus Climate Change Service / ECMWF, via Open-Meteo",
+    "hourly_file": "data/thermal_pilot/era5_hourly_summers_2025_2026.csv.gz",
+    "hourly_git_blob_sha": "7c8e36a69d295a5c6ab65e491e20af7eece0833c",
+    "hourly_gzip_sha256": "f0ed2ea538d6531027f07a74ae15e43299a474b10b07f509eea9babe4bbd7b3c",
+    "requests": [
+      {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=44.106&longitude=0.8443&start_date=2026-06-01&end_date=2026-08-31&hourly=temperature_2m&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+        "retrieved_utc": "2026-11-13T05:18:35+00:00",
+        "response_sha256": "c842b802aba8ab94d453bdaf1a142f1e0d9da927b6ace7a4b3a3ca7ea681de48",
+        "site_id": "golfech",
+        "year": 2026,
+        "rows": 2208,
+        "grid_latitude": 44,
+        "grid_longitude": 0.75
+      },
+      {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=45.7973&longitude=5.2706&start_date=2026-06-01&end_date=2026-08-31&hourly=temperature_2m&models=era5&timezone=UTC&temperature_unit=celsius&elevation=nan&cell_selection=nearest",
+        "retrieved_utc": "2026-11-13T05:18:40+00:00",
+        "response_sha256": "0f4ef390d1caa0b466e74214307d65095c15c20302ac3130152c6956e76fc6a8",
+        "site_id": "bugey",
+        "year": 2026,
+        "rows": 2208,
+        "grid_latitude": 45.75,
+        "grid_longitude": 5.25
+      }
+    ]
+  },
+  "method": "Daily extrema of the 24 hourly air temperature values per site and UTC date. Every day was checked for 24 distinct finite observations. No imputation.",
+  "attribution": "Contains modified Copernicus Climate Change Service information (2026). Open-Meteo data are licensed CC BY 4.0."
+}
